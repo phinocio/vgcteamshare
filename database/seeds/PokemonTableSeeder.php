@@ -104,7 +104,7 @@ class PokemonTableSeeder extends Seeder
             7 => 
             array (
                 'id' => 8,
-                'name' => 'Charizard-Mega X',
+                'name' => 'Charizard-Mega-X',
                 'hit_points' => 78,
                 'attack' => 130,
                 'defense' => 111,
@@ -116,7 +116,7 @@ class PokemonTableSeeder extends Seeder
             8 => 
             array (
                 'id' => 9,
-                'name' => 'Charizard-Mega Y',
+                'name' => 'Charizard-Mega-Y',
                 'hit_points' => 78,
                 'attack' => 104,
                 'defense' => 78,
@@ -9010,7 +9010,7 @@ class PokemonTableSeeder extends Seeder
             249 => 
             array (
                 'id' => 750,
-                'name' => 'Tornadus Incarnate Forme',
+                'name' => 'Tornadus',
                 'hit_points' => 79,
                 'attack' => 115,
                 'defense' => 70,
@@ -9022,7 +9022,7 @@ class PokemonTableSeeder extends Seeder
             250 => 
             array (
                 'id' => 751,
-                'name' => 'Tornadus Therian Forme',
+                'name' => 'Tornadus-Therian',
                 'hit_points' => 79,
                 'attack' => 100,
                 'defense' => 80,
@@ -9034,7 +9034,7 @@ class PokemonTableSeeder extends Seeder
             251 => 
             array (
                 'id' => 752,
-                'name' => 'Thundurus Incarnate Forme',
+                'name' => 'Thundurus',
                 'hit_points' => 79,
                 'attack' => 115,
                 'defense' => 70,
@@ -9046,7 +9046,7 @@ class PokemonTableSeeder extends Seeder
             252 => 
             array (
                 'id' => 753,
-                'name' => 'Thundurus Therian Forme',
+                'name' => 'Thundurus-Therian',
                 'hit_points' => 79,
                 'attack' => 105,
                 'defense' => 70,
@@ -9082,7 +9082,7 @@ class PokemonTableSeeder extends Seeder
             255 => 
             array (
                 'id' => 756,
-                'name' => 'Landorus Incarnate Forme',
+                'name' => 'Landorus',
                 'hit_points' => 89,
                 'attack' => 125,
                 'defense' => 90,
@@ -9094,7 +9094,7 @@ class PokemonTableSeeder extends Seeder
             256 => 
             array (
                 'id' => 757,
-                'name' => 'Landorus Therian Forme',
+                'name' => 'Landorus-Therian',
                 'hit_points' => 89,
                 'attack' => 145,
                 'defense' => 90,
@@ -9550,7 +9550,7 @@ class PokemonTableSeeder extends Seeder
             294 => 
             array (
                 'id' => 795,
-                'name' => 'Meowstic Male',
+                'name' => 'Meowstic',
                 'hit_points' => 74,
                 'attack' => 48,
                 'defense' => 76,
@@ -9562,7 +9562,7 @@ class PokemonTableSeeder extends Seeder
             295 => 
             array (
                 'id' => 796,
-                'name' => 'Meowstic Female',
+                'name' => 'Meowstic-F',
                 'hit_points' => 74,
                 'attack' => 48,
                 'defense' => 76,
@@ -9598,11 +9598,11 @@ class PokemonTableSeeder extends Seeder
             298 => 
             array (
                 'id' => 799,
-                'name' => 'Aegislash Blade Forme',
+                'name' => 'Aegislash-Blade',
                 'hit_points' => 60,
-                'attack' => 150,
+                'attack' => 140,
                 'defense' => 50,
-                'special_attack' => 150,
+                'special_attack' => 140,
                 'special_defense' => 50,
                 'speed' => 60,
                 'generation_id' => 6,
@@ -9610,12 +9610,12 @@ class PokemonTableSeeder extends Seeder
             299 => 
             array (
                 'id' => 800,
-                'name' => 'Aegislash Shield Forme',
+                'name' => 'Aegislash',
                 'hit_points' => 60,
                 'attack' => 50,
-                'defense' => 150,
+                'defense' => 140,
                 'special_attack' => 50,
-                'special_defense' => 150,
+                'special_defense' => 140,
                 'speed' => 60,
                 'generation_id' => 6,
             ),
