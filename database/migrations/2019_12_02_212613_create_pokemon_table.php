@@ -21,6 +21,7 @@ class CreatePokemonTable extends Migration
 			$table->integer('special_attack');
 			$table->integer('special_defense');
 			$table->integer('speed');
+			$table->string('image')->default('no-image.jpg');
 			$table->integer('generation_id')->unsigned();
 
 			$table->foreign('generation_id')->references('id')->on('generations');
