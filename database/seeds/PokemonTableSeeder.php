@@ -7822,7 +7822,7 @@ class PokemonTableSeeder extends Seeder
             150 => 
             array (
                 'id' => 651,
-                'name' => 'Basculin Red-Striped Form',
+                'name' => 'Basculin',
                 'hit_points' => 70,
                 'attack' => 92,
                 'defense' => 65,
@@ -7834,7 +7834,7 @@ class PokemonTableSeeder extends Seeder
             151 => 
             array (
                 'id' => 652,
-                'name' => 'Basculin Blue-Striped Form',
+                'name' => 'Basculin-Blue-Striped',
                 'hit_points' => 70,
                 'attack' => 92,
                 'defense' => 65,
@@ -10450,7 +10450,7 @@ class PokemonTableSeeder extends Seeder
             369 => 
             array (
                 'id' => 870,
-                'name' => 'Oricorio Baile Style',
+                'name' => 'Oricorio',
                 'hit_points' => 75,
                 'attack' => 70,
                 'defense' => 70,
@@ -10462,7 +10462,7 @@ class PokemonTableSeeder extends Seeder
             370 => 
             array (
                 'id' => 871,
-                'name' => 'Oricorio Pom-Pom Style',
+                'name' => 'Oricorio-Pom-Pom',
                 'hit_points' => 75,
                 'attack' => 70,
                 'defense' => 70,
@@ -10474,7 +10474,7 @@ class PokemonTableSeeder extends Seeder
             371 => 
             array (
                 'id' => 872,
-                'name' => 'Oricorio Pau Style',
+                'name' => 'Oricorio-Pau',
                 'hit_points' => 75,
                 'attack' => 70,
                 'defense' => 70,
@@ -10486,7 +10486,7 @@ class PokemonTableSeeder extends Seeder
             372 => 
             array (
                 'id' => 873,
-                'name' => 'Oricorio Sensu Style',
+                'name' => 'Oricorio-Sensu',
                 'hit_points' => 75,
                 'attack' => 70,
                 'defense' => 70,
