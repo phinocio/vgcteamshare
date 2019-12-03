@@ -27,6 +27,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 65,
                 'speed' => 45,
+                'image' => 'bulbasaur.gif',
                 'generation_id' => 1,
             ),
             1 => 
@@ -39,6 +40,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 80,
                 'speed' => 60,
+                'image' => 'ivysaur.gif',
                 'generation_id' => 1,
             ),
             2 => 
@@ -51,6 +53,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 100,
                 'speed' => 80,
+                'image' => 'venusaur.gif',
                 'generation_id' => 1,
             ),
             3 => 
@@ -63,6 +66,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 122,
                 'special_defense' => 120,
                 'speed' => 80,
+                'image' => 'venusaur-mega.gif',
                 'generation_id' => 6,
             ),
             4 => 
@@ -75,6 +79,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 50,
                 'speed' => 65,
+                'image' => 'charmander.gif',
                 'generation_id' => 1,
             ),
             5 => 
@@ -87,6 +92,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 65,
                 'speed' => 80,
+                'image' => 'charmeleon.gif',
                 'generation_id' => 1,
             ),
             6 => 
@@ -99,6 +105,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 109,
                 'special_defense' => 85,
                 'speed' => 100,
+                'image' => 'charizard.gif',
                 'generation_id' => 1,
             ),
             7 => 
@@ -111,6 +118,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 85,
                 'speed' => 100,
+                'image' => 'charizard-megax.gif',
                 'generation_id' => 6,
             ),
             8 => 
@@ -123,6 +131,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 159,
                 'special_defense' => 115,
                 'speed' => 100,
+                'image' => 'charizard-megay.gif',
                 'generation_id' => 6,
             ),
             9 => 
@@ -135,6 +144,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 109,
                 'special_defense' => 85,
                 'speed' => 100,
+                'image' => 'charizard-gigantamax.gif',
                 'generation_id' => 1,
             ),
             10 => 
@@ -147,6 +157,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 64,
                 'speed' => 43,
+                'image' => 'squirtle.gif',
                 'generation_id' => 1,
             ),
             11 => 
@@ -159,6 +170,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 80,
                 'speed' => 58,
+                'image' => 'wartortle.gif',
                 'generation_id' => 1,
             ),
             12 => 
@@ -171,6 +183,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 105,
                 'speed' => 78,
+                'image' => 'blastoise.gif',
                 'generation_id' => 1,
             ),
             13 => 
@@ -183,6 +196,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 135,
                 'special_defense' => 115,
                 'speed' => 78,
+                'image' => 'blastoise-mega.gif',
                 'generation_id' => 6,
             ),
             14 => 
@@ -195,6 +209,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 20,
                 'special_defense' => 20,
                 'speed' => 45,
+                'image' => 'caterpie.gif',
                 'generation_id' => 1,
             ),
             15 => 
@@ -207,6 +222,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 25,
                 'speed' => 30,
+                'image' => 'metapod.gif',
                 'generation_id' => 1,
             ),
             16 => 
@@ -219,6 +235,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 80,
                 'speed' => 70,
+                'image' => 'butterfree.gif',
                 'generation_id' => 1,
             ),
             17 => 
@@ -231,6 +248,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 80,
                 'speed' => 70,
+                'image' => 'butterfree-gigantamax.gif',
                 'generation_id' => 1,
             ),
             18 => 
@@ -243,6 +261,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 20,
                 'special_defense' => 20,
                 'speed' => 50,
+                'image' => 'weedle.gif',
                 'generation_id' => 1,
             ),
             19 => 
@@ -255,6 +274,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 25,
                 'speed' => 35,
+                'image' => 'kakuna.gif',
                 'generation_id' => 1,
             ),
             20 => 
@@ -267,6 +287,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 80,
                 'speed' => 75,
+                'image' => 'beedrill.gif',
                 'generation_id' => 1,
             ),
             21 => 
@@ -279,6 +300,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 15,
                 'special_defense' => 80,
                 'speed' => 145,
+                'image' => 'beedrill-mega.gif',
                 'generation_id' => 6,
             ),
             22 => 
@@ -291,6 +313,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 35,
                 'speed' => 56,
+                'image' => 'pidgey.gif',
                 'generation_id' => 1,
             ),
             23 => 
@@ -303,6 +326,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 71,
+                'image' => 'pidgeotto.gif',
                 'generation_id' => 1,
             ),
             24 => 
@@ -315,6 +339,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 70,
                 'speed' => 101,
+                'image' => 'pidgeot.gif',
                 'generation_id' => 1,
             ),
             25 => 
@@ -327,6 +352,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 135,
                 'special_defense' => 80,
                 'speed' => 121,
+                'image' => 'pidgeot-mega.gif',
                 'generation_id' => 6,
             ),
             26 => 
@@ -339,6 +365,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 35,
                 'speed' => 72,
+                'image' => 'rattata.gif',
                 'generation_id' => 1,
             ),
             27 => 
@@ -351,6 +378,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 35,
                 'speed' => 72,
+                'image' => 'rattata-alola.gif',
                 'generation_id' => 7,
             ),
             28 => 
@@ -363,6 +391,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 70,
                 'speed' => 97,
+                'image' => 'raticate.gif',
                 'generation_id' => 1,
             ),
             29 => 
@@ -375,6 +404,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 80,
                 'speed' => 77,
+                'image' => 'raticate-alola.gif',
                 'generation_id' => 7,
             ),
             30 => 
@@ -387,6 +417,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 31,
                 'special_defense' => 31,
                 'speed' => 70,
+                'image' => 'spearow.gif',
                 'generation_id' => 1,
             ),
             31 => 
@@ -399,6 +430,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 61,
                 'special_defense' => 61,
                 'speed' => 100,
+                'image' => 'fearow.gif',
                 'generation_id' => 1,
             ),
             32 => 
@@ -411,6 +443,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 54,
                 'speed' => 55,
+                'image' => 'ekans.gif',
                 'generation_id' => 1,
             ),
             33 => 
@@ -423,6 +456,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 79,
                 'speed' => 80,
+                'image' => 'arbok.gif',
                 'generation_id' => 1,
             ),
             34 => 
@@ -435,6 +469,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 90,
+                'image' => 'pikachu.gif',
                 'generation_id' => 1,
             ),
             35 => 
@@ -447,6 +482,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 90,
+                'image' => 'pikachu-gigantamax.gif',
                 'generation_id' => 1,
             ),
             36 => 
@@ -459,6 +495,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 80,
                 'speed' => 110,
+                'image' => 'raichu.gif',
                 'generation_id' => 1,
             ),
             37 => 
@@ -471,6 +508,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 85,
                 'speed' => 110,
+                'image' => 'raichu-alola.gif',
                 'generation_id' => 7,
             ),
             38 => 
@@ -483,6 +521,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 20,
                 'special_defense' => 30,
                 'speed' => 40,
+                'image' => 'sandshrew.gif',
                 'generation_id' => 1,
             ),
             39 => 
@@ -495,6 +534,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 10,
                 'special_defense' => 35,
                 'speed' => 40,
+                'image' => 'sandshrew-alola.gif',
                 'generation_id' => 7,
             ),
             40 => 
@@ -507,6 +547,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 55,
                 'speed' => 65,
+                'image' => 'sandslash.gif',
                 'generation_id' => 1,
             ),
             41 => 
@@ -519,6 +560,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 65,
                 'speed' => 65,
+                'image' => 'sandslash-alola.gif',
                 'generation_id' => 7,
             ),
             42 => 
@@ -531,6 +573,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 41,
+                'image' => 'nidoran_f.gif',
                 'generation_id' => 1,
             ),
             43 => 
@@ -543,6 +586,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 55,
                 'speed' => 56,
+                'image' => 'nidorina.gif',
                 'generation_id' => 1,
             ),
             44 => 
@@ -555,6 +599,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 85,
                 'speed' => 76,
+                'image' => 'nidoqueen.gif',
                 'generation_id' => 1,
             ),
             45 => 
@@ -567,6 +612,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 50,
+                'image' => 'nidoran_m.gif',
                 'generation_id' => 1,
             ),
             46 => 
@@ -579,6 +625,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 55,
                 'speed' => 65,
+                'image' => 'nidorino.gif',
                 'generation_id' => 1,
             ),
             47 => 
@@ -591,6 +638,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 75,
                 'speed' => 85,
+                'image' => 'nidoking.gif',
                 'generation_id' => 1,
             ),
             48 => 
@@ -603,6 +651,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 65,
                 'speed' => 35,
+                'image' => 'clefairy.gif',
                 'generation_id' => 1,
             ),
             49 => 
@@ -615,6 +664,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 90,
                 'speed' => 60,
+                'image' => 'clefable.gif',
                 'generation_id' => 1,
             ),
             50 => 
@@ -627,6 +677,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 65,
                 'speed' => 65,
+                'image' => 'vulpix.gif',
                 'generation_id' => 1,
             ),
             51 => 
@@ -639,6 +690,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 65,
                 'speed' => 65,
+                'image' => 'vulpix-alola.gif',
                 'generation_id' => 7,
             ),
             52 => 
@@ -651,6 +703,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 81,
                 'special_defense' => 100,
                 'speed' => 100,
+                'image' => 'ninetales.gif',
                 'generation_id' => 1,
             ),
             53 => 
@@ -663,6 +716,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 81,
                 'special_defense' => 100,
                 'speed' => 109,
+                'image' => 'ninetales-alola.gif',
                 'generation_id' => 7,
             ),
             54 => 
@@ -675,6 +729,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 25,
                 'speed' => 20,
+                'image' => 'jigglypuff.gif',
                 'generation_id' => 1,
             ),
             55 => 
@@ -687,6 +742,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 50,
                 'speed' => 45,
+                'image' => 'wigglytuff.gif',
                 'generation_id' => 1,
             ),
             56 => 
@@ -699,6 +755,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 40,
                 'speed' => 55,
+                'image' => 'zubat.gif',
                 'generation_id' => 1,
             ),
             57 => 
@@ -711,6 +768,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 75,
                 'speed' => 90,
+                'image' => 'golbat.gif',
                 'generation_id' => 1,
             ),
             58 => 
@@ -723,6 +781,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 65,
                 'speed' => 30,
+                'image' => 'oddish.gif',
                 'generation_id' => 1,
             ),
             59 => 
@@ -735,6 +794,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 75,
                 'speed' => 40,
+                'image' => 'gloom.gif',
                 'generation_id' => 1,
             ),
             60 => 
@@ -747,6 +807,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 90,
                 'speed' => 50,
+                'image' => 'vileplume.gif',
                 'generation_id' => 1,
             ),
             61 => 
@@ -759,6 +820,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 55,
                 'speed' => 25,
+                'image' => 'paras.gif',
                 'generation_id' => 1,
             ),
             62 => 
@@ -771,6 +833,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 80,
                 'speed' => 30,
+                'image' => 'parasect.gif',
                 'generation_id' => 1,
             ),
             63 => 
@@ -783,6 +846,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 55,
                 'speed' => 45,
+                'image' => 'venonat.gif',
                 'generation_id' => 1,
             ),
             64 => 
@@ -795,6 +859,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 75,
                 'speed' => 90,
+                'image' => 'venomoth.gif',
                 'generation_id' => 1,
             ),
             65 => 
@@ -807,6 +872,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 45,
                 'speed' => 95,
+                'image' => 'diglett.gif',
                 'generation_id' => 1,
             ),
             66 => 
@@ -819,6 +885,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 45,
                 'speed' => 90,
+                'image' => 'diglett-alola.gif',
                 'generation_id' => 7,
             ),
             67 => 
@@ -831,6 +898,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 70,
                 'speed' => 120,
+                'image' => 'dugtrio.gif',
                 'generation_id' => 1,
             ),
             68 => 
@@ -843,6 +911,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 70,
                 'speed' => 110,
+                'image' => 'dugtrio-alola.gif',
                 'generation_id' => 7,
             ),
             69 => 
@@ -855,6 +924,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 90,
+                'image' => 'meowth.gif',
                 'generation_id' => 1,
             ),
             70 => 
@@ -867,6 +937,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 40,
                 'speed' => 90,
+                'image' => 'meowth-alola.gif',
                 'generation_id' => 7,
             ),
             71 => 
@@ -879,6 +950,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 40,
+                'image' => 'meowth-galar.gif',
                 'generation_id' => 8,
             ),
             72 => 
@@ -891,6 +963,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 90,
+                'image' => 'meowth-gigantamax.gif',
                 'generation_id' => 1,
             ),
             73 => 
@@ -903,6 +976,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 65,
                 'speed' => 115,
+                'image' => 'persian.gif',
                 'generation_id' => 1,
             ),
             74 => 
@@ -915,6 +989,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 65,
                 'speed' => 115,
+                'image' => 'persian-alola.gif',
                 'generation_id' => 7,
             ),
             75 => 
@@ -927,6 +1002,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 50,
                 'speed' => 55,
+                'image' => 'psyduck.gif',
                 'generation_id' => 1,
             ),
             76 => 
@@ -939,6 +1015,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 80,
                 'speed' => 85,
+                'image' => 'golduck.gif',
                 'generation_id' => 1,
             ),
             77 => 
@@ -951,6 +1028,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 45,
                 'speed' => 70,
+                'image' => 'mankey.gif',
                 'generation_id' => 1,
             ),
             78 => 
@@ -963,6 +1041,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 70,
                 'speed' => 95,
+                'image' => 'primeape.gif',
                 'generation_id' => 1,
             ),
             79 => 
@@ -975,6 +1054,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 50,
                 'speed' => 60,
+                'image' => 'growlithe.gif',
                 'generation_id' => 1,
             ),
             80 => 
@@ -987,6 +1067,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 80,
                 'speed' => 95,
+                'image' => 'arcanine.gif',
                 'generation_id' => 1,
             ),
             81 => 
@@ -999,6 +1080,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 90,
+                'image' => 'poliwag.gif',
                 'generation_id' => 1,
             ),
             82 => 
@@ -1011,6 +1093,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 90,
+                'image' => 'poliwhirl.gif',
                 'generation_id' => 1,
             ),
             83 => 
@@ -1023,6 +1106,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 90,
                 'speed' => 70,
+                'image' => 'poliwrath.gif',
                 'generation_id' => 1,
             ),
             84 => 
@@ -1035,6 +1119,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 55,
                 'speed' => 90,
+                'image' => 'abra.gif',
                 'generation_id' => 1,
             ),
             85 => 
@@ -1047,6 +1132,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 70,
                 'speed' => 105,
+                'image' => 'kadabra.gif',
                 'generation_id' => 1,
             ),
             86 => 
@@ -1059,6 +1145,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 135,
                 'special_defense' => 95,
                 'speed' => 120,
+                'image' => 'alakazam.gif',
                 'generation_id' => 1,
             ),
             87 => 
@@ -1071,6 +1158,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 175,
                 'special_defense' => 105,
                 'speed' => 150,
+                'image' => 'alakazam-mega.gif',
                 'generation_id' => 6,
             ),
             88 => 
@@ -1083,6 +1171,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 35,
                 'speed' => 35,
+                'image' => 'machop.gif',
                 'generation_id' => 1,
             ),
             89 => 
@@ -1095,6 +1184,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 60,
                 'speed' => 45,
+                'image' => 'machoke.gif',
                 'generation_id' => 1,
             ),
             90 => 
@@ -1107,6 +1197,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 85,
                 'speed' => 55,
+                'image' => 'machamp.gif',
                 'generation_id' => 1,
             ),
             91 => 
@@ -1119,6 +1210,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 85,
                 'speed' => 55,
+                'image' => 'machamp-gigantamax.gif',
                 'generation_id' => 1,
             ),
             92 => 
@@ -1131,6 +1223,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 30,
                 'speed' => 40,
+                'image' => 'bellsprout.gif',
                 'generation_id' => 1,
             ),
             93 => 
@@ -1143,6 +1236,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 45,
                 'speed' => 55,
+                'image' => 'weepinbell.gif',
                 'generation_id' => 1,
             ),
             94 => 
@@ -1155,6 +1249,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 70,
                 'speed' => 70,
+                'image' => 'victreebel.gif',
                 'generation_id' => 1,
             ),
             95 => 
@@ -1167,6 +1262,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 100,
                 'speed' => 70,
+                'image' => 'tentacool.gif',
                 'generation_id' => 1,
             ),
             96 => 
@@ -1179,6 +1275,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 120,
                 'speed' => 100,
+                'image' => 'tentacruel.gif',
                 'generation_id' => 1,
             ),
             97 => 
@@ -1191,6 +1288,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 20,
+                'image' => 'geodude.gif',
                 'generation_id' => 1,
             ),
             98 => 
@@ -1203,6 +1301,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 20,
+                'image' => 'geodude-alola.gif',
                 'generation_id' => 7,
             ),
             99 => 
@@ -1215,6 +1314,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 45,
                 'speed' => 35,
+                'image' => 'graveler.gif',
                 'generation_id' => 1,
             ),
             100 => 
@@ -1227,6 +1327,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 45,
                 'speed' => 35,
+                'image' => 'graveler-alola.gif',
                 'generation_id' => 7,
             ),
             101 => 
@@ -1239,6 +1340,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 65,
                 'speed' => 45,
+                'image' => 'golem.gif',
                 'generation_id' => 1,
             ),
             102 => 
@@ -1251,6 +1353,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 65,
                 'speed' => 45,
+                'image' => 'golem-alola.gif',
                 'generation_id' => 7,
             ),
             103 => 
@@ -1263,6 +1366,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 65,
                 'speed' => 90,
+                'image' => 'ponyta.gif',
                 'generation_id' => 1,
             ),
             104 => 
@@ -1275,6 +1379,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 65,
                 'speed' => 90,
+                'image' => 'ponyta-galar.gif',
                 'generation_id' => 8,
             ),
             105 => 
@@ -1287,6 +1392,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 80,
                 'speed' => 105,
+                'image' => 'rapidash.gif',
                 'generation_id' => 1,
             ),
             106 => 
@@ -1299,6 +1405,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 80,
                 'speed' => 105,
+                'image' => 'rapidash-galar.gif',
                 'generation_id' => 8,
             ),
             107 => 
@@ -1311,6 +1418,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 15,
+                'image' => 'slowpoke.gif',
                 'generation_id' => 1,
             ),
             108 => 
@@ -1323,6 +1431,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 80,
                 'speed' => 30,
+                'image' => 'slowbro.gif',
                 'generation_id' => 1,
             ),
             109 => 
@@ -1335,6 +1444,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 80,
                 'speed' => 30,
+                'image' => 'slowbro-mega.gif',
                 'generation_id' => 6,
             ),
             110 => 
@@ -1347,6 +1457,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 55,
                 'speed' => 45,
+                'image' => 'magnemite.gif',
                 'generation_id' => 1,
             ),
             111 => 
@@ -1359,6 +1470,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 70,
                 'speed' => 70,
+                'image' => 'magneton.gif',
                 'generation_id' => 1,
             ),
             112 => 
@@ -1371,6 +1483,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 58,
                 'special_defense' => 62,
                 'speed' => 60,
+                'image' => 'farfetchd.gif',
                 'generation_id' => 1,
             ),
             113 => 
@@ -1383,6 +1496,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 58,
                 'special_defense' => 62,
                 'speed' => 55,
+                'image' => 'farfetchd-galar.gif',
                 'generation_id' => 8,
             ),
             114 => 
@@ -1395,6 +1509,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 35,
                 'speed' => 75,
+                'image' => 'doduo.gif',
                 'generation_id' => 1,
             ),
             115 => 
@@ -1407,6 +1522,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 60,
                 'speed' => 110,
+                'image' => 'dodrio.gif',
                 'generation_id' => 1,
             ),
             116 => 
@@ -1419,6 +1535,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 70,
                 'speed' => 45,
+                'image' => 'seel.gif',
                 'generation_id' => 1,
             ),
             117 => 
@@ -1431,6 +1548,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 95,
                 'speed' => 70,
+                'image' => 'dewgong.gif',
                 'generation_id' => 1,
             ),
             118 => 
@@ -1443,6 +1561,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 50,
                 'speed' => 25,
+                'image' => 'grimer.gif',
                 'generation_id' => 1,
             ),
             119 => 
@@ -1455,6 +1574,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 50,
                 'speed' => 25,
+                'image' => 'grimer-alola.gif',
                 'generation_id' => 7,
             ),
             120 => 
@@ -1467,6 +1587,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 100,
                 'speed' => 50,
+                'image' => 'muk.gif',
                 'generation_id' => 1,
             ),
             121 => 
@@ -1479,6 +1600,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 100,
                 'speed' => 50,
+                'image' => 'muk-alola.gif',
                 'generation_id' => 7,
             ),
             122 => 
@@ -1491,6 +1613,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 25,
                 'speed' => 40,
+                'image' => 'shellder.gif',
                 'generation_id' => 1,
             ),
             123 => 
@@ -1503,6 +1626,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 45,
                 'speed' => 70,
+                'image' => 'cloyster.gif',
                 'generation_id' => 1,
             ),
             124 => 
@@ -1515,6 +1639,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 35,
                 'speed' => 80,
+                'image' => 'gastly.gif',
                 'generation_id' => 1,
             ),
             125 => 
@@ -1527,6 +1652,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 115,
                 'special_defense' => 55,
                 'speed' => 95,
+                'image' => 'haunter.gif',
                 'generation_id' => 1,
             ),
             126 => 
@@ -1539,6 +1665,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 75,
                 'speed' => 110,
+                'image' => 'gengar.gif',
                 'generation_id' => 1,
             ),
             127 => 
@@ -1551,6 +1678,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 170,
                 'special_defense' => 95,
                 'speed' => 130,
+                'image' => 'gengar-mega.gif',
                 'generation_id' => 6,
             ),
             128 => 
@@ -1563,6 +1691,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 75,
                 'speed' => 110,
+                'image' => 'gengar-gigantamax.gif',
                 'generation_id' => 1,
             ),
             129 => 
@@ -1575,6 +1704,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 45,
                 'speed' => 70,
+                'image' => 'onix.gif',
                 'generation_id' => 1,
             ),
             130 => 
@@ -1587,6 +1717,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 43,
                 'special_defense' => 90,
                 'speed' => 42,
+                'image' => 'drowzee.gif',
                 'generation_id' => 1,
             ),
             131 => 
@@ -1599,6 +1730,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 73,
                 'special_defense' => 115,
                 'speed' => 67,
+                'image' => 'hypno.gif',
                 'generation_id' => 1,
             ),
             132 => 
@@ -1611,6 +1743,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 25,
                 'speed' => 50,
+                'image' => 'krabby.gif',
                 'generation_id' => 1,
             ),
             133 => 
@@ -1623,6 +1756,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 75,
+                'image' => 'kingler.gif',
                 'generation_id' => 1,
             ),
             134 => 
@@ -1635,6 +1769,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 75,
+                'image' => 'kingler-gigantamax.gif',
                 'generation_id' => 1,
             ),
             135 => 
@@ -1647,6 +1782,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 55,
                 'speed' => 100,
+                'image' => 'voltorb.gif',
                 'generation_id' => 1,
             ),
             136 => 
@@ -1659,6 +1795,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 80,
                 'speed' => 150,
+                'image' => 'electrode.gif',
                 'generation_id' => 1,
             ),
             137 => 
@@ -1671,6 +1808,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 45,
                 'speed' => 40,
+                'image' => 'exeggcute.gif',
                 'generation_id' => 1,
             ),
             138 => 
@@ -1683,6 +1821,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 75,
                 'speed' => 55,
+                'image' => 'exeggutor.gif',
                 'generation_id' => 1,
             ),
             139 => 
@@ -1695,6 +1834,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 75,
                 'speed' => 45,
+                'image' => 'exeggutor-alola.gif',
                 'generation_id' => 7,
             ),
             140 => 
@@ -1707,6 +1847,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 50,
                 'speed' => 35,
+                'image' => 'cubone.gif',
                 'generation_id' => 1,
             ),
             141 => 
@@ -1719,6 +1860,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 80,
                 'speed' => 45,
+                'image' => 'marowak.gif',
                 'generation_id' => 1,
             ),
             142 => 
@@ -1731,6 +1873,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 80,
                 'speed' => 45,
+                'image' => 'marowak-alola.gif',
                 'generation_id' => 7,
             ),
             143 => 
@@ -1743,6 +1886,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 110,
                 'speed' => 87,
+                'image' => 'hitmonlee.gif',
                 'generation_id' => 1,
             ),
             144 => 
@@ -1755,6 +1899,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 110,
                 'speed' => 76,
+                'image' => 'hitmonchan.gif',
                 'generation_id' => 1,
             ),
             145 => 
@@ -1767,6 +1912,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 75,
                 'speed' => 30,
+                'image' => 'lickitung.gif',
                 'generation_id' => 1,
             ),
             146 => 
@@ -1779,6 +1925,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 45,
                 'speed' => 35,
+                'image' => 'koffing.gif',
                 'generation_id' => 1,
             ),
             147 => 
@@ -1791,6 +1938,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 70,
                 'speed' => 60,
+                'image' => 'weezing.gif',
                 'generation_id' => 1,
             ),
             148 => 
@@ -1803,6 +1951,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 70,
                 'speed' => 60,
+                'image' => 'weezing-galar.gif',
                 'generation_id' => 8,
             ),
             149 => 
@@ -1815,6 +1964,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 25,
+                'image' => 'rhyhorn.gif',
                 'generation_id' => 1,
             ),
             150 => 
@@ -1827,6 +1977,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 45,
                 'speed' => 40,
+                'image' => 'rhydon.gif',
                 'generation_id' => 1,
             ),
             151 => 
@@ -1839,6 +1990,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 105,
                 'speed' => 50,
+                'image' => 'chansey.gif',
                 'generation_id' => 1,
             ),
             152 => 
@@ -1851,6 +2003,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 40,
                 'speed' => 60,
+                'image' => 'tangela.gif',
                 'generation_id' => 1,
             ),
             153 => 
@@ -1863,6 +2016,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 80,
                 'speed' => 90,
+                'image' => 'kangaskhan.gif',
                 'generation_id' => 1,
             ),
             154 => 
@@ -1875,6 +2029,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 100,
                 'speed' => 100,
+                'image' => 'kangaskhan-mega.gif',
                 'generation_id' => 6,
             ),
             155 => 
@@ -1887,6 +2042,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 25,
                 'speed' => 60,
+                'image' => 'horsea.gif',
                 'generation_id' => 1,
             ),
             156 => 
@@ -1899,6 +2055,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 45,
                 'speed' => 85,
+                'image' => 'seadra.gif',
                 'generation_id' => 1,
             ),
             157 => 
@@ -1911,6 +2068,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 50,
                 'speed' => 63,
+                'image' => 'goldeen.gif',
                 'generation_id' => 1,
             ),
             158 => 
@@ -1923,6 +2081,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 80,
                 'speed' => 68,
+                'image' => 'seaking.gif',
                 'generation_id' => 1,
             ),
             159 => 
@@ -1935,6 +2094,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 55,
                 'speed' => 85,
+                'image' => 'staryu.gif',
                 'generation_id' => 1,
             ),
             160 => 
@@ -1947,6 +2107,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 85,
                 'speed' => 115,
+                'image' => 'starmie.gif',
                 'generation_id' => 1,
             ),
             161 => 
@@ -1959,6 +2120,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 120,
                 'speed' => 90,
+                'image' => 'mr.mime.gif',
                 'generation_id' => 1,
             ),
             162 => 
@@ -1971,6 +2133,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 90,
                 'speed' => 100,
+                'image' => 'mr.-mime-galar.gif',
                 'generation_id' => 8,
             ),
             163 => 
@@ -1983,6 +2146,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 80,
                 'speed' => 105,
+                'image' => 'scyther.gif',
                 'generation_id' => 1,
             ),
             164 => 
@@ -1995,6 +2159,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 115,
                 'special_defense' => 95,
                 'speed' => 95,
+                'image' => 'jynx.gif',
                 'generation_id' => 1,
             ),
             165 => 
@@ -2007,6 +2172,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 85,
                 'speed' => 105,
+                'image' => 'electabuzz.gif',
                 'generation_id' => 1,
             ),
             166 => 
@@ -2019,6 +2185,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 85,
                 'speed' => 93,
+                'image' => 'magmar.gif',
                 'generation_id' => 1,
             ),
             167 => 
@@ -2031,6 +2198,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 70,
                 'speed' => 85,
+                'image' => 'pinsir.gif',
                 'generation_id' => 1,
             ),
             168 => 
@@ -2043,6 +2211,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 90,
                 'speed' => 105,
+                'image' => 'pinsir-mega.gif',
                 'generation_id' => 6,
             ),
             169 => 
@@ -2055,6 +2224,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 70,
                 'speed' => 110,
+                'image' => 'tauros.gif',
                 'generation_id' => 1,
             ),
             170 => 
@@ -2067,6 +2237,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 15,
                 'special_defense' => 20,
                 'speed' => 80,
+                'image' => 'magikarp.gif',
                 'generation_id' => 1,
             ),
             171 => 
@@ -2079,6 +2250,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 100,
                 'speed' => 81,
+                'image' => 'gyarados.gif',
                 'generation_id' => 1,
             ),
             172 => 
@@ -2091,6 +2263,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 130,
                 'speed' => 81,
+                'image' => 'gyarados-mega.gif',
                 'generation_id' => 6,
             ),
             173 => 
@@ -2103,6 +2276,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 95,
                 'speed' => 60,
+                'image' => 'lapras.gif',
                 'generation_id' => 1,
             ),
             174 => 
@@ -2115,6 +2289,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 95,
                 'speed' => 60,
+                'image' => 'lapras-gigantamax.gif',
                 'generation_id' => 1,
             ),
             175 => 
@@ -2127,6 +2302,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 48,
                 'special_defense' => 48,
                 'speed' => 48,
+                'image' => 'ditto.gif',
                 'generation_id' => 1,
             ),
             176 => 
@@ -2139,6 +2315,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 65,
                 'speed' => 55,
+                'image' => 'eevee.gif',
                 'generation_id' => 1,
             ),
             177 => 
@@ -2151,6 +2328,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 65,
                 'speed' => 55,
+                'image' => 'eevee-gigantamax.gif',
                 'generation_id' => 1,
             ),
             178 => 
@@ -2163,6 +2341,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 95,
                 'speed' => 65,
+                'image' => 'vaporeon.gif',
                 'generation_id' => 1,
             ),
             179 => 
@@ -2175,6 +2354,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 95,
                 'speed' => 130,
+                'image' => 'jolteon.gif',
                 'generation_id' => 1,
             ),
             180 => 
@@ -2187,6 +2367,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 110,
                 'speed' => 65,
+                'image' => 'flareon.gif',
                 'generation_id' => 1,
             ),
             181 => 
@@ -2199,6 +2380,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 75,
                 'speed' => 40,
+                'image' => 'porygon.gif',
                 'generation_id' => 1,
             ),
             182 => 
@@ -2211,6 +2393,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 55,
                 'speed' => 35,
+                'image' => 'omanyte.gif',
                 'generation_id' => 1,
             ),
             183 => 
@@ -2223,6 +2406,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 115,
                 'special_defense' => 70,
                 'speed' => 55,
+                'image' => 'omastar.gif',
                 'generation_id' => 1,
             ),
             184 => 
@@ -2235,6 +2419,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 45,
                 'speed' => 55,
+                'image' => 'kabuto.gif',
                 'generation_id' => 1,
             ),
             185 => 
@@ -2247,6 +2432,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 70,
                 'speed' => 80,
+                'image' => 'kabutops.gif',
                 'generation_id' => 1,
             ),
             186 => 
@@ -2259,6 +2445,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 75,
                 'speed' => 130,
+                'image' => 'aerodactyl.gif',
                 'generation_id' => 1,
             ),
             187 => 
@@ -2271,6 +2458,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 95,
                 'speed' => 150,
+                'image' => 'aerodactyl-mega.gif',
                 'generation_id' => 6,
             ),
             188 => 
@@ -2283,6 +2471,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 110,
                 'speed' => 30,
+                'image' => 'snorlax.gif',
                 'generation_id' => 1,
             ),
             189 => 
@@ -2295,6 +2484,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 110,
                 'speed' => 30,
+                'image' => 'snorlax-gigantamax.gif',
                 'generation_id' => 1,
             ),
             190 => 
@@ -2307,6 +2497,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 125,
                 'speed' => 85,
+                'image' => 'articuno.gif',
                 'generation_id' => 1,
             ),
             191 => 
@@ -2319,6 +2510,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 90,
                 'speed' => 100,
+                'image' => 'zapdos.gif',
                 'generation_id' => 1,
             ),
             192 => 
@@ -2331,6 +2523,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 85,
                 'speed' => 90,
+                'image' => 'moltres.gif',
                 'generation_id' => 1,
             ),
             193 => 
@@ -2343,6 +2536,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 50,
+                'image' => 'dratini.gif',
                 'generation_id' => 1,
             ),
             194 => 
@@ -2355,6 +2549,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 70,
                 'speed' => 70,
+                'image' => 'dragonair.gif',
                 'generation_id' => 1,
             ),
             195 => 
@@ -2367,6 +2562,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 100,
                 'speed' => 80,
+                'image' => 'dragonite.gif',
                 'generation_id' => 1,
             ),
             196 => 
@@ -2379,6 +2575,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 154,
                 'special_defense' => 90,
                 'speed' => 130,
+                'image' => 'mewtwo.gif',
                 'generation_id' => 1,
             ),
             197 => 
@@ -2391,6 +2588,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 154,
                 'special_defense' => 100,
                 'speed' => 130,
+                'image' => 'mewtwo-megax.gif',
                 'generation_id' => 6,
             ),
             198 => 
@@ -2403,6 +2601,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 194,
                 'special_defense' => 120,
                 'speed' => 140,
+                'image' => 'mewtwo-megay.gif',
                 'generation_id' => 6,
             ),
             199 => 
@@ -2415,6 +2614,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 100,
                 'speed' => 100,
+                'image' => 'mew.gif',
                 'generation_id' => 1,
             ),
             200 => 
@@ -2427,6 +2627,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 49,
                 'special_defense' => 65,
                 'speed' => 45,
+                'image' => 'chikorita.gif',
                 'generation_id' => 2,
             ),
             201 => 
@@ -2439,6 +2640,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 63,
                 'special_defense' => 80,
                 'speed' => 60,
+                'image' => 'bayleef.gif',
                 'generation_id' => 2,
             ),
             202 => 
@@ -2451,6 +2653,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 83,
                 'special_defense' => 100,
                 'speed' => 80,
+                'image' => 'meganium.gif',
                 'generation_id' => 2,
             ),
             203 => 
@@ -2463,6 +2666,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 50,
                 'speed' => 65,
+                'image' => 'cyndaquil.gif',
                 'generation_id' => 2,
             ),
             204 => 
@@ -2475,6 +2679,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 65,
                 'speed' => 80,
+                'image' => 'quilava.gif',
                 'generation_id' => 2,
             ),
             205 => 
@@ -2487,6 +2692,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 109,
                 'special_defense' => 85,
                 'speed' => 100,
+                'image' => 'typhlosion.gif',
                 'generation_id' => 2,
             ),
             206 => 
@@ -2499,6 +2705,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 44,
                 'special_defense' => 48,
                 'speed' => 43,
+                'image' => 'totodile.gif',
                 'generation_id' => 2,
             ),
             207 => 
@@ -2511,6 +2718,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 59,
                 'special_defense' => 63,
                 'speed' => 58,
+                'image' => 'croconaw.gif',
                 'generation_id' => 2,
             ),
             208 => 
@@ -2523,6 +2731,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 79,
                 'special_defense' => 83,
                 'speed' => 78,
+                'image' => 'feraligatr.gif',
                 'generation_id' => 2,
             ),
             209 => 
@@ -2535,6 +2744,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 45,
                 'speed' => 20,
+                'image' => 'sentret.gif',
                 'generation_id' => 2,
             ),
             210 => 
@@ -2547,6 +2757,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 55,
                 'speed' => 90,
+                'image' => 'furret.gif',
                 'generation_id' => 2,
             ),
             211 => 
@@ -2559,6 +2770,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 36,
                 'special_defense' => 56,
                 'speed' => 50,
+                'image' => 'hoothoot.gif',
                 'generation_id' => 2,
             ),
             212 => 
@@ -2571,6 +2783,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 86,
                 'special_defense' => 96,
                 'speed' => 70,
+                'image' => 'noctowl.gif',
                 'generation_id' => 2,
             ),
             213 => 
@@ -2583,6 +2796,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 80,
                 'speed' => 55,
+                'image' => 'ledyba.gif',
                 'generation_id' => 2,
             ),
             214 => 
@@ -2595,6 +2809,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 110,
                 'speed' => 85,
+                'image' => 'ledian.gif',
                 'generation_id' => 2,
             ),
             215 => 
@@ -2607,6 +2822,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 30,
+                'image' => 'spinarak.gif',
                 'generation_id' => 2,
             ),
             216 => 
@@ -2619,6 +2835,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 70,
                 'speed' => 40,
+                'image' => 'ariados.gif',
                 'generation_id' => 2,
             ),
             217 => 
@@ -2631,6 +2848,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 80,
                 'speed' => 130,
+                'image' => 'crobat.gif',
                 'generation_id' => 2,
             ),
             218 => 
@@ -2643,6 +2861,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 56,
                 'special_defense' => 56,
                 'speed' => 67,
+                'image' => 'chinchou.gif',
                 'generation_id' => 2,
             ),
             219 => 
@@ -2655,6 +2874,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 76,
                 'special_defense' => 76,
                 'speed' => 67,
+                'image' => 'lanturn.gif',
                 'generation_id' => 2,
             ),
             220 => 
@@ -2667,6 +2887,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 35,
                 'speed' => 60,
+                'image' => 'pichu.gif',
                 'generation_id' => 2,
             ),
             221 => 
@@ -2679,6 +2900,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 55,
                 'speed' => 15,
+                'image' => 'cleffa.gif',
                 'generation_id' => 2,
             ),
             222 => 
@@ -2691,6 +2913,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 20,
                 'speed' => 15,
+                'image' => 'igglybuff.gif',
                 'generation_id' => 2,
             ),
             223 => 
@@ -2703,6 +2926,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 65,
                 'speed' => 20,
+                'image' => 'togepi.gif',
                 'generation_id' => 2,
             ),
             224 => 
@@ -2715,6 +2939,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 105,
                 'speed' => 40,
+                'image' => 'togetic.gif',
                 'generation_id' => 2,
             ),
             225 => 
@@ -2727,6 +2952,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 45,
                 'speed' => 70,
+                'image' => 'natu.gif',
                 'generation_id' => 2,
             ),
             226 => 
@@ -2739,6 +2965,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 70,
                 'speed' => 95,
+                'image' => 'xatu.gif',
                 'generation_id' => 2,
             ),
             227 => 
@@ -2751,6 +2978,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 45,
                 'speed' => 35,
+                'image' => 'mareep.gif',
                 'generation_id' => 2,
             ),
             228 => 
@@ -2763,6 +2991,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 60,
                 'speed' => 45,
+                'image' => 'flaaffy.gif',
                 'generation_id' => 2,
             ),
             229 => 
@@ -2775,6 +3004,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 115,
                 'special_defense' => 90,
                 'speed' => 55,
+                'image' => 'ampharos.gif',
                 'generation_id' => 2,
             ),
             230 => 
@@ -2787,6 +3017,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 165,
                 'special_defense' => 110,
                 'speed' => 45,
+                'image' => 'ampharos-mega.gif',
                 'generation_id' => 6,
             ),
             231 => 
@@ -2799,6 +3030,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 100,
                 'speed' => 50,
+                'image' => 'bellossom.gif',
                 'generation_id' => 2,
             ),
             232 => 
@@ -2811,6 +3043,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 20,
                 'special_defense' => 50,
                 'speed' => 40,
+                'image' => 'marill.gif',
                 'generation_id' => 2,
             ),
             233 => 
@@ -2823,6 +3056,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 80,
                 'speed' => 50,
+                'image' => 'azumarill.gif',
                 'generation_id' => 2,
             ),
             234 => 
@@ -2835,6 +3069,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 65,
                 'speed' => 30,
+                'image' => 'sudowoodo.gif',
                 'generation_id' => 2,
             ),
             235 => 
@@ -2847,6 +3082,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 100,
                 'speed' => 70,
+                'image' => 'politoed.gif',
                 'generation_id' => 2,
             ),
             236 => 
@@ -2859,6 +3095,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 55,
                 'speed' => 50,
+                'image' => 'hoppip.gif',
                 'generation_id' => 2,
             ),
             237 => 
@@ -2871,6 +3108,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 65,
                 'speed' => 80,
+                'image' => 'skiploom.gif',
                 'generation_id' => 2,
             ),
             238 => 
@@ -2883,6 +3121,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 95,
                 'speed' => 110,
+                'image' => 'jumpluff.gif',
                 'generation_id' => 2,
             ),
             239 => 
@@ -2895,6 +3134,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 55,
                 'speed' => 85,
+                'image' => 'aipom.gif',
                 'generation_id' => 2,
             ),
             240 => 
@@ -2907,6 +3147,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 30,
+                'image' => 'sunkern.gif',
                 'generation_id' => 2,
             ),
             241 => 
@@ -2919,6 +3160,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 85,
                 'speed' => 30,
+                'image' => 'sunflora.gif',
                 'generation_id' => 2,
             ),
             242 => 
@@ -2931,6 +3173,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 45,
                 'speed' => 95,
+                'image' => 'yanma.gif',
                 'generation_id' => 2,
             ),
             243 => 
@@ -2943,6 +3186,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 25,
                 'speed' => 15,
+                'image' => 'wooper.gif',
                 'generation_id' => 2,
             ),
             244 => 
@@ -2955,6 +3199,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 65,
                 'speed' => 35,
+                'image' => 'quagsire.gif',
                 'generation_id' => 2,
             ),
             245 => 
@@ -2967,6 +3212,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 95,
                 'speed' => 110,
+                'image' => 'espeon.gif',
                 'generation_id' => 2,
             ),
             246 => 
@@ -2979,6 +3225,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 130,
                 'speed' => 65,
+                'image' => 'umbreon.gif',
                 'generation_id' => 2,
             ),
             247 => 
@@ -2991,6 +3238,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 42,
                 'speed' => 91,
+                'image' => 'murkrow.gif',
                 'generation_id' => 2,
             ),
             248 => 
@@ -3003,6 +3251,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 110,
                 'speed' => 30,
+                'image' => 'slowking.gif',
                 'generation_id' => 2,
             ),
             249 => 
@@ -3015,6 +3264,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 85,
                 'speed' => 85,
+                'image' => 'misdreavus.gif',
                 'generation_id' => 2,
             ),
             250 => 
@@ -3027,6 +3277,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 72,
                 'special_defense' => 48,
                 'speed' => 48,
+                'image' => 'unown.gif',
                 'generation_id' => 2,
             ),
             251 => 
@@ -3039,6 +3290,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 33,
                 'special_defense' => 58,
                 'speed' => 33,
+                'image' => 'wobbuffet.gif',
                 'generation_id' => 2,
             ),
             252 => 
@@ -3051,6 +3303,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 65,
                 'speed' => 85,
+                'image' => 'girafarig.gif',
                 'generation_id' => 2,
             ),
             253 => 
@@ -3063,6 +3316,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 35,
                 'speed' => 15,
+                'image' => 'pineco.gif',
                 'generation_id' => 2,
             ),
             254 => 
@@ -3075,6 +3329,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 60,
                 'speed' => 40,
+                'image' => 'forretress.gif',
                 'generation_id' => 2,
             ),
             255 => 
@@ -3087,6 +3342,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 65,
                 'speed' => 45,
+                'image' => 'dunsparce.gif',
                 'generation_id' => 2,
             ),
             256 => 
@@ -3099,6 +3355,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 65,
                 'speed' => 85,
+                'image' => 'gligar.gif',
                 'generation_id' => 2,
             ),
             257 => 
@@ -3111,6 +3368,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 65,
                 'speed' => 30,
+                'image' => 'steelix.gif',
                 'generation_id' => 2,
             ),
             258 => 
@@ -3123,6 +3381,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 95,
                 'speed' => 30,
+                'image' => 'steelix-mega.gif',
                 'generation_id' => 6,
             ),
             259 => 
@@ -3135,6 +3394,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 30,
+                'image' => 'snubbull.gif',
                 'generation_id' => 2,
             ),
             260 => 
@@ -3147,6 +3407,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 60,
                 'speed' => 45,
+                'image' => 'granbull.gif',
                 'generation_id' => 2,
             ),
             261 => 
@@ -3159,6 +3420,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 55,
                 'speed' => 85,
+                'image' => 'qwilfish.gif',
                 'generation_id' => 2,
             ),
             262 => 
@@ -3171,6 +3433,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 80,
                 'speed' => 65,
+                'image' => 'scizor.gif',
                 'generation_id' => 2,
             ),
             263 => 
@@ -3183,6 +3446,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 100,
                 'speed' => 75,
+                'image' => 'scizor-mega.gif',
                 'generation_id' => 6,
             ),
             264 => 
@@ -3195,6 +3459,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 10,
                 'special_defense' => 230,
                 'speed' => 5,
+                'image' => 'shuckle.gif',
                 'generation_id' => 2,
             ),
             265 => 
@@ -3207,6 +3472,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 95,
                 'speed' => 85,
+                'image' => 'heracross.gif',
                 'generation_id' => 2,
             ),
             266 => 
@@ -3219,6 +3485,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 105,
                 'speed' => 75,
+                'image' => 'heracross-mega.gif',
                 'generation_id' => 6,
             ),
             267 => 
@@ -3231,6 +3498,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 75,
                 'speed' => 115,
+                'image' => 'sneasel.gif',
                 'generation_id' => 2,
             ),
             268 => 
@@ -3243,6 +3511,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 40,
+                'image' => 'teddiursa.gif',
                 'generation_id' => 2,
             ),
             269 => 
@@ -3255,6 +3524,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 75,
                 'speed' => 55,
+                'image' => 'ursaring.gif',
                 'generation_id' => 2,
             ),
             270 => 
@@ -3267,6 +3537,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 40,
                 'speed' => 20,
+                'image' => 'slugma.gif',
                 'generation_id' => 2,
             ),
             271 => 
@@ -3279,6 +3550,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 80,
                 'speed' => 30,
+                'image' => 'magcargo.gif',
                 'generation_id' => 2,
             ),
             272 => 
@@ -3291,6 +3563,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 50,
+                'image' => 'swinub.gif',
                 'generation_id' => 2,
             ),
             273 => 
@@ -3303,6 +3576,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 60,
                 'speed' => 50,
+                'image' => 'piloswine.gif',
                 'generation_id' => 2,
             ),
             274 => 
@@ -3315,6 +3589,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 95,
                 'speed' => 35,
+                'image' => 'corsola.gif',
                 'generation_id' => 2,
             ),
             275 => 
@@ -3327,6 +3602,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 100,
                 'speed' => 30,
+                'image' => 'corsola-galar.gif',
                 'generation_id' => 8,
             ),
             276 => 
@@ -3339,6 +3615,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 35,
                 'speed' => 65,
+                'image' => 'remoraid.gif',
                 'generation_id' => 2,
             ),
             277 => 
@@ -3351,6 +3628,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 75,
                 'speed' => 45,
+                'image' => 'octillery.gif',
                 'generation_id' => 2,
             ),
             278 => 
@@ -3363,6 +3641,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 45,
                 'speed' => 75,
+                'image' => 'delibird.gif',
                 'generation_id' => 2,
             ),
             279 => 
@@ -3375,6 +3654,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 140,
                 'speed' => 70,
+                'image' => 'mantine.gif',
                 'generation_id' => 2,
             ),
             280 => 
@@ -3387,6 +3667,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 70,
                 'speed' => 70,
+                'image' => 'skarmory.gif',
                 'generation_id' => 2,
             ),
             281 => 
@@ -3399,6 +3680,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 50,
                 'speed' => 65,
+                'image' => 'houndour.gif',
                 'generation_id' => 2,
             ),
             282 => 
@@ -3411,6 +3693,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 80,
                 'speed' => 95,
+                'image' => 'houndoom.gif',
                 'generation_id' => 2,
             ),
             283 => 
@@ -3423,6 +3706,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 140,
                 'special_defense' => 90,
                 'speed' => 115,
+                'image' => 'houndoom-mega.gif',
                 'generation_id' => 6,
             ),
             284 => 
@@ -3435,6 +3719,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 95,
                 'speed' => 85,
+                'image' => 'kingdra.gif',
                 'generation_id' => 2,
             ),
             285 => 
@@ -3447,6 +3732,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 40,
+                'image' => 'phanpy.gif',
                 'generation_id' => 2,
             ),
             286 => 
@@ -3459,6 +3745,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 60,
                 'speed' => 50,
+                'image' => 'donphan.gif',
                 'generation_id' => 2,
             ),
             287 => 
@@ -3471,6 +3758,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 95,
                 'speed' => 60,
+                'image' => 'porygon2.gif',
                 'generation_id' => 2,
             ),
             288 => 
@@ -3483,6 +3771,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 65,
                 'speed' => 85,
+                'image' => 'stantler.gif',
                 'generation_id' => 2,
             ),
             289 => 
@@ -3495,6 +3784,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 20,
                 'special_defense' => 45,
                 'speed' => 75,
+                'image' => 'smeargle.gif',
                 'generation_id' => 2,
             ),
             290 => 
@@ -3507,6 +3797,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 35,
                 'speed' => 35,
+                'image' => 'tyrogue.gif',
                 'generation_id' => 2,
             ),
             291 => 
@@ -3519,6 +3810,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 110,
                 'speed' => 70,
+                'image' => 'hitmontop.gif',
                 'generation_id' => 2,
             ),
             292 => 
@@ -3531,6 +3823,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 65,
                 'speed' => 65,
+                'image' => 'smoochum.gif',
                 'generation_id' => 2,
             ),
             293 => 
@@ -3543,6 +3836,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 55,
                 'speed' => 95,
+                'image' => 'elekid.gif',
                 'generation_id' => 2,
             ),
             294 => 
@@ -3555,6 +3849,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 55,
                 'speed' => 83,
+                'image' => 'magby.gif',
                 'generation_id' => 2,
             ),
             295 => 
@@ -3567,6 +3862,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 70,
                 'speed' => 100,
+                'image' => 'miltank.gif',
                 'generation_id' => 2,
             ),
             296 => 
@@ -3579,6 +3875,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 135,
                 'speed' => 55,
+                'image' => 'blissey.gif',
                 'generation_id' => 2,
             ),
             297 => 
@@ -3591,6 +3888,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 115,
                 'special_defense' => 100,
                 'speed' => 115,
+                'image' => 'raikou.gif',
                 'generation_id' => 2,
             ),
             298 => 
@@ -3603,6 +3901,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 75,
                 'speed' => 100,
+                'image' => 'entei.gif',
                 'generation_id' => 2,
             ),
             299 => 
@@ -3615,6 +3914,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 115,
                 'speed' => 85,
+                'image' => 'suicune.gif',
                 'generation_id' => 2,
             ),
             300 => 
@@ -3627,6 +3927,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 50,
                 'speed' => 41,
+                'image' => 'larvitar.gif',
                 'generation_id' => 2,
             ),
             301 => 
@@ -3639,6 +3940,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 70,
                 'speed' => 51,
+                'image' => 'pupitar.gif',
                 'generation_id' => 2,
             ),
             302 => 
@@ -3651,6 +3953,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 100,
                 'speed' => 61,
+                'image' => 'tyranitar.gif',
                 'generation_id' => 2,
             ),
             303 => 
@@ -3663,6 +3966,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 120,
                 'speed' => 71,
+                'image' => 'tyranitar-mega.gif',
                 'generation_id' => 6,
             ),
             304 => 
@@ -3675,6 +3979,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 154,
                 'speed' => 110,
+                'image' => 'lugia.gif',
                 'generation_id' => 2,
             ),
             305 => 
@@ -3687,6 +3992,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 154,
                 'speed' => 90,
+                'image' => 'ho-oh.gif',
                 'generation_id' => 2,
             ),
             306 => 
@@ -3699,6 +4005,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 100,
                 'speed' => 100,
+                'image' => 'celebi.gif',
                 'generation_id' => 2,
             ),
             307 => 
@@ -3711,6 +4018,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 55,
                 'speed' => 70,
+                'image' => 'treecko.gif',
                 'generation_id' => 3,
             ),
             308 => 
@@ -3723,6 +4031,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 65,
                 'speed' => 95,
+                'image' => 'grovyle.gif',
                 'generation_id' => 3,
             ),
             309 => 
@@ -3735,6 +4044,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 85,
                 'speed' => 120,
+                'image' => 'sceptile.gif',
                 'generation_id' => 3,
             ),
             310 => 
@@ -3747,6 +4057,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 145,
                 'special_defense' => 85,
                 'speed' => 145,
+                'image' => 'sceptile-mega.gif',
                 'generation_id' => 6,
             ),
             311 => 
@@ -3759,6 +4070,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 50,
                 'speed' => 45,
+                'image' => 'torchic.gif',
                 'generation_id' => 3,
             ),
             312 => 
@@ -3771,6 +4083,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 60,
                 'speed' => 55,
+                'image' => 'combusken.gif',
                 'generation_id' => 3,
             ),
             313 => 
@@ -3783,6 +4096,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 70,
                 'speed' => 80,
+                'image' => 'blaziken.gif',
                 'generation_id' => 3,
             ),
             314 => 
@@ -3795,6 +4109,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 80,
                 'speed' => 100,
+                'image' => 'blaziken-mega.gif',
                 'generation_id' => 6,
             ),
             315 => 
@@ -3807,6 +4122,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 40,
+                'image' => 'mudkip.gif',
                 'generation_id' => 3,
             ),
             316 => 
@@ -3819,6 +4135,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 70,
                 'speed' => 50,
+                'image' => 'marshtomp.gif',
                 'generation_id' => 3,
             ),
             317 => 
@@ -3831,6 +4148,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 90,
                 'speed' => 60,
+                'image' => 'swampert.gif',
                 'generation_id' => 3,
             ),
             318 => 
@@ -3843,6 +4161,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 110,
                 'speed' => 70,
+                'image' => 'swampert-mega.gif',
                 'generation_id' => 6,
             ),
             319 => 
@@ -3855,6 +4174,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 35,
+                'image' => 'poochyena.gif',
                 'generation_id' => 3,
             ),
             320 => 
@@ -3867,6 +4187,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 60,
                 'speed' => 70,
+                'image' => 'mightyena.gif',
                 'generation_id' => 3,
             ),
             321 => 
@@ -3879,6 +4200,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 41,
                 'speed' => 60,
+                'image' => 'zigzagoon.gif',
                 'generation_id' => 3,
             ),
             322 => 
@@ -3891,6 +4213,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 41,
                 'speed' => 60,
+                'image' => 'zigzagoon-galar.gif',
                 'generation_id' => 8,
             ),
             323 => 
@@ -3903,6 +4226,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 61,
                 'speed' => 100,
+                'image' => 'linoone.gif',
                 'generation_id' => 3,
             ),
             324 => 
@@ -3915,6 +4239,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 61,
                 'speed' => 100,
+                'image' => 'linoone-galar.gif',
                 'generation_id' => 8,
             ),
             325 => 
@@ -3927,6 +4252,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 20,
                 'special_defense' => 30,
                 'speed' => 20,
+                'image' => 'wurmple.gif',
                 'generation_id' => 3,
             ),
             326 => 
@@ -3939,6 +4265,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 25,
                 'speed' => 15,
+                'image' => 'silcoon.gif',
                 'generation_id' => 3,
             ),
             327 => 
@@ -3951,6 +4278,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 50,
                 'speed' => 65,
+                'image' => 'beautifly.gif',
                 'generation_id' => 3,
             ),
             328 => 
@@ -3963,6 +4291,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 25,
                 'speed' => 15,
+                'image' => 'cascoon.gif',
                 'generation_id' => 3,
             ),
             329 => 
@@ -3975,6 +4304,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 90,
                 'speed' => 65,
+                'image' => 'dustox.gif',
                 'generation_id' => 3,
             ),
             330 => 
@@ -3987,6 +4317,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 50,
                 'speed' => 30,
+                'image' => 'lotad.gif',
                 'generation_id' => 3,
             ),
             331 => 
@@ -3999,6 +4330,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 70,
                 'speed' => 50,
+                'image' => 'lombre.gif',
                 'generation_id' => 3,
             ),
             332 => 
@@ -4011,6 +4343,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 100,
                 'speed' => 70,
+                'image' => 'ludicolo.gif',
                 'generation_id' => 3,
             ),
             333 => 
@@ -4023,6 +4356,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 30,
+                'image' => 'seedot.gif',
                 'generation_id' => 3,
             ),
             334 => 
@@ -4035,6 +4369,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 40,
                 'speed' => 60,
+                'image' => 'nuzleaf.gif',
                 'generation_id' => 3,
             ),
             335 => 
@@ -4047,6 +4382,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 60,
                 'speed' => 80,
+                'image' => 'shiftry.gif',
                 'generation_id' => 3,
             ),
             336 => 
@@ -4059,6 +4395,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 85,
+                'image' => 'taillow.gif',
                 'generation_id' => 3,
             ),
             337 => 
@@ -4071,6 +4408,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 50,
                 'speed' => 125,
+                'image' => 'swellow.gif',
                 'generation_id' => 3,
             ),
             338 => 
@@ -4083,6 +4421,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 30,
                 'speed' => 85,
+                'image' => 'wingull.gif',
                 'generation_id' => 3,
             ),
             339 => 
@@ -4095,6 +4434,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 70,
                 'speed' => 65,
+                'image' => 'pelipper.gif',
                 'generation_id' => 3,
             ),
             340 => 
@@ -4107,6 +4447,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 35,
                 'speed' => 40,
+                'image' => 'ralts.gif',
                 'generation_id' => 3,
             ),
             341 => 
@@ -4119,6 +4460,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 55,
                 'speed' => 50,
+                'image' => 'kirlia.gif',
                 'generation_id' => 3,
             ),
             342 => 
@@ -4131,6 +4473,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 115,
                 'speed' => 80,
+                'image' => 'gardevoir.gif',
                 'generation_id' => 3,
             ),
             343 => 
@@ -4143,6 +4486,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 165,
                 'special_defense' => 135,
                 'speed' => 100,
+                'image' => 'gardevoir-mega.gif',
                 'generation_id' => 6,
             ),
             344 => 
@@ -4155,6 +4499,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 52,
                 'speed' => 65,
+                'image' => 'surskit.gif',
                 'generation_id' => 3,
             ),
             345 => 
@@ -4167,6 +4512,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 82,
                 'speed' => 80,
+                'image' => 'masquerain.gif',
                 'generation_id' => 3,
             ),
             346 => 
@@ -4179,6 +4525,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 60,
                 'speed' => 35,
+                'image' => 'shroomish.gif',
                 'generation_id' => 3,
             ),
             347 => 
@@ -4191,6 +4538,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 60,
                 'speed' => 70,
+                'image' => 'breloom.gif',
                 'generation_id' => 3,
             ),
             348 => 
@@ -4203,6 +4551,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 35,
                 'speed' => 30,
+                'image' => 'slakoth.gif',
                 'generation_id' => 3,
             ),
             349 => 
@@ -4215,6 +4564,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 55,
                 'speed' => 90,
+                'image' => 'vigoroth.gif',
                 'generation_id' => 3,
             ),
             350 => 
@@ -4227,6 +4577,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 65,
                 'speed' => 100,
+                'image' => 'slaking.gif',
                 'generation_id' => 3,
             ),
             351 => 
@@ -4239,6 +4590,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 40,
+                'image' => 'nincada.gif',
                 'generation_id' => 3,
             ),
             352 => 
@@ -4251,6 +4603,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 160,
+                'image' => 'ninjask.gif',
                 'generation_id' => 3,
             ),
             353 => 
@@ -4263,6 +4616,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 40,
+                'image' => 'shedinja.gif',
                 'generation_id' => 3,
             ),
             354 => 
@@ -4275,6 +4629,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 51,
                 'special_defense' => 23,
                 'speed' => 28,
+                'image' => 'whismur.gif',
                 'generation_id' => 3,
             ),
             355 => 
@@ -4287,6 +4642,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 71,
                 'special_defense' => 43,
                 'speed' => 48,
+                'image' => 'loudred.gif',
                 'generation_id' => 3,
             ),
             356 => 
@@ -4299,6 +4655,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 91,
                 'special_defense' => 73,
                 'speed' => 68,
+                'image' => 'exploud.gif',
                 'generation_id' => 3,
             ),
             357 => 
@@ -4311,6 +4668,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 20,
                 'special_defense' => 30,
                 'speed' => 25,
+                'image' => 'makuhita.gif',
                 'generation_id' => 3,
             ),
             358 => 
@@ -4323,6 +4681,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 60,
                 'speed' => 50,
+                'image' => 'hariyama.gif',
                 'generation_id' => 3,
             ),
             359 => 
@@ -4335,6 +4694,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 20,
                 'special_defense' => 40,
                 'speed' => 20,
+                'image' => 'azurill.gif',
                 'generation_id' => 3,
             ),
             360 => 
@@ -4347,6 +4707,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 90,
                 'speed' => 30,
+                'image' => 'nosepass.gif',
                 'generation_id' => 3,
             ),
             361 => 
@@ -4359,6 +4720,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 35,
                 'speed' => 50,
+                'image' => 'skitty.gif',
                 'generation_id' => 3,
             ),
             362 => 
@@ -4371,6 +4733,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 55,
                 'speed' => 90,
+                'image' => 'delcatty.gif',
                 'generation_id' => 3,
             ),
             363 => 
@@ -4383,6 +4746,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 65,
                 'speed' => 50,
+                'image' => 'sableye.gif',
                 'generation_id' => 3,
             ),
             364 => 
@@ -4395,6 +4759,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 115,
                 'speed' => 20,
+                'image' => 'sableye-mega.gif',
                 'generation_id' => 6,
             ),
             365 => 
@@ -4407,6 +4772,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 55,
                 'speed' => 50,
+                'image' => 'mawile.gif',
                 'generation_id' => 3,
             ),
             366 => 
@@ -4419,6 +4785,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 95,
                 'speed' => 50,
+                'image' => 'mawile-mega.gif',
                 'generation_id' => 6,
             ),
             367 => 
@@ -4431,6 +4798,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 30,
+                'image' => 'aron.gif',
                 'generation_id' => 3,
             ),
             368 => 
@@ -4443,6 +4811,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 40,
+                'image' => 'lairon.gif',
                 'generation_id' => 3,
             ),
             369 => 
@@ -4455,6 +4824,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 60,
                 'speed' => 50,
+                'image' => 'aggron.gif',
                 'generation_id' => 3,
             ),
             370 => 
@@ -4467,6 +4837,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 80,
                 'speed' => 50,
+                'image' => 'aggron-mega.gif',
                 'generation_id' => 6,
             ),
             371 => 
@@ -4479,6 +4850,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 55,
                 'speed' => 60,
+                'image' => 'meditite.gif',
                 'generation_id' => 3,
             ),
             372 => 
@@ -4491,6 +4863,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 75,
                 'speed' => 80,
+                'image' => 'medicham.gif',
                 'generation_id' => 3,
             ),
             373 => 
@@ -4503,6 +4876,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 85,
                 'speed' => 100,
+                'image' => 'medicham-mega.gif',
                 'generation_id' => 6,
             ),
             374 => 
@@ -4515,6 +4889,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 40,
                 'speed' => 65,
+                'image' => 'electrike.gif',
                 'generation_id' => 3,
             ),
             375 => 
@@ -4527,6 +4902,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 60,
                 'speed' => 105,
+                'image' => 'manectric.gif',
                 'generation_id' => 3,
             ),
             376 => 
@@ -4539,6 +4915,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 135,
                 'special_defense' => 80,
                 'speed' => 135,
+                'image' => 'manectric-mega.gif',
                 'generation_id' => 6,
             ),
             377 => 
@@ -4551,6 +4928,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 75,
                 'speed' => 95,
+                'image' => 'plusle.gif',
                 'generation_id' => 3,
             ),
             378 => 
@@ -4563,6 +4941,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 85,
                 'speed' => 95,
+                'image' => 'minun.gif',
                 'generation_id' => 3,
             ),
             379 => 
@@ -4575,6 +4954,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 47,
                 'special_defense' => 85,
                 'speed' => 85,
+                'image' => 'volbeat.gif',
                 'generation_id' => 3,
             ),
             380 => 
@@ -4587,6 +4967,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 73,
                 'special_defense' => 85,
                 'speed' => 85,
+                'image' => 'illumise.gif',
                 'generation_id' => 3,
             ),
             381 => 
@@ -4599,6 +4980,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 80,
                 'speed' => 65,
+                'image' => 'roselia.gif',
                 'generation_id' => 3,
             ),
             382 => 
@@ -4611,6 +4993,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 43,
                 'special_defense' => 53,
                 'speed' => 40,
+                'image' => 'gulpin.gif',
                 'generation_id' => 3,
             ),
             383 => 
@@ -4623,6 +5006,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 73,
                 'special_defense' => 83,
                 'speed' => 55,
+                'image' => 'swalot.gif',
                 'generation_id' => 3,
             ),
             384 => 
@@ -4635,6 +5019,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 20,
                 'speed' => 65,
+                'image' => 'carvanha.gif',
                 'generation_id' => 3,
             ),
             385 => 
@@ -4647,6 +5032,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 40,
                 'speed' => 95,
+                'image' => 'sharpedo.gif',
                 'generation_id' => 3,
             ),
             386 => 
@@ -4659,6 +5045,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 65,
                 'speed' => 105,
+                'image' => 'sharpedo-mega.gif',
                 'generation_id' => 6,
             ),
             387 => 
@@ -4671,6 +5058,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 35,
                 'speed' => 60,
+                'image' => 'wailmer.gif',
                 'generation_id' => 3,
             ),
             388 => 
@@ -4683,6 +5071,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 45,
                 'speed' => 60,
+                'image' => 'wailord.gif',
                 'generation_id' => 3,
             ),
             389 => 
@@ -4695,6 +5084,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 45,
                 'speed' => 35,
+                'image' => 'numel.gif',
                 'generation_id' => 3,
             ),
             390 => 
@@ -4707,6 +5097,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 75,
                 'speed' => 40,
+                'image' => 'camerupt.gif',
                 'generation_id' => 3,
             ),
             391 => 
@@ -4719,6 +5110,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 145,
                 'special_defense' => 105,
                 'speed' => 20,
+                'image' => 'camerupt-mega.gif',
                 'generation_id' => 6,
             ),
             392 => 
@@ -4731,6 +5123,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 70,
                 'speed' => 20,
+                'image' => 'torkoal.gif',
                 'generation_id' => 3,
             ),
             393 => 
@@ -4743,6 +5136,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 80,
                 'speed' => 60,
+                'image' => 'spoink.gif',
                 'generation_id' => 3,
             ),
             394 => 
@@ -4755,6 +5149,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 110,
                 'speed' => 80,
+                'image' => 'grumpig.gif',
                 'generation_id' => 3,
             ),
             395 => 
@@ -4767,6 +5162,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 60,
                 'speed' => 60,
+                'image' => 'spinda.gif',
                 'generation_id' => 3,
             ),
             396 => 
@@ -4779,6 +5175,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 45,
                 'speed' => 10,
+                'image' => 'trapinch.gif',
                 'generation_id' => 3,
             ),
             397 => 
@@ -4791,6 +5188,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 70,
+                'image' => 'vibrava.gif',
                 'generation_id' => 3,
             ),
             398 => 
@@ -4803,6 +5201,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 80,
                 'speed' => 100,
+                'image' => 'flygon.gif',
                 'generation_id' => 3,
             ),
             399 => 
@@ -4815,6 +5214,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 40,
                 'speed' => 35,
+                'image' => 'cacnea.gif',
                 'generation_id' => 3,
             ),
             400 => 
@@ -4827,6 +5227,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 115,
                 'special_defense' => 60,
                 'speed' => 55,
+                'image' => 'cacturne.gif',
                 'generation_id' => 3,
             ),
             401 => 
@@ -4839,6 +5240,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 75,
                 'speed' => 50,
+                'image' => 'swablu.gif',
                 'generation_id' => 3,
             ),
             402 => 
@@ -4851,6 +5253,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 105,
                 'speed' => 80,
+                'image' => 'altaria.gif',
                 'generation_id' => 3,
             ),
             403 => 
@@ -4863,6 +5266,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 105,
                 'speed' => 80,
+                'image' => 'altaria-mega.gif',
                 'generation_id' => 6,
             ),
             404 => 
@@ -4875,6 +5279,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 60,
                 'speed' => 90,
+                'image' => 'zangoose.gif',
                 'generation_id' => 3,
             ),
             405 => 
@@ -4887,6 +5292,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 60,
                 'speed' => 65,
+                'image' => 'seviper.gif',
                 'generation_id' => 3,
             ),
             406 => 
@@ -4899,6 +5305,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 85,
                 'speed' => 70,
+                'image' => 'lunatone.gif',
                 'generation_id' => 3,
             ),
             407 => 
@@ -4911,6 +5318,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 65,
                 'speed' => 70,
+                'image' => 'solrock.gif',
                 'generation_id' => 3,
             ),
             408 => 
@@ -4923,6 +5331,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 46,
                 'special_defense' => 41,
                 'speed' => 60,
+                'image' => 'barboach.gif',
                 'generation_id' => 3,
             ),
             409 => 
@@ -4935,6 +5344,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 76,
                 'special_defense' => 71,
                 'speed' => 60,
+                'image' => 'whiscash.gif',
                 'generation_id' => 3,
             ),
             410 => 
@@ -4947,6 +5357,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 35,
                 'speed' => 35,
+                'image' => 'corphish.gif',
                 'generation_id' => 3,
             ),
             411 => 
@@ -4959,6 +5370,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 55,
                 'speed' => 55,
+                'image' => 'crawdaunt.gif',
                 'generation_id' => 3,
             ),
             412 => 
@@ -4971,6 +5383,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 70,
                 'speed' => 55,
+                'image' => 'baltoy.gif',
                 'generation_id' => 3,
             ),
             413 => 
@@ -4983,6 +5396,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 120,
                 'speed' => 75,
+                'image' => 'claydol.gif',
                 'generation_id' => 3,
             ),
             414 => 
@@ -4995,6 +5409,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 61,
                 'special_defense' => 87,
                 'speed' => 23,
+                'image' => 'lileep.gif',
                 'generation_id' => 3,
             ),
             415 => 
@@ -5007,6 +5422,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 81,
                 'special_defense' => 107,
                 'speed' => 43,
+                'image' => 'cradily.gif',
                 'generation_id' => 3,
             ),
             416 => 
@@ -5019,6 +5435,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 50,
                 'speed' => 75,
+                'image' => 'anorith.gif',
                 'generation_id' => 3,
             ),
             417 => 
@@ -5031,6 +5448,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 80,
                 'speed' => 45,
+                'image' => 'armaldo.gif',
                 'generation_id' => 3,
             ),
             418 => 
@@ -5043,6 +5461,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 10,
                 'special_defense' => 55,
                 'speed' => 80,
+                'image' => 'feebas.gif',
                 'generation_id' => 3,
             ),
             419 => 
@@ -5055,6 +5474,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 125,
                 'speed' => 81,
+                'image' => 'milotic.gif',
                 'generation_id' => 3,
             ),
             420 => 
@@ -5067,6 +5487,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 70,
                 'speed' => 70,
+                'image' => 'castform.gif',
                 'generation_id' => 3,
             ),
             421 => 
@@ -5079,6 +5500,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 70,
                 'speed' => 70,
+                'image' => 'castform-sunny.gif',
                 'generation_id' => 3,
             ),
             422 => 
@@ -5091,6 +5513,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 70,
                 'speed' => 70,
+                'image' => 'castform-rainy.gif',
                 'generation_id' => 3,
             ),
             423 => 
@@ -5103,6 +5526,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 70,
                 'speed' => 70,
+                'image' => 'castform-snowy.gif',
                 'generation_id' => 3,
             ),
             424 => 
@@ -5115,6 +5539,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 120,
                 'speed' => 40,
+                'image' => 'kecleon.gif',
                 'generation_id' => 3,
             ),
             425 => 
@@ -5127,6 +5552,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 63,
                 'special_defense' => 33,
                 'speed' => 45,
+                'image' => 'shuppet.gif',
                 'generation_id' => 3,
             ),
             426 => 
@@ -5139,6 +5565,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 83,
                 'special_defense' => 63,
                 'speed' => 65,
+                'image' => 'banette.gif',
                 'generation_id' => 3,
             ),
             427 => 
@@ -5151,6 +5578,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 93,
                 'special_defense' => 83,
                 'speed' => 75,
+                'image' => 'banette-mega.gif',
                 'generation_id' => 6,
             ),
             428 => 
@@ -5163,6 +5591,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 90,
                 'speed' => 25,
+                'image' => 'duskull.gif',
                 'generation_id' => 3,
             ),
             429 => 
@@ -5175,6 +5604,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 130,
                 'speed' => 25,
+                'image' => 'dusclops.gif',
                 'generation_id' => 3,
             ),
             430 => 
@@ -5187,6 +5617,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 72,
                 'special_defense' => 87,
                 'speed' => 51,
+                'image' => 'tropius.gif',
                 'generation_id' => 3,
             ),
             431 => 
@@ -5199,6 +5630,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 90,
                 'speed' => 65,
+                'image' => 'chimecho.gif',
                 'generation_id' => 3,
             ),
             432 => 
@@ -5211,6 +5643,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 60,
                 'speed' => 75,
+                'image' => 'absol.gif',
                 'generation_id' => 3,
             ),
             433 => 
@@ -5223,6 +5656,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 115,
                 'special_defense' => 60,
                 'speed' => 115,
+                'image' => 'absol-mega.gif',
                 'generation_id' => 6,
             ),
             434 => 
@@ -5235,6 +5669,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 23,
                 'special_defense' => 48,
                 'speed' => 23,
+                'image' => 'wynaut.gif',
                 'generation_id' => 3,
             ),
             435 => 
@@ -5247,6 +5682,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 50,
+                'image' => 'snorunt.gif',
                 'generation_id' => 3,
             ),
             436 => 
@@ -5259,6 +5695,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 80,
                 'speed' => 80,
+                'image' => 'glalie.gif',
                 'generation_id' => 3,
             ),
             437 => 
@@ -5271,6 +5708,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 80,
                 'speed' => 100,
+                'image' => 'glalie-mega.gif',
                 'generation_id' => 6,
             ),
             438 => 
@@ -5283,6 +5721,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 50,
                 'speed' => 25,
+                'image' => 'spheal.gif',
                 'generation_id' => 3,
             ),
             439 => 
@@ -5295,6 +5734,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 70,
                 'speed' => 45,
+                'image' => 'sealeo.gif',
                 'generation_id' => 3,
             ),
             440 => 
@@ -5307,6 +5747,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 90,
                 'speed' => 65,
+                'image' => 'walrein.gif',
                 'generation_id' => 3,
             ),
             441 => 
@@ -5319,6 +5760,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 74,
                 'special_defense' => 55,
                 'speed' => 32,
+                'image' => 'clamperl.gif',
                 'generation_id' => 3,
             ),
             442 => 
@@ -5331,6 +5773,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 94,
                 'special_defense' => 75,
                 'speed' => 52,
+                'image' => 'huntail.gif',
                 'generation_id' => 3,
             ),
             443 => 
@@ -5343,6 +5786,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 114,
                 'special_defense' => 75,
                 'speed' => 52,
+                'image' => 'gorebyss.gif',
                 'generation_id' => 3,
             ),
             444 => 
@@ -5355,6 +5799,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 65,
                 'speed' => 55,
+                'image' => 'relicanth.gif',
                 'generation_id' => 3,
             ),
             445 => 
@@ -5367,6 +5812,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 65,
                 'speed' => 97,
+                'image' => 'luvdisc.gif',
                 'generation_id' => 3,
             ),
             446 => 
@@ -5379,6 +5825,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 30,
                 'speed' => 50,
+                'image' => 'bagon.gif',
                 'generation_id' => 3,
             ),
             447 => 
@@ -5391,6 +5838,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 50,
                 'speed' => 50,
+                'image' => 'shelgon.gif',
                 'generation_id' => 3,
             ),
             448 => 
@@ -5403,6 +5851,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 80,
                 'speed' => 100,
+                'image' => 'salamence.gif',
                 'generation_id' => 3,
             ),
             449 => 
@@ -5415,6 +5864,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 90,
                 'speed' => 120,
+                'image' => 'salamence-mega.gif',
                 'generation_id' => 6,
             ),
             450 => 
@@ -5427,6 +5877,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 60,
                 'speed' => 30,
+                'image' => 'beldum.gif',
                 'generation_id' => 3,
             ),
             451 => 
@@ -5439,6 +5890,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 80,
                 'speed' => 50,
+                'image' => 'metang.gif',
                 'generation_id' => 3,
             ),
             452 => 
@@ -5451,6 +5903,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 90,
                 'speed' => 70,
+                'image' => 'metagross.gif',
                 'generation_id' => 3,
             ),
             453 => 
@@ -5463,6 +5916,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 110,
                 'speed' => 110,
+                'image' => 'metagross-mega.gif',
                 'generation_id' => 6,
             ),
             454 => 
@@ -5475,6 +5929,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 100,
                 'speed' => 50,
+                'image' => 'regirock.gif',
                 'generation_id' => 3,
             ),
             455 => 
@@ -5487,6 +5942,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 200,
                 'speed' => 50,
+                'image' => 'regice.gif',
                 'generation_id' => 3,
             ),
             456 => 
@@ -5499,6 +5955,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 150,
                 'speed' => 50,
+                'image' => 'registeel.gif',
                 'generation_id' => 3,
             ),
             457 => 
@@ -5511,6 +5968,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 130,
                 'speed' => 110,
+                'image' => 'latias.gif',
                 'generation_id' => 3,
             ),
             458 => 
@@ -5523,6 +5981,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 140,
                 'special_defense' => 150,
                 'speed' => 110,
+                'image' => 'latias-mega.gif',
                 'generation_id' => 6,
             ),
             459 => 
@@ -5535,6 +5994,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 110,
                 'speed' => 110,
+                'image' => 'latios.gif',
                 'generation_id' => 3,
             ),
             460 => 
@@ -5547,6 +6007,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 160,
                 'special_defense' => 120,
                 'speed' => 110,
+                'image' => 'latios-mega.gif',
                 'generation_id' => 6,
             ),
             461 => 
@@ -5559,6 +6020,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 150,
                 'special_defense' => 140,
                 'speed' => 90,
+                'image' => 'kyogre.gif',
                 'generation_id' => 3,
             ),
             462 => 
@@ -5571,6 +6033,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 180,
                 'special_defense' => 160,
                 'speed' => 90,
+                'image' => 'kyogre-primal.gif',
                 'generation_id' => 6,
             ),
             463 => 
@@ -5583,6 +6046,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 90,
                 'speed' => 90,
+                'image' => 'groudon.gif',
                 'generation_id' => 3,
             ),
             464 => 
@@ -5595,6 +6059,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 150,
                 'special_defense' => 90,
                 'speed' => 90,
+                'image' => 'groudon-primal.gif',
                 'generation_id' => 6,
             ),
             465 => 
@@ -5607,6 +6072,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 150,
                 'special_defense' => 90,
                 'speed' => 95,
+                'image' => 'rayquaza.gif',
                 'generation_id' => 3,
             ),
             466 => 
@@ -5619,6 +6085,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 180,
                 'special_defense' => 100,
                 'speed' => 115,
+                'image' => 'rayquaza-mega.gif',
                 'generation_id' => 6,
             ),
             467 => 
@@ -5631,6 +6098,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 100,
                 'speed' => 100,
+                'image' => 'jirachi.gif',
                 'generation_id' => 3,
             ),
             468 => 
@@ -5643,6 +6111,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 150,
                 'special_defense' => 50,
                 'speed' => 150,
+                'image' => 'deoxys.gif',
                 'generation_id' => 3,
             ),
             469 => 
@@ -5655,6 +6124,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 180,
                 'special_defense' => 20,
                 'speed' => 150,
+                'image' => 'deoxys-attack.gif',
                 'generation_id' => 3,
             ),
             470 => 
@@ -5667,6 +6137,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 160,
                 'speed' => 90,
+                'image' => 'deoxys-defense.gif',
                 'generation_id' => 3,
             ),
             471 => 
@@ -5679,6 +6150,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 90,
                 'speed' => 180,
+                'image' => 'deoxys-speed.gif',
                 'generation_id' => 3,
             ),
             472 => 
@@ -5691,6 +6163,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 55,
                 'speed' => 31,
+                'image' => 'turtwig.gif',
                 'generation_id' => 4,
             ),
             473 => 
@@ -5703,6 +6176,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 65,
                 'speed' => 36,
+                'image' => 'grotle.gif',
                 'generation_id' => 4,
             ),
             474 => 
@@ -5715,6 +6189,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 85,
                 'speed' => 56,
+                'image' => 'torterra.gif',
                 'generation_id' => 4,
             ),
             475 => 
@@ -5727,6 +6202,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 58,
                 'special_defense' => 44,
                 'speed' => 61,
+                'image' => 'chimchar.gif',
                 'generation_id' => 4,
             ),
             476 => 
@@ -5739,6 +6215,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 78,
                 'special_defense' => 52,
                 'speed' => 81,
+                'image' => 'monferno.gif',
                 'generation_id' => 4,
             ),
             477 => 
@@ -5751,6 +6228,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 104,
                 'special_defense' => 71,
                 'speed' => 108,
+                'image' => 'infernape.gif',
                 'generation_id' => 4,
             ),
             478 => 
@@ -5763,6 +6241,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 61,
                 'special_defense' => 56,
                 'speed' => 40,
+                'image' => 'piplup.gif',
                 'generation_id' => 4,
             ),
             479 => 
@@ -5775,6 +6254,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 81,
                 'special_defense' => 76,
                 'speed' => 50,
+                'image' => 'prinplup.gif',
                 'generation_id' => 4,
             ),
             480 => 
@@ -5787,6 +6267,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 111,
                 'special_defense' => 101,
                 'speed' => 60,
+                'image' => 'empoleon.gif',
                 'generation_id' => 4,
             ),
             481 => 
@@ -5799,6 +6280,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 60,
+                'image' => 'starly.gif',
                 'generation_id' => 4,
             ),
             482 => 
@@ -5811,6 +6293,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 80,
+                'image' => 'staravia.gif',
                 'generation_id' => 4,
             ),
             483 => 
@@ -5823,6 +6306,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 60,
                 'speed' => 100,
+                'image' => 'staraptor.gif',
                 'generation_id' => 4,
             ),
             484 => 
@@ -5835,6 +6319,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 40,
                 'speed' => 31,
+                'image' => 'bidoof.gif',
                 'generation_id' => 4,
             ),
             485 => 
@@ -5847,6 +6332,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 60,
                 'speed' => 71,
+                'image' => 'bibarel.gif',
                 'generation_id' => 4,
             ),
             486 => 
@@ -5859,6 +6345,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 41,
                 'speed' => 25,
+                'image' => 'kricketot.gif',
                 'generation_id' => 4,
             ),
             487 => 
@@ -5871,6 +6358,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 51,
                 'speed' => 65,
+                'image' => 'kricketune.gif',
                 'generation_id' => 4,
             ),
             488 => 
@@ -5883,6 +6371,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 34,
                 'speed' => 45,
+                'image' => 'shinx.gif',
                 'generation_id' => 4,
             ),
             489 => 
@@ -5895,6 +6384,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 49,
                 'speed' => 60,
+                'image' => 'luxio.gif',
                 'generation_id' => 4,
             ),
             490 => 
@@ -5907,6 +6397,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 79,
                 'speed' => 70,
+                'image' => 'luxray.gif',
                 'generation_id' => 4,
             ),
             491 => 
@@ -5919,6 +6410,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 70,
                 'speed' => 55,
+                'image' => 'budew.gif',
                 'generation_id' => 4,
             ),
             492 => 
@@ -5931,6 +6423,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 105,
                 'speed' => 90,
+                'image' => 'roserade.gif',
                 'generation_id' => 4,
             ),
             493 => 
@@ -5943,6 +6436,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 58,
+                'image' => 'cranidos.gif',
                 'generation_id' => 4,
             ),
             494 => 
@@ -5955,6 +6449,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 50,
                 'speed' => 58,
+                'image' => 'rampardos.gif',
                 'generation_id' => 4,
             ),
             495 => 
@@ -5967,6 +6462,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 42,
                 'special_defense' => 88,
                 'speed' => 30,
+                'image' => 'shieldon.gif',
                 'generation_id' => 4,
             ),
             496 => 
@@ -5979,6 +6475,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 47,
                 'special_defense' => 138,
                 'speed' => 30,
+                'image' => 'bastiodon.gif',
                 'generation_id' => 4,
             ),
             497 => 
@@ -5991,6 +6488,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 29,
                 'special_defense' => 45,
                 'speed' => 36,
+                'image' => 'burmy.gif',
                 'generation_id' => 4,
             ),
             498 => 
@@ -6003,6 +6501,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 79,
                 'special_defense' => 105,
                 'speed' => 36,
+                'image' => 'wormadam.gif',
                 'generation_id' => 4,
             ),
             499 => 
@@ -6015,6 +6514,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 59,
                 'special_defense' => 85,
                 'speed' => 36,
+                'image' => 'wormadam-sandy.gif',
                 'generation_id' => 4,
             ),
         ));
@@ -6029,6 +6529,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 69,
                 'special_defense' => 95,
                 'speed' => 36,
+                'image' => 'wormadam-trash.gif',
                 'generation_id' => 4,
             ),
             1 => 
@@ -6041,6 +6542,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 94,
                 'special_defense' => 50,
                 'speed' => 66,
+                'image' => 'mothim.gif',
                 'generation_id' => 4,
             ),
             2 => 
@@ -6053,6 +6555,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 42,
                 'speed' => 70,
+                'image' => 'combee.gif',
                 'generation_id' => 4,
             ),
             3 => 
@@ -6065,6 +6568,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 102,
                 'speed' => 40,
+                'image' => 'vespiquen.gif',
                 'generation_id' => 4,
             ),
             4 => 
@@ -6077,6 +6581,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 90,
                 'speed' => 95,
+                'image' => 'pachirisu.gif',
                 'generation_id' => 4,
             ),
             5 => 
@@ -6089,6 +6594,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 30,
                 'speed' => 85,
+                'image' => 'buizel.gif',
                 'generation_id' => 4,
             ),
             6 => 
@@ -6101,6 +6607,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 50,
                 'speed' => 115,
+                'image' => 'floatzel.gif',
                 'generation_id' => 4,
             ),
             7 => 
@@ -6113,6 +6620,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 62,
                 'special_defense' => 53,
                 'speed' => 35,
+                'image' => 'cherubi.gif',
                 'generation_id' => 4,
             ),
             8 => 
@@ -6125,6 +6633,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 87,
                 'special_defense' => 78,
                 'speed' => 85,
+                'image' => 'cherrim.gif',
                 'generation_id' => 4,
             ),
             9 => 
@@ -6137,6 +6646,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 57,
                 'special_defense' => 62,
                 'speed' => 34,
+                'image' => 'shellos.gif',
                 'generation_id' => 4,
             ),
             10 => 
@@ -6149,6 +6659,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 92,
                 'special_defense' => 82,
                 'speed' => 39,
+                'image' => 'gastrodon.gif',
                 'generation_id' => 4,
             ),
             11 => 
@@ -6161,6 +6672,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 66,
                 'speed' => 115,
+                'image' => 'ambipom.gif',
                 'generation_id' => 4,
             ),
             12 => 
@@ -6173,6 +6685,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 44,
                 'speed' => 70,
+                'image' => 'drifloon.gif',
                 'generation_id' => 4,
             ),
             13 => 
@@ -6185,6 +6698,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 54,
                 'speed' => 80,
+                'image' => 'drifblim.gif',
                 'generation_id' => 4,
             ),
             14 => 
@@ -6197,6 +6711,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 44,
                 'special_defense' => 56,
                 'speed' => 85,
+                'image' => 'buneary.gif',
                 'generation_id' => 4,
             ),
             15 => 
@@ -6209,6 +6724,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 54,
                 'special_defense' => 96,
                 'speed' => 105,
+                'image' => 'lopunny.gif',
                 'generation_id' => 4,
             ),
             16 => 
@@ -6221,6 +6737,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 54,
                 'special_defense' => 96,
                 'speed' => 135,
+                'image' => 'lopunny-mega.gif',
                 'generation_id' => 6,
             ),
             17 => 
@@ -6233,6 +6750,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 105,
                 'speed' => 105,
+                'image' => 'mismagius.gif',
                 'generation_id' => 4,
             ),
             18 => 
@@ -6245,6 +6763,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 52,
                 'speed' => 71,
+                'image' => 'honchkrow.gif',
                 'generation_id' => 4,
             ),
             19 => 
@@ -6257,6 +6776,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 42,
                 'special_defense' => 37,
                 'speed' => 85,
+                'image' => 'glameow.gif',
                 'generation_id' => 4,
             ),
             20 => 
@@ -6269,6 +6789,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 64,
                 'special_defense' => 59,
                 'speed' => 112,
+                'image' => 'purugly.gif',
                 'generation_id' => 4,
             ),
             21 => 
@@ -6281,6 +6802,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 50,
                 'speed' => 45,
+                'image' => 'chingling.gif',
                 'generation_id' => 4,
             ),
             22 => 
@@ -6293,6 +6815,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 41,
                 'special_defense' => 41,
                 'speed' => 74,
+                'image' => 'stunky.gif',
                 'generation_id' => 4,
             ),
             23 => 
@@ -6305,6 +6828,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 71,
                 'special_defense' => 61,
                 'speed' => 84,
+                'image' => 'skuntank.gif',
                 'generation_id' => 4,
             ),
             24 => 
@@ -6317,6 +6841,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 24,
                 'special_defense' => 86,
                 'speed' => 23,
+                'image' => 'bronzor.gif',
                 'generation_id' => 4,
             ),
             25 => 
@@ -6329,6 +6854,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 79,
                 'special_defense' => 116,
                 'speed' => 33,
+                'image' => 'bronzong.gif',
                 'generation_id' => 4,
             ),
             26 => 
@@ -6341,6 +6867,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 10,
                 'special_defense' => 45,
                 'speed' => 10,
+                'image' => 'bonsly.gif',
                 'generation_id' => 4,
             ),
             27 => 
@@ -6353,6 +6880,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 90,
                 'speed' => 60,
+                'image' => 'mime_jr.gif',
                 'generation_id' => 4,
             ),
             28 => 
@@ -6365,6 +6893,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 15,
                 'special_defense' => 65,
                 'speed' => 30,
+                'image' => 'happiny.gif',
                 'generation_id' => 4,
             ),
             29 => 
@@ -6377,6 +6906,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 92,
                 'special_defense' => 42,
                 'speed' => 91,
+                'image' => 'chatot.gif',
                 'generation_id' => 4,
             ),
             30 => 
@@ -6389,6 +6919,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 92,
                 'special_defense' => 108,
                 'speed' => 35,
+                'image' => 'spiritomb.gif',
                 'generation_id' => 4,
             ),
             31 => 
@@ -6401,6 +6932,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 45,
                 'speed' => 42,
+                'image' => 'gible.gif',
                 'generation_id' => 4,
             ),
             32 => 
@@ -6413,6 +6945,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 55,
                 'speed' => 82,
+                'image' => 'gabite.gif',
                 'generation_id' => 4,
             ),
             33 => 
@@ -6425,6 +6958,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 85,
                 'speed' => 102,
+                'image' => 'garchomp.gif',
                 'generation_id' => 4,
             ),
             34 => 
@@ -6437,6 +6971,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 95,
                 'speed' => 92,
+                'image' => 'garchomp-mega.gif',
                 'generation_id' => 6,
             ),
             35 => 
@@ -6449,6 +6984,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 85,
                 'speed' => 5,
+                'image' => 'munchlax.gif',
                 'generation_id' => 4,
             ),
             36 => 
@@ -6461,6 +6997,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 40,
                 'speed' => 60,
+                'image' => 'riolu.gif',
                 'generation_id' => 4,
             ),
             37 => 
@@ -6473,6 +7010,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 115,
                 'special_defense' => 70,
                 'speed' => 90,
+                'image' => 'lucario.gif',
                 'generation_id' => 4,
             ),
             38 => 
@@ -6485,6 +7023,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 140,
                 'special_defense' => 70,
                 'speed' => 112,
+                'image' => 'lucario-mega.gif',
                 'generation_id' => 6,
             ),
             39 => 
@@ -6497,6 +7036,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 38,
                 'special_defense' => 42,
                 'speed' => 32,
+                'image' => 'hippopotas.gif',
                 'generation_id' => 4,
             ),
             40 => 
@@ -6509,6 +7049,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 68,
                 'special_defense' => 72,
                 'speed' => 47,
+                'image' => 'hippowdon.gif',
                 'generation_id' => 4,
             ),
             41 => 
@@ -6521,6 +7062,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 55,
                 'speed' => 65,
+                'image' => 'skorupi.gif',
                 'generation_id' => 4,
             ),
             42 => 
@@ -6533,6 +7075,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 75,
                 'speed' => 95,
+                'image' => 'drapion.gif',
                 'generation_id' => 4,
             ),
             43 => 
@@ -6545,6 +7088,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 61,
                 'special_defense' => 40,
                 'speed' => 50,
+                'image' => 'croagunk.gif',
                 'generation_id' => 4,
             ),
             44 => 
@@ -6557,6 +7101,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 86,
                 'special_defense' => 65,
                 'speed' => 85,
+                'image' => 'toxicroak.gif',
                 'generation_id' => 4,
             ),
             45 => 
@@ -6569,6 +7114,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 72,
                 'speed' => 46,
+                'image' => 'carnivine.gif',
                 'generation_id' => 4,
             ),
             46 => 
@@ -6581,6 +7127,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 49,
                 'special_defense' => 61,
                 'speed' => 66,
+                'image' => 'finneon.gif',
                 'generation_id' => 4,
             ),
             47 => 
@@ -6593,6 +7140,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 69,
                 'special_defense' => 86,
                 'speed' => 91,
+                'image' => 'lumineon.gif',
                 'generation_id' => 4,
             ),
             48 => 
@@ -6605,6 +7153,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 120,
                 'speed' => 50,
+                'image' => 'mantyke.gif',
                 'generation_id' => 4,
             ),
             49 => 
@@ -6617,6 +7166,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 62,
                 'special_defense' => 60,
                 'speed' => 40,
+                'image' => 'snover.gif',
                 'generation_id' => 4,
             ),
             50 => 
@@ -6629,6 +7179,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 92,
                 'special_defense' => 85,
                 'speed' => 60,
+                'image' => 'abomasnow.gif',
                 'generation_id' => 4,
             ),
             51 => 
@@ -6641,6 +7192,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 132,
                 'special_defense' => 105,
                 'speed' => 30,
+                'image' => 'abomasnow-mega.gif',
                 'generation_id' => 6,
             ),
             52 => 
@@ -6653,6 +7205,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 85,
                 'speed' => 125,
+                'image' => 'weavile.gif',
                 'generation_id' => 4,
             ),
             53 => 
@@ -6665,6 +7218,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 90,
                 'speed' => 60,
+                'image' => 'magnezone.gif',
                 'generation_id' => 4,
             ),
             54 => 
@@ -6677,6 +7231,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 95,
                 'speed' => 50,
+                'image' => 'lickilicky.gif',
                 'generation_id' => 4,
             ),
             55 => 
@@ -6689,6 +7244,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 55,
                 'speed' => 40,
+                'image' => 'rhyperior.gif',
                 'generation_id' => 4,
             ),
             56 => 
@@ -6701,6 +7257,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 50,
                 'speed' => 50,
+                'image' => 'tangrowth.gif',
                 'generation_id' => 4,
             ),
             57 => 
@@ -6713,6 +7270,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 85,
                 'speed' => 95,
+                'image' => 'electivire.gif',
                 'generation_id' => 4,
             ),
             58 => 
@@ -6725,6 +7283,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 95,
                 'speed' => 83,
+                'image' => 'magmortar.gif',
                 'generation_id' => 4,
             ),
             59 => 
@@ -6737,6 +7296,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 115,
                 'speed' => 80,
+                'image' => 'togekiss.gif',
                 'generation_id' => 4,
             ),
             60 => 
@@ -6749,6 +7309,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 116,
                 'special_defense' => 56,
                 'speed' => 95,
+                'image' => 'yanmega.gif',
                 'generation_id' => 4,
             ),
             61 => 
@@ -6761,6 +7322,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 65,
                 'speed' => 95,
+                'image' => 'leafeon.gif',
                 'generation_id' => 4,
             ),
             62 => 
@@ -6773,6 +7335,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 95,
                 'speed' => 65,
+                'image' => 'glaceon.gif',
                 'generation_id' => 4,
             ),
             63 => 
@@ -6785,6 +7348,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 75,
                 'speed' => 95,
+                'image' => 'gliscor.gif',
                 'generation_id' => 4,
             ),
             64 => 
@@ -6797,6 +7361,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 60,
                 'speed' => 80,
+                'image' => 'mamoswine.gif',
                 'generation_id' => 4,
             ),
             65 => 
@@ -6809,6 +7374,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 135,
                 'special_defense' => 75,
                 'speed' => 90,
+                'image' => 'porygon-z.gif',
                 'generation_id' => 4,
             ),
             66 => 
@@ -6821,6 +7387,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 115,
                 'speed' => 80,
+                'image' => 'gallade.gif',
                 'generation_id' => 4,
             ),
             67 => 
@@ -6833,6 +7400,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 115,
                 'speed' => 110,
+                'image' => 'gallade-mega.gif',
                 'generation_id' => 6,
             ),
             68 => 
@@ -6845,6 +7413,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 150,
                 'speed' => 40,
+                'image' => 'probopass.gif',
                 'generation_id' => 4,
             ),
             69 => 
@@ -6857,6 +7426,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 135,
                 'speed' => 45,
+                'image' => 'dusknoir.gif',
                 'generation_id' => 4,
             ),
             70 => 
@@ -6869,6 +7439,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 70,
                 'speed' => 110,
+                'image' => 'froslass.gif',
                 'generation_id' => 4,
             ),
             71 => 
@@ -6881,6 +7452,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 77,
                 'speed' => 91,
+                'image' => 'rotom.gif',
                 'generation_id' => 4,
             ),
             72 => 
@@ -6893,6 +7465,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 107,
                 'speed' => 86,
+                'image' => 'rotom-heat.gif',
                 'generation_id' => 4,
             ),
             73 => 
@@ -6905,6 +7478,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 107,
                 'speed' => 86,
+                'image' => 'rotom-wash.gif',
                 'generation_id' => 4,
             ),
             74 => 
@@ -6917,6 +7491,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 107,
                 'speed' => 86,
+                'image' => 'rotom-frost.gif',
                 'generation_id' => 4,
             ),
             75 => 
@@ -6929,6 +7504,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 107,
                 'speed' => 86,
+                'image' => 'rotom-fan.gif',
                 'generation_id' => 4,
             ),
             76 => 
@@ -6941,6 +7517,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 107,
                 'speed' => 86,
+                'image' => 'rotom-mow.gif',
                 'generation_id' => 4,
             ),
             77 => 
@@ -6953,6 +7530,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 130,
                 'speed' => 95,
+                'image' => 'uxie.gif',
                 'generation_id' => 4,
             ),
             78 => 
@@ -6965,6 +7543,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 105,
                 'speed' => 80,
+                'image' => 'mesprit.gif',
                 'generation_id' => 4,
             ),
             79 => 
@@ -6977,6 +7556,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 70,
                 'speed' => 115,
+                'image' => 'azelf.gif',
                 'generation_id' => 4,
             ),
             80 => 
@@ -6989,6 +7569,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 150,
                 'special_defense' => 100,
                 'speed' => 90,
+                'image' => 'dialga.gif',
                 'generation_id' => 4,
             ),
             81 => 
@@ -7001,6 +7582,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 150,
                 'special_defense' => 120,
                 'speed' => 100,
+                'image' => 'palkia.gif',
                 'generation_id' => 4,
             ),
             82 => 
@@ -7013,6 +7595,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 106,
                 'speed' => 77,
+                'image' => 'heatran.gif',
                 'generation_id' => 4,
             ),
             83 => 
@@ -7025,6 +7608,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 110,
                 'speed' => 100,
+                'image' => 'regigigas.gif',
                 'generation_id' => 4,
             ),
             84 => 
@@ -7037,6 +7621,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 120,
                 'speed' => 90,
+                'image' => 'giratina.gif',
                 'generation_id' => 4,
             ),
             85 => 
@@ -7049,6 +7634,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 100,
                 'speed' => 90,
+                'image' => 'giratina-origin.gif',
                 'generation_id' => 4,
             ),
             86 => 
@@ -7061,6 +7647,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 130,
                 'speed' => 85,
+                'image' => 'cresselia.gif',
                 'generation_id' => 4,
             ),
             87 => 
@@ -7073,6 +7660,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 80,
                 'speed' => 80,
+                'image' => 'phione.gif',
                 'generation_id' => 4,
             ),
             88 => 
@@ -7085,6 +7673,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 100,
                 'speed' => 100,
+                'image' => 'manaphy.gif',
                 'generation_id' => 4,
             ),
             89 => 
@@ -7097,6 +7686,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 135,
                 'special_defense' => 90,
                 'speed' => 125,
+                'image' => 'darkrai.gif',
                 'generation_id' => 4,
             ),
             90 => 
@@ -7109,6 +7699,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 100,
                 'speed' => 100,
+                'image' => 'shaymin.gif',
                 'generation_id' => 4,
             ),
             91 => 
@@ -7121,6 +7712,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 75,
                 'speed' => 127,
+                'image' => 'shaymin-sky.gif',
                 'generation_id' => 4,
             ),
             92 => 
@@ -7133,6 +7725,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 120,
                 'speed' => 120,
+                'image' => 'arceus.gif',
                 'generation_id' => 4,
             ),
             93 => 
@@ -7145,6 +7738,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 100,
                 'speed' => 100,
+                'image' => 'victini.gif',
                 'generation_id' => 5,
             ),
             94 => 
@@ -7157,6 +7751,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 55,
                 'speed' => 63,
+                'image' => 'snivy.gif',
                 'generation_id' => 5,
             ),
             95 => 
@@ -7169,6 +7764,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 75,
                 'speed' => 83,
+                'image' => 'servine.gif',
                 'generation_id' => 5,
             ),
             96 => 
@@ -7181,6 +7777,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 95,
                 'speed' => 113,
+                'image' => 'serperior.gif',
                 'generation_id' => 5,
             ),
             97 => 
@@ -7193,6 +7790,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 45,
                 'speed' => 45,
+                'image' => 'tepig.gif',
                 'generation_id' => 5,
             ),
             98 => 
@@ -7205,6 +7803,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 55,
                 'speed' => 55,
+                'image' => 'pignite.gif',
                 'generation_id' => 5,
             ),
             99 => 
@@ -7217,6 +7816,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 65,
                 'speed' => 65,
+                'image' => 'emboar.gif',
                 'generation_id' => 5,
             ),
             100 => 
@@ -7229,6 +7829,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 63,
                 'special_defense' => 45,
                 'speed' => 45,
+                'image' => 'oshawott.gif',
                 'generation_id' => 5,
             ),
             101 => 
@@ -7241,6 +7842,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 83,
                 'special_defense' => 60,
                 'speed' => 60,
+                'image' => 'dewott.gif',
                 'generation_id' => 5,
             ),
             102 => 
@@ -7253,6 +7855,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 108,
                 'special_defense' => 70,
                 'speed' => 70,
+                'image' => 'samurott.gif',
                 'generation_id' => 5,
             ),
             103 => 
@@ -7265,6 +7868,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 39,
                 'speed' => 42,
+                'image' => 'patrat.gif',
                 'generation_id' => 5,
             ),
             104 => 
@@ -7277,6 +7881,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 69,
                 'speed' => 77,
+                'image' => 'watchog.gif',
                 'generation_id' => 5,
             ),
             105 => 
@@ -7289,6 +7894,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 45,
                 'speed' => 55,
+                'image' => 'lillipup.gif',
                 'generation_id' => 5,
             ),
             106 => 
@@ -7301,6 +7907,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 65,
                 'speed' => 60,
+                'image' => 'herdier.gif',
                 'generation_id' => 5,
             ),
             107 => 
@@ -7313,6 +7920,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 90,
                 'speed' => 80,
+                'image' => 'stoutland.gif',
                 'generation_id' => 5,
             ),
             108 => 
@@ -7325,6 +7933,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 37,
                 'speed' => 66,
+                'image' => 'purrloin.gif',
                 'generation_id' => 5,
             ),
             109 => 
@@ -7337,6 +7946,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 88,
                 'special_defense' => 50,
                 'speed' => 106,
+                'image' => 'liepard.gif',
                 'generation_id' => 5,
             ),
             110 => 
@@ -7349,6 +7959,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 53,
                 'special_defense' => 48,
                 'speed' => 64,
+                'image' => 'pansage.gif',
                 'generation_id' => 5,
             ),
             111 => 
@@ -7361,6 +7972,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 98,
                 'special_defense' => 63,
                 'speed' => 101,
+                'image' => 'simisage.gif',
                 'generation_id' => 5,
             ),
             112 => 
@@ -7373,6 +7985,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 53,
                 'special_defense' => 48,
                 'speed' => 64,
+                'image' => 'pansear.gif',
                 'generation_id' => 5,
             ),
             113 => 
@@ -7385,6 +7998,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 98,
                 'special_defense' => 63,
                 'speed' => 101,
+                'image' => 'simisear.gif',
                 'generation_id' => 5,
             ),
             114 => 
@@ -7397,6 +8011,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 53,
                 'special_defense' => 48,
                 'speed' => 64,
+                'image' => 'panpour.gif',
                 'generation_id' => 5,
             ),
             115 => 
@@ -7409,6 +8024,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 98,
                 'special_defense' => 63,
                 'speed' => 101,
+                'image' => 'simipour.gif',
                 'generation_id' => 5,
             ),
             116 => 
@@ -7421,6 +8037,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 67,
                 'special_defense' => 55,
                 'speed' => 24,
+                'image' => 'munna.gif',
                 'generation_id' => 5,
             ),
             117 => 
@@ -7433,6 +8050,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 107,
                 'special_defense' => 95,
                 'speed' => 29,
+                'image' => 'musharna.gif',
                 'generation_id' => 5,
             ),
             118 => 
@@ -7445,6 +8063,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 36,
                 'special_defense' => 30,
                 'speed' => 43,
+                'image' => 'pidove.gif',
                 'generation_id' => 5,
             ),
             119 => 
@@ -7457,6 +8076,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 42,
                 'speed' => 65,
+                'image' => 'tranquill.gif',
                 'generation_id' => 5,
             ),
             120 => 
@@ -7469,6 +8089,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 55,
                 'speed' => 93,
+                'image' => 'unfezant.gif',
                 'generation_id' => 5,
             ),
             121 => 
@@ -7481,6 +8102,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 32,
                 'speed' => 76,
+                'image' => 'blitzle.gif',
                 'generation_id' => 5,
             ),
             122 => 
@@ -7493,6 +8115,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 63,
                 'speed' => 116,
+                'image' => 'zebstrika.gif',
                 'generation_id' => 5,
             ),
             123 => 
@@ -7505,6 +8128,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 25,
                 'speed' => 15,
+                'image' => 'roggenrola.gif',
                 'generation_id' => 5,
             ),
             124 => 
@@ -7517,6 +8141,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 40,
                 'speed' => 20,
+                'image' => 'boldore.gif',
                 'generation_id' => 5,
             ),
             125 => 
@@ -7529,6 +8154,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 80,
                 'speed' => 25,
+                'image' => 'gigalith.gif',
                 'generation_id' => 5,
             ),
             126 => 
@@ -7541,6 +8167,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 43,
                 'speed' => 72,
+                'image' => 'woobat.gif',
                 'generation_id' => 5,
             ),
             127 => 
@@ -7553,6 +8180,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 77,
                 'special_defense' => 55,
                 'speed' => 114,
+                'image' => 'swoobat.gif',
                 'generation_id' => 5,
             ),
             128 => 
@@ -7565,6 +8193,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 45,
                 'speed' => 68,
+                'image' => 'drilbur.gif',
                 'generation_id' => 5,
             ),
             129 => 
@@ -7577,6 +8206,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 65,
                 'speed' => 88,
+                'image' => 'excadrill.gif',
                 'generation_id' => 5,
             ),
             130 => 
@@ -7589,6 +8219,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 86,
                 'speed' => 50,
+                'image' => 'audino.gif',
                 'generation_id' => 5,
             ),
             131 => 
@@ -7601,6 +8232,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 126,
                 'speed' => 50,
+                'image' => 'audino-mega.gif',
                 'generation_id' => 6,
             ),
             132 => 
@@ -7613,6 +8245,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 35,
                 'speed' => 35,
+                'image' => 'timburr.gif',
                 'generation_id' => 5,
             ),
             133 => 
@@ -7625,6 +8258,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 50,
                 'speed' => 40,
+                'image' => 'gurdurr.gif',
                 'generation_id' => 5,
             ),
             134 => 
@@ -7637,6 +8271,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 65,
                 'speed' => 45,
+                'image' => 'conkeldurr.gif',
                 'generation_id' => 5,
             ),
             135 => 
@@ -7649,6 +8284,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 40,
                 'speed' => 64,
+                'image' => 'tympole.gif',
                 'generation_id' => 5,
             ),
             136 => 
@@ -7661,6 +8297,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 55,
                 'speed' => 69,
+                'image' => 'palpitoad.gif',
                 'generation_id' => 5,
             ),
             137 => 
@@ -7673,6 +8310,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 75,
                 'speed' => 74,
+                'image' => 'seismitoad.gif',
                 'generation_id' => 5,
             ),
             138 => 
@@ -7685,6 +8323,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 85,
                 'speed' => 45,
+                'image' => 'throh.gif',
                 'generation_id' => 5,
             ),
             139 => 
@@ -7697,6 +8336,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 75,
                 'speed' => 85,
+                'image' => 'sawk.gif',
                 'generation_id' => 5,
             ),
             140 => 
@@ -7709,6 +8349,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 60,
                 'speed' => 42,
+                'image' => 'sewaddle.gif',
                 'generation_id' => 5,
             ),
             141 => 
@@ -7721,6 +8362,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 80,
                 'speed' => 42,
+                'image' => 'swadloon.gif',
                 'generation_id' => 5,
             ),
             142 => 
@@ -7733,6 +8375,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 80,
                 'speed' => 92,
+                'image' => 'leavanny.gif',
                 'generation_id' => 5,
             ),
             143 => 
@@ -7745,6 +8388,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 39,
                 'speed' => 57,
+                'image' => 'venipede.gif',
                 'generation_id' => 5,
             ),
             144 => 
@@ -7757,6 +8401,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 79,
                 'speed' => 47,
+                'image' => 'whirlipede.gif',
                 'generation_id' => 5,
             ),
             145 => 
@@ -7769,6 +8414,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 69,
                 'speed' => 112,
+                'image' => 'scolipede.gif',
                 'generation_id' => 5,
             ),
             146 => 
@@ -7781,6 +8427,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 37,
                 'special_defense' => 50,
                 'speed' => 66,
+                'image' => 'cottonee.gif',
                 'generation_id' => 5,
             ),
             147 => 
@@ -7793,6 +8440,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 77,
                 'special_defense' => 75,
                 'speed' => 116,
+                'image' => 'whimsicott.gif',
                 'generation_id' => 5,
             ),
             148 => 
@@ -7805,6 +8453,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 50,
                 'speed' => 30,
+                'image' => 'petilil.gif',
                 'generation_id' => 5,
             ),
             149 => 
@@ -7817,6 +8466,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 75,
                 'speed' => 90,
+                'image' => 'lilligant.gif',
                 'generation_id' => 5,
             ),
             150 => 
@@ -7829,6 +8479,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 55,
                 'speed' => 98,
+                'image' => 'basculin.gif',
                 'generation_id' => 5,
             ),
             151 => 
@@ -7841,6 +8492,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 55,
                 'speed' => 98,
+                'image' => 'basculin-blue.gif',
                 'generation_id' => 5,
             ),
             152 => 
@@ -7853,6 +8505,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 35,
                 'speed' => 65,
+                'image' => 'sandile.gif',
                 'generation_id' => 5,
             ),
             153 => 
@@ -7865,6 +8518,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 45,
                 'speed' => 74,
+                'image' => 'krokorok.gif',
                 'generation_id' => 5,
             ),
             154 => 
@@ -7877,6 +8531,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 70,
                 'speed' => 92,
+                'image' => 'krookodile.gif',
                 'generation_id' => 5,
             ),
             155 => 
@@ -7889,6 +8544,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 15,
                 'special_defense' => 45,
                 'speed' => 50,
+                'image' => 'darumaka.gif',
                 'generation_id' => 5,
             ),
             156 => 
@@ -7901,6 +8557,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 16,
                 'special_defense' => 45,
                 'speed' => 50,
+                'image' => 'darumaka-galar.gif',
                 'generation_id' => 8,
             ),
             157 => 
@@ -7913,6 +8570,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 55,
                 'speed' => 95,
+                'image' => 'darmanitan.gif',
                 'generation_id' => 5,
             ),
             158 => 
@@ -7925,6 +8583,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 55,
                 'speed' => 95,
+                'image' => 'darmanitan-galar.gif',
                 'generation_id' => 8,
             ),
             159 => 
@@ -7937,6 +8596,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 140,
                 'special_defense' => 105,
                 'speed' => 55,
+                'image' => 'darmanitan-zen.gif',
                 'generation_id' => 5,
             ),
             160 => 
@@ -7949,6 +8609,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 55,
                 'speed' => 135,
+                'image' => 'darmanitan-zen-galar.gif',
                 'generation_id' => 8,
             ),
             161 => 
@@ -7961,6 +8622,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 106,
                 'special_defense' => 67,
                 'speed' => 60,
+                'image' => 'maractus.gif',
                 'generation_id' => 5,
             ),
             162 => 
@@ -7973,6 +8635,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 35,
                 'speed' => 55,
+                'image' => 'dwebble.gif',
                 'generation_id' => 5,
             ),
             163 => 
@@ -7985,6 +8648,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 75,
                 'speed' => 45,
+                'image' => 'crustle.gif',
                 'generation_id' => 5,
             ),
             164 => 
@@ -7997,6 +8661,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 70,
                 'speed' => 48,
+                'image' => 'scraggy.gif',
                 'generation_id' => 5,
             ),
             165 => 
@@ -8009,6 +8674,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 115,
                 'speed' => 58,
+                'image' => 'scrafty.gif',
                 'generation_id' => 5,
             ),
             166 => 
@@ -8021,6 +8687,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 103,
                 'special_defense' => 80,
                 'speed' => 97,
+                'image' => 'sigilyph.gif',
                 'generation_id' => 5,
             ),
             167 => 
@@ -8033,6 +8700,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 65,
                 'speed' => 30,
+                'image' => 'yamask.gif',
                 'generation_id' => 5,
             ),
             168 => 
@@ -8045,6 +8713,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 65,
                 'speed' => 30,
+                'image' => 'yamask-galar.gif',
                 'generation_id' => 8,
             ),
             169 => 
@@ -8057,6 +8726,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 105,
                 'speed' => 30,
+                'image' => 'cofagrigus.gif',
                 'generation_id' => 5,
             ),
             170 => 
@@ -8069,6 +8739,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 53,
                 'special_defense' => 45,
                 'speed' => 22,
+                'image' => 'tirtouga.gif',
                 'generation_id' => 5,
             ),
             171 => 
@@ -8081,6 +8752,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 83,
                 'special_defense' => 65,
                 'speed' => 32,
+                'image' => 'carracosta.gif',
                 'generation_id' => 5,
             ),
             172 => 
@@ -8093,6 +8765,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 74,
                 'special_defense' => 45,
                 'speed' => 70,
+                'image' => 'archen.gif',
                 'generation_id' => 5,
             ),
             173 => 
@@ -8105,6 +8778,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 112,
                 'special_defense' => 65,
                 'speed' => 110,
+                'image' => 'archeops.gif',
                 'generation_id' => 5,
             ),
             174 => 
@@ -8117,6 +8791,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 62,
                 'speed' => 65,
+                'image' => 'trubbish.gif',
                 'generation_id' => 5,
             ),
             175 => 
@@ -8129,6 +8804,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 82,
                 'speed' => 75,
+                'image' => 'garbodor.gif',
                 'generation_id' => 5,
             ),
             176 => 
@@ -8141,6 +8817,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 82,
                 'speed' => 75,
+                'image' => 'garbodor-gigantamax.gif',
                 'generation_id' => 5,
             ),
             177 => 
@@ -8153,6 +8830,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 40,
                 'speed' => 65,
+                'image' => 'zorua.gif',
                 'generation_id' => 5,
             ),
             178 => 
@@ -8165,6 +8843,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 60,
                 'speed' => 105,
+                'image' => 'zoroark.gif',
                 'generation_id' => 5,
             ),
             179 => 
@@ -8177,6 +8856,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 75,
+                'image' => 'minccino.gif',
                 'generation_id' => 5,
             ),
             180 => 
@@ -8189,6 +8869,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 60,
                 'speed' => 115,
+                'image' => 'cinccino.gif',
                 'generation_id' => 5,
             ),
             181 => 
@@ -8201,6 +8882,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 65,
                 'speed' => 45,
+                'image' => 'gothita.gif',
                 'generation_id' => 5,
             ),
             182 => 
@@ -8213,6 +8895,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 85,
                 'speed' => 55,
+                'image' => 'gothorita.gif',
                 'generation_id' => 5,
             ),
             183 => 
@@ -8225,6 +8908,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 110,
                 'speed' => 65,
+                'image' => 'gothitelle.gif',
                 'generation_id' => 5,
             ),
             184 => 
@@ -8237,6 +8921,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 50,
                 'speed' => 20,
+                'image' => 'solosis.gif',
                 'generation_id' => 5,
             ),
             185 => 
@@ -8249,6 +8934,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 60,
                 'speed' => 30,
+                'image' => 'duosion.gif',
                 'generation_id' => 5,
             ),
             186 => 
@@ -8261,6 +8947,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 85,
                 'speed' => 30,
+                'image' => 'reuniclus.gif',
                 'generation_id' => 5,
             ),
             187 => 
@@ -8273,6 +8960,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 44,
                 'special_defense' => 50,
                 'speed' => 55,
+                'image' => 'ducklett.gif',
                 'generation_id' => 5,
             ),
             188 => 
@@ -8285,6 +8973,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 87,
                 'special_defense' => 63,
                 'speed' => 98,
+                'image' => 'swanna.gif',
                 'generation_id' => 5,
             ),
             189 => 
@@ -8297,6 +8986,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 60,
                 'speed' => 44,
+                'image' => 'vanillite.gif',
                 'generation_id' => 5,
             ),
             190 => 
@@ -8309,6 +8999,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 75,
                 'speed' => 59,
+                'image' => 'vanillish.gif',
                 'generation_id' => 5,
             ),
             191 => 
@@ -8321,6 +9012,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 95,
                 'speed' => 79,
+                'image' => 'vanilluxe.gif',
                 'generation_id' => 5,
             ),
             192 => 
@@ -8333,6 +9025,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 50,
                 'speed' => 75,
+                'image' => 'deerling.gif',
                 'generation_id' => 5,
             ),
             193 => 
@@ -8345,6 +9038,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 70,
                 'speed' => 95,
+                'image' => 'sawsbuck.gif',
                 'generation_id' => 5,
             ),
             194 => 
@@ -8357,6 +9051,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 60,
                 'speed' => 103,
+                'image' => 'emolga.gif',
                 'generation_id' => 5,
             ),
             195 => 
@@ -8369,6 +9064,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 45,
                 'speed' => 60,
+                'image' => 'karrablast.gif',
                 'generation_id' => 5,
             ),
             196 => 
@@ -8381,6 +9077,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 105,
                 'speed' => 20,
+                'image' => 'escavalier.gif',
                 'generation_id' => 5,
             ),
             197 => 
@@ -8393,6 +9090,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 55,
                 'speed' => 15,
+                'image' => 'foongus.gif',
                 'generation_id' => 5,
             ),
             198 => 
@@ -8405,6 +9103,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 80,
                 'speed' => 30,
+                'image' => 'amoonguss.gif',
                 'generation_id' => 5,
             ),
             199 => 
@@ -8417,6 +9116,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 85,
                 'speed' => 40,
+                'image' => 'frillish.gif',
                 'generation_id' => 5,
             ),
             200 => 
@@ -8429,6 +9129,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 105,
                 'speed' => 60,
+                'image' => 'jellicent.gif',
                 'generation_id' => 5,
             ),
             201 => 
@@ -8441,6 +9142,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 45,
                 'speed' => 65,
+                'image' => 'alomomola.gif',
                 'generation_id' => 5,
             ),
             202 => 
@@ -8453,6 +9155,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 57,
                 'special_defense' => 50,
                 'speed' => 65,
+                'image' => 'joltik.gif',
                 'generation_id' => 5,
             ),
             203 => 
@@ -8465,6 +9168,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 97,
                 'special_defense' => 60,
                 'speed' => 108,
+                'image' => 'galvantula.gif',
                 'generation_id' => 5,
             ),
             204 => 
@@ -8477,6 +9181,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 24,
                 'special_defense' => 86,
                 'speed' => 10,
+                'image' => 'ferroseed.gif',
                 'generation_id' => 5,
             ),
             205 => 
@@ -8489,6 +9194,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 54,
                 'special_defense' => 116,
                 'speed' => 20,
+                'image' => 'ferrothorn.gif',
                 'generation_id' => 5,
             ),
             206 => 
@@ -8501,6 +9207,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 60,
                 'speed' => 30,
+                'image' => 'klink.gif',
                 'generation_id' => 5,
             ),
             207 => 
@@ -8513,6 +9220,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 85,
                 'speed' => 50,
+                'image' => 'klang.gif',
                 'generation_id' => 5,
             ),
             208 => 
@@ -8525,6 +9233,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 85,
                 'speed' => 90,
+                'image' => 'klinklang.gif',
                 'generation_id' => 5,
             ),
             209 => 
@@ -8537,6 +9246,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 40,
                 'speed' => 60,
+                'image' => 'tynamo.gif',
                 'generation_id' => 5,
             ),
             210 => 
@@ -8549,6 +9259,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 70,
                 'speed' => 40,
+                'image' => 'eelektrik.gif',
                 'generation_id' => 5,
             ),
             211 => 
@@ -8561,6 +9272,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 80,
                 'speed' => 50,
+                'image' => 'eelektross.gif',
                 'generation_id' => 5,
             ),
             212 => 
@@ -8573,6 +9285,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 55,
                 'speed' => 30,
+                'image' => 'elgyem.gif',
                 'generation_id' => 5,
             ),
             213 => 
@@ -8585,6 +9298,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 95,
                 'speed' => 40,
+                'image' => 'beheeyem.gif',
                 'generation_id' => 5,
             ),
             214 => 
@@ -8597,6 +9311,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 55,
                 'speed' => 20,
+                'image' => 'litwick.gif',
                 'generation_id' => 5,
             ),
             215 => 
@@ -8609,6 +9324,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 60,
                 'speed' => 55,
+                'image' => 'lampent.gif',
                 'generation_id' => 5,
             ),
             216 => 
@@ -8621,6 +9337,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 145,
                 'special_defense' => 90,
                 'speed' => 80,
+                'image' => 'chandelure.gif',
                 'generation_id' => 5,
             ),
             217 => 
@@ -8633,6 +9350,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 40,
                 'speed' => 57,
+                'image' => 'axew.gif',
                 'generation_id' => 5,
             ),
             218 => 
@@ -8645,6 +9363,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 50,
                 'speed' => 67,
+                'image' => 'fraxure.gif',
                 'generation_id' => 5,
             ),
             219 => 
@@ -8657,6 +9376,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 70,
                 'speed' => 97,
+                'image' => 'haxorus.gif',
                 'generation_id' => 5,
             ),
             220 => 
@@ -8669,6 +9389,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 40,
                 'speed' => 40,
+                'image' => 'cubchoo.gif',
                 'generation_id' => 5,
             ),
             221 => 
@@ -8681,6 +9402,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 80,
                 'speed' => 50,
+                'image' => 'beartic.gif',
                 'generation_id' => 5,
             ),
             222 => 
@@ -8693,6 +9415,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 135,
                 'speed' => 105,
+                'image' => 'cryogonal.gif',
                 'generation_id' => 5,
             ),
             223 => 
@@ -8705,6 +9428,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 65,
                 'speed' => 25,
+                'image' => 'shelmet.gif',
                 'generation_id' => 5,
             ),
             224 => 
@@ -8717,6 +9441,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 60,
                 'speed' => 145,
+                'image' => 'accelgor.gif',
                 'generation_id' => 5,
             ),
             225 => 
@@ -8729,6 +9454,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 81,
                 'special_defense' => 99,
                 'speed' => 32,
+                'image' => 'stunfisk.gif',
                 'generation_id' => 5,
             ),
             226 => 
@@ -8741,6 +9467,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 66,
                 'special_defense' => 84,
                 'speed' => 32,
+                'image' => 'stunfisk-galar.gif',
                 'generation_id' => 8,
             ),
             227 => 
@@ -8753,6 +9480,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 50,
                 'speed' => 65,
+                'image' => 'mienfoo.gif',
                 'generation_id' => 5,
             ),
             228 => 
@@ -8765,6 +9493,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 60,
                 'speed' => 105,
+                'image' => 'mienshao.gif',
                 'generation_id' => 5,
             ),
             229 => 
@@ -8777,6 +9506,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 90,
                 'speed' => 48,
+                'image' => 'druddigon.gif',
                 'generation_id' => 5,
             ),
             230 => 
@@ -8789,6 +9519,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 50,
                 'speed' => 35,
+                'image' => 'golett.gif',
                 'generation_id' => 5,
             ),
             231 => 
@@ -8801,6 +9532,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 80,
                 'speed' => 55,
+                'image' => 'golurk.gif',
                 'generation_id' => 5,
             ),
             232 => 
@@ -8813,6 +9545,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 60,
+                'image' => 'pawniard.gif',
                 'generation_id' => 5,
             ),
             233 => 
@@ -8825,6 +9558,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 70,
                 'speed' => 70,
+                'image' => 'bisharp.gif',
                 'generation_id' => 5,
             ),
             234 => 
@@ -8837,6 +9571,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 95,
                 'speed' => 55,
+                'image' => 'bouffalant.gif',
                 'generation_id' => 5,
             ),
             235 => 
@@ -8849,6 +9584,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 37,
                 'special_defense' => 50,
                 'speed' => 60,
+                'image' => 'rufflet.gif',
                 'generation_id' => 5,
             ),
             236 => 
@@ -8861,6 +9597,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 57,
                 'special_defense' => 75,
                 'speed' => 80,
+                'image' => 'braviary.gif',
                 'generation_id' => 5,
             ),
             237 => 
@@ -8873,6 +9610,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 65,
                 'speed' => 60,
+                'image' => 'vullaby.gif',
                 'generation_id' => 5,
             ),
             238 => 
@@ -8885,6 +9623,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 95,
                 'speed' => 80,
+                'image' => 'mandibuzz.gif',
                 'generation_id' => 5,
             ),
             239 => 
@@ -8897,6 +9636,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 66,
                 'speed' => 65,
+                'image' => 'heatmor.gif',
                 'generation_id' => 5,
             ),
             240 => 
@@ -8909,6 +9649,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 48,
                 'special_defense' => 48,
                 'speed' => 109,
+                'image' => 'durant.gif',
                 'generation_id' => 5,
             ),
             241 => 
@@ -8921,6 +9662,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 50,
                 'speed' => 38,
+                'image' => 'deino.gif',
                 'generation_id' => 5,
             ),
             242 => 
@@ -8933,6 +9675,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 70,
                 'speed' => 58,
+                'image' => 'zweilous.gif',
                 'generation_id' => 5,
             ),
             243 => 
@@ -8945,6 +9688,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 90,
                 'speed' => 98,
+                'image' => 'hydreigon.gif',
                 'generation_id' => 5,
             ),
             244 => 
@@ -8957,6 +9701,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 55,
                 'speed' => 60,
+                'image' => 'larvesta.gif',
                 'generation_id' => 5,
             ),
             245 => 
@@ -8969,6 +9714,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 135,
                 'special_defense' => 105,
                 'speed' => 100,
+                'image' => 'volcarona.gif',
                 'generation_id' => 5,
             ),
             246 => 
@@ -8981,6 +9727,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 72,
                 'speed' => 108,
+                'image' => 'cobalion.gif',
                 'generation_id' => 5,
             ),
             247 => 
@@ -8993,6 +9740,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 72,
                 'special_defense' => 90,
                 'speed' => 108,
+                'image' => 'terrakion.gif',
                 'generation_id' => 5,
             ),
             248 => 
@@ -9005,6 +9753,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 129,
                 'speed' => 108,
+                'image' => 'virizion.gif',
                 'generation_id' => 5,
             ),
             249 => 
@@ -9017,6 +9766,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 80,
                 'speed' => 111,
+                'image' => 'tornadus.gif',
                 'generation_id' => 5,
             ),
             250 => 
@@ -9029,6 +9779,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 90,
                 'speed' => 121,
+                'image' => 'tornadus-therian.gif',
                 'generation_id' => 5,
             ),
             251 => 
@@ -9041,6 +9792,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 80,
                 'speed' => 111,
+                'image' => 'thundurus.gif',
                 'generation_id' => 5,
             ),
             252 => 
@@ -9053,6 +9805,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 145,
                 'special_defense' => 80,
                 'speed' => 101,
+                'image' => 'thundurus-therian.gif',
                 'generation_id' => 5,
             ),
             253 => 
@@ -9065,6 +9818,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 150,
                 'special_defense' => 120,
                 'speed' => 90,
+                'image' => 'reshiram.gif',
                 'generation_id' => 5,
             ),
             254 => 
@@ -9077,6 +9831,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 100,
                 'speed' => 90,
+                'image' => 'zekrom.gif',
                 'generation_id' => 5,
             ),
             255 => 
@@ -9089,6 +9844,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 115,
                 'special_defense' => 80,
                 'speed' => 101,
+                'image' => 'landorus.gif',
                 'generation_id' => 5,
             ),
             256 => 
@@ -9101,6 +9857,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 80,
                 'speed' => 91,
+                'image' => 'landorus-therian.gif',
                 'generation_id' => 5,
             ),
             257 => 
@@ -9113,6 +9870,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 90,
                 'speed' => 95,
+                'image' => 'kyurem.gif',
                 'generation_id' => 5,
             ),
             258 => 
@@ -9125,6 +9883,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 90,
                 'speed' => 95,
+                'image' => 'kyurem-black.gif',
                 'generation_id' => 5,
             ),
             259 => 
@@ -9137,6 +9896,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 170,
                 'special_defense' => 100,
                 'speed' => 95,
+                'image' => 'kyurem-white.gif',
                 'generation_id' => 5,
             ),
             260 => 
@@ -9149,6 +9909,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 129,
                 'special_defense' => 90,
                 'speed' => 108,
+                'image' => 'keldeo.gif',
                 'generation_id' => 5,
             ),
             261 => 
@@ -9161,6 +9922,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 129,
                 'special_defense' => 90,
                 'speed' => 108,
+                'image' => 'keldeo-resolute.gif',
                 'generation_id' => 5,
             ),
             262 => 
@@ -9173,6 +9935,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 128,
                 'special_defense' => 128,
                 'speed' => 90,
+                'image' => 'meloetta.gif',
                 'generation_id' => 5,
             ),
             263 => 
@@ -9185,6 +9948,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 77,
                 'special_defense' => 77,
                 'speed' => 128,
+                'image' => 'meloetta-pirouette.gif',
                 'generation_id' => 5,
             ),
             264 => 
@@ -9197,6 +9961,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 95,
                 'speed' => 99,
+                'image' => 'genesect.gif',
                 'generation_id' => 5,
             ),
             265 => 
@@ -9209,6 +9974,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 48,
                 'special_defense' => 45,
                 'speed' => 38,
+                'image' => 'chespin.gif',
                 'generation_id' => 6,
             ),
             266 => 
@@ -9221,6 +9987,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 56,
                 'special_defense' => 58,
                 'speed' => 57,
+                'image' => 'quilladin.gif',
                 'generation_id' => 6,
             ),
             267 => 
@@ -9233,6 +10000,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 74,
                 'special_defense' => 75,
                 'speed' => 64,
+                'image' => 'chesnaught.gif',
                 'generation_id' => 6,
             ),
             268 => 
@@ -9245,6 +10013,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 62,
                 'special_defense' => 60,
                 'speed' => 60,
+                'image' => 'fennekin.gif',
                 'generation_id' => 6,
             ),
             269 => 
@@ -9257,6 +10026,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 70,
                 'speed' => 73,
+                'image' => 'braixen.gif',
                 'generation_id' => 6,
             ),
             270 => 
@@ -9269,6 +10039,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 114,
                 'special_defense' => 100,
                 'speed' => 104,
+                'image' => 'delphox.gif',
                 'generation_id' => 6,
             ),
             271 => 
@@ -9281,6 +10052,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 62,
                 'special_defense' => 44,
                 'speed' => 71,
+                'image' => 'froakie.gif',
                 'generation_id' => 6,
             ),
             272 => 
@@ -9293,6 +10065,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 83,
                 'special_defense' => 56,
                 'speed' => 97,
+                'image' => 'frogadier.gif',
                 'generation_id' => 6,
             ),
             273 => 
@@ -9305,6 +10078,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 103,
                 'special_defense' => 71,
                 'speed' => 122,
+                'image' => 'greninja.gif',
                 'generation_id' => 6,
             ),
             274 => 
@@ -9317,6 +10091,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 153,
                 'special_defense' => 71,
                 'speed' => 132,
+                'image' => 'greninja-active.gif',
                 'generation_id' => 6,
             ),
             275 => 
@@ -9329,6 +10104,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 32,
                 'special_defense' => 36,
                 'speed' => 57,
+                'image' => 'bunnelby.gif',
                 'generation_id' => 6,
             ),
             276 => 
@@ -9341,6 +10117,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 77,
                 'speed' => 78,
+                'image' => 'diggersby.gif',
                 'generation_id' => 6,
             ),
             277 => 
@@ -9353,6 +10130,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 38,
                 'speed' => 62,
+                'image' => 'fletchling.gif',
                 'generation_id' => 6,
             ),
             278 => 
@@ -9365,6 +10143,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 56,
                 'special_defense' => 52,
                 'speed' => 84,
+                'image' => 'fletchinder.gif',
                 'generation_id' => 6,
             ),
             279 => 
@@ -9377,6 +10156,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 74,
                 'special_defense' => 69,
                 'speed' => 126,
+                'image' => 'talonflame.gif',
                 'generation_id' => 6,
             ),
             280 => 
@@ -9389,6 +10169,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 27,
                 'special_defense' => 25,
                 'speed' => 35,
+                'image' => 'scatterbug.gif',
                 'generation_id' => 6,
             ),
             281 => 
@@ -9401,6 +10182,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 27,
                 'special_defense' => 30,
                 'speed' => 29,
+                'image' => 'spewpa.gif',
                 'generation_id' => 6,
             ),
             282 => 
@@ -9413,6 +10195,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 50,
                 'speed' => 89,
+                'image' => 'vivillon.gif',
                 'generation_id' => 6,
             ),
             283 => 
@@ -9425,6 +10208,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 73,
                 'special_defense' => 54,
                 'speed' => 72,
+                'image' => 'litleo.gif',
                 'generation_id' => 6,
             ),
             284 => 
@@ -9437,6 +10221,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 109,
                 'special_defense' => 66,
                 'speed' => 106,
+                'image' => 'pyroar.gif',
                 'generation_id' => 6,
             ),
             285 => 
@@ -9449,6 +10234,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 61,
                 'special_defense' => 79,
                 'speed' => 42,
+                'image' => 'flabebe.gif',
                 'generation_id' => 6,
             ),
             286 => 
@@ -9461,6 +10247,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 98,
                 'speed' => 52,
+                'image' => 'floette.gif',
                 'generation_id' => 6,
             ),
             287 => 
@@ -9473,6 +10260,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 112,
                 'special_defense' => 154,
                 'speed' => 75,
+                'image' => 'florges.gif',
                 'generation_id' => 6,
             ),
             288 => 
@@ -9485,6 +10273,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 62,
                 'special_defense' => 57,
                 'speed' => 52,
+                'image' => 'skiddo.gif',
                 'generation_id' => 6,
             ),
             289 => 
@@ -9497,6 +10286,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 97,
                 'special_defense' => 81,
                 'speed' => 68,
+                'image' => 'gogoat.gif',
                 'generation_id' => 6,
             ),
             290 => 
@@ -9509,6 +10299,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 46,
                 'special_defense' => 48,
                 'speed' => 43,
+                'image' => 'pancham.gif',
                 'generation_id' => 6,
             ),
             291 => 
@@ -9521,6 +10312,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 69,
                 'special_defense' => 71,
                 'speed' => 58,
+                'image' => 'pangoro.gif',
                 'generation_id' => 6,
             ),
             292 => 
@@ -9533,6 +10325,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 90,
                 'speed' => 102,
+                'image' => 'furfrou.gif',
                 'generation_id' => 6,
             ),
             293 => 
@@ -9545,6 +10338,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 63,
                 'special_defense' => 60,
                 'speed' => 68,
+                'image' => 'espurr.gif',
                 'generation_id' => 6,
             ),
             294 => 
@@ -9557,6 +10351,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 83,
                 'special_defense' => 81,
                 'speed' => 104,
+                'image' => 'meowstic.gif',
                 'generation_id' => 6,
             ),
             295 => 
@@ -9569,6 +10364,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 83,
                 'special_defense' => 81,
                 'speed' => 104,
+                'image' => 'meowstic-f.gif',
                 'generation_id' => 6,
             ),
             296 => 
@@ -9581,6 +10377,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 37,
                 'speed' => 28,
+                'image' => 'honedge.gif',
                 'generation_id' => 6,
             ),
             297 => 
@@ -9593,6 +10390,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 49,
                 'speed' => 35,
+                'image' => 'doublade.gif',
                 'generation_id' => 6,
             ),
             298 => 
@@ -9605,6 +10403,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 140,
                 'special_defense' => 50,
                 'speed' => 60,
+                'image' => 'aegislash-blade.gif',
                 'generation_id' => 6,
             ),
             299 => 
@@ -9617,6 +10416,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 140,
                 'speed' => 60,
+                'image' => 'aegislash.gif',
                 'generation_id' => 6,
             ),
             300 => 
@@ -9629,6 +10429,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 63,
                 'special_defense' => 65,
                 'speed' => 23,
+                'image' => 'spritzee.gif',
                 'generation_id' => 6,
             ),
             301 => 
@@ -9641,6 +10442,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 99,
                 'special_defense' => 89,
                 'speed' => 29,
+                'image' => 'aromatisse.gif',
                 'generation_id' => 6,
             ),
             302 => 
@@ -9653,6 +10455,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 59,
                 'special_defense' => 57,
                 'speed' => 49,
+                'image' => 'swirlix.gif',
                 'generation_id' => 6,
             ),
             303 => 
@@ -9665,6 +10468,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 75,
                 'speed' => 72,
+                'image' => 'slurpuff.gif',
                 'generation_id' => 6,
             ),
             304 => 
@@ -9677,6 +10481,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 37,
                 'special_defense' => 46,
                 'speed' => 45,
+                'image' => 'inkay.gif',
                 'generation_id' => 6,
             ),
             305 => 
@@ -9689,6 +10494,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 68,
                 'special_defense' => 75,
                 'speed' => 73,
+                'image' => 'malamar.gif',
                 'generation_id' => 6,
             ),
             306 => 
@@ -9701,6 +10507,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 39,
                 'special_defense' => 56,
                 'speed' => 50,
+                'image' => 'binacle.gif',
                 'generation_id' => 6,
             ),
             307 => 
@@ -9713,6 +10520,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 54,
                 'special_defense' => 86,
                 'speed' => 68,
+                'image' => 'barbaracle.gif',
                 'generation_id' => 6,
             ),
             308 => 
@@ -9725,6 +10533,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 60,
                 'speed' => 30,
+                'image' => 'skrelp.gif',
                 'generation_id' => 6,
             ),
             309 => 
@@ -9737,6 +10546,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 97,
                 'special_defense' => 123,
                 'speed' => 44,
+                'image' => 'dragalge.gif',
                 'generation_id' => 6,
             ),
             310 => 
@@ -9749,6 +10559,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 58,
                 'special_defense' => 63,
                 'speed' => 44,
+                'image' => 'clauncher.gif',
                 'generation_id' => 6,
             ),
             311 => 
@@ -9761,6 +10572,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 89,
                 'speed' => 59,
+                'image' => 'clawitzer.gif',
                 'generation_id' => 6,
             ),
             312 => 
@@ -9773,6 +10585,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 61,
                 'special_defense' => 43,
                 'speed' => 70,
+                'image' => 'helioptile.gif',
                 'generation_id' => 6,
             ),
             313 => 
@@ -9785,6 +10598,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 109,
                 'special_defense' => 94,
                 'speed' => 109,
+                'image' => 'heliolisk.gif',
                 'generation_id' => 6,
             ),
             314 => 
@@ -9797,6 +10611,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 45,
                 'speed' => 48,
+                'image' => 'tyrunt.gif',
                 'generation_id' => 6,
             ),
             315 => 
@@ -9809,6 +10624,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 69,
                 'special_defense' => 59,
                 'speed' => 71,
+                'image' => 'tyrantrum.gif',
                 'generation_id' => 6,
             ),
             316 => 
@@ -9821,6 +10637,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 67,
                 'special_defense' => 63,
                 'speed' => 46,
+                'image' => 'amaura.gif',
                 'generation_id' => 6,
             ),
             317 => 
@@ -9833,6 +10650,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 99,
                 'special_defense' => 92,
                 'speed' => 58,
+                'image' => 'aurorus.gif',
                 'generation_id' => 6,
             ),
             318 => 
@@ -9845,6 +10663,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 130,
                 'speed' => 60,
+                'image' => 'sylveon.gif',
                 'generation_id' => 6,
             ),
             319 => 
@@ -9857,6 +10676,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 74,
                 'special_defense' => 63,
                 'speed' => 118,
+                'image' => 'hawlucha.gif',
                 'generation_id' => 6,
             ),
             320 => 
@@ -9869,6 +10689,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 81,
                 'special_defense' => 67,
                 'speed' => 101,
+                'image' => 'dedenne.gif',
                 'generation_id' => 6,
             ),
             321 => 
@@ -9881,6 +10702,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 150,
                 'speed' => 50,
+                'image' => 'carbink.gif',
                 'generation_id' => 6,
             ),
             322 => 
@@ -9893,6 +10715,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 75,
                 'speed' => 40,
+                'image' => 'goomy.gif',
                 'generation_id' => 6,
             ),
             323 => 
@@ -9905,6 +10728,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 83,
                 'special_defense' => 113,
                 'speed' => 60,
+                'image' => 'sliggoo.gif',
                 'generation_id' => 6,
             ),
             324 => 
@@ -9917,6 +10741,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 150,
                 'speed' => 80,
+                'image' => 'goodra.gif',
                 'generation_id' => 6,
             ),
             325 => 
@@ -9929,6 +10754,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 87,
                 'speed' => 75,
+                'image' => 'klefki.gif',
                 'generation_id' => 6,
             ),
             326 => 
@@ -9941,6 +10767,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 60,
                 'speed' => 38,
+                'image' => 'phantump.gif',
                 'generation_id' => 6,
             ),
             327 => 
@@ -9953,6 +10780,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 82,
                 'speed' => 56,
+                'image' => 'trevenant.gif',
                 'generation_id' => 6,
             ),
             328 => 
@@ -9965,6 +10793,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 44,
                 'special_defense' => 55,
                 'speed' => 51,
+                'image' => 'pumpkaboo.gif',
                 'generation_id' => 6,
             ),
             329 => 
@@ -9977,6 +10806,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 44,
                 'special_defense' => 55,
                 'speed' => 56,
+                'image' => 'pumpkaboo-small.gif',
                 'generation_id' => 6,
             ),
             330 => 
@@ -9989,6 +10819,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 44,
                 'special_defense' => 55,
                 'speed' => 46,
+                'image' => 'pumpkaboo-large.gif',
                 'generation_id' => 6,
             ),
             331 => 
@@ -10001,6 +10832,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 44,
                 'special_defense' => 55,
                 'speed' => 41,
+                'image' => 'pumpkaboo-super.gif',
                 'generation_id' => 6,
             ),
             332 => 
@@ -10013,6 +10845,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 58,
                 'special_defense' => 75,
                 'speed' => 84,
+                'image' => 'gourgeist.gif',
                 'generation_id' => 6,
             ),
             333 => 
@@ -10025,6 +10858,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 58,
                 'special_defense' => 75,
                 'speed' => 99,
+                'image' => 'gourgeist-small.gif',
                 'generation_id' => 6,
             ),
             334 => 
@@ -10037,6 +10871,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 58,
                 'special_defense' => 75,
                 'speed' => 69,
+                'image' => 'gourgeist-large.gif',
                 'generation_id' => 6,
             ),
             335 => 
@@ -10049,6 +10884,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 58,
                 'special_defense' => 75,
                 'speed' => 54,
+                'image' => 'gourgeist-super.gif',
                 'generation_id' => 6,
             ),
             336 => 
@@ -10061,6 +10897,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 32,
                 'special_defense' => 35,
                 'speed' => 28,
+                'image' => 'bergmite.gif',
                 'generation_id' => 6,
             ),
             337 => 
@@ -10073,6 +10910,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 44,
                 'special_defense' => 46,
                 'speed' => 28,
+                'image' => 'avalugg.gif',
                 'generation_id' => 6,
             ),
             338 => 
@@ -10085,6 +10923,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 40,
                 'speed' => 55,
+                'image' => 'noibat.gif',
                 'generation_id' => 6,
             ),
             339 => 
@@ -10097,6 +10936,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 97,
                 'special_defense' => 80,
                 'speed' => 123,
+                'image' => 'noivern.gif',
                 'generation_id' => 6,
             ),
             340 => 
@@ -10109,6 +10949,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 131,
                 'special_defense' => 98,
                 'speed' => 99,
+                'image' => 'xerneas.gif',
                 'generation_id' => 6,
             ),
             341 => 
@@ -10121,6 +10962,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 131,
                 'special_defense' => 98,
                 'speed' => 99,
+                'image' => 'yveltal.gif',
                 'generation_id' => 6,
             ),
             342 => 
@@ -10133,6 +10975,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 81,
                 'special_defense' => 95,
                 'speed' => 95,
+                'image' => 'zygarde.gif',
                 'generation_id' => 6,
             ),
             343 => 
@@ -10145,6 +10988,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 61,
                 'special_defense' => 85,
                 'speed' => 115,
+                'image' => 'zygarde-10.gif',
                 'generation_id' => 6,
             ),
             344 => 
@@ -10157,6 +11001,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 91,
                 'special_defense' => 95,
                 'speed' => 85,
+                'image' => 'zygarde-complete.gif',
                 'generation_id' => 6,
             ),
             345 => 
@@ -10169,6 +11014,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 150,
                 'speed' => 50,
+                'image' => 'diancie.gif',
                 'generation_id' => 6,
             ),
             346 => 
@@ -10181,6 +11027,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 160,
                 'special_defense' => 110,
                 'speed' => 110,
+                'image' => 'diancie-mega.gif',
                 'generation_id' => 6,
             ),
             347 => 
@@ -10193,6 +11040,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 150,
                 'special_defense' => 130,
                 'speed' => 70,
+                'image' => 'hoopa.gif',
                 'generation_id' => 6,
             ),
             348 => 
@@ -10205,6 +11053,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 170,
                 'special_defense' => 130,
                 'speed' => 80,
+                'image' => 'hoopa-unbound.gif',
                 'generation_id' => 6,
             ),
             349 => 
@@ -10217,6 +11066,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 90,
                 'speed' => 70,
+                'image' => 'volcanion.gif',
                 'generation_id' => 6,
             ),
             350 => 
@@ -10229,6 +11079,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 42,
+                'image' => 'rowlet.gif',
                 'generation_id' => 7,
             ),
             351 => 
@@ -10241,6 +11092,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 70,
                 'speed' => 52,
+                'image' => 'dartrix.gif',
                 'generation_id' => 7,
             ),
             352 => 
@@ -10253,6 +11105,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 100,
                 'speed' => 70,
+                'image' => 'decidueye.gif',
                 'generation_id' => 7,
             ),
             353 => 
@@ -10265,6 +11118,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 40,
                 'speed' => 70,
+                'image' => 'litten.gif',
                 'generation_id' => 7,
             ),
             354 => 
@@ -10277,6 +11131,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 50,
                 'speed' => 90,
+                'image' => 'torracat.gif',
                 'generation_id' => 7,
             ),
             355 => 
@@ -10289,6 +11144,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 90,
                 'speed' => 60,
+                'image' => 'incineroar.gif',
                 'generation_id' => 7,
             ),
             356 => 
@@ -10301,6 +11157,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 66,
                 'special_defense' => 56,
                 'speed' => 40,
+                'image' => 'popplio.gif',
                 'generation_id' => 7,
             ),
             357 => 
@@ -10313,6 +11170,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 91,
                 'special_defense' => 81,
                 'speed' => 50,
+                'image' => 'brionne.gif',
                 'generation_id' => 7,
             ),
             358 => 
@@ -10325,6 +11183,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 126,
                 'special_defense' => 116,
                 'speed' => 60,
+                'image' => 'primarina.gif',
                 'generation_id' => 7,
             ),
             359 => 
@@ -10337,6 +11196,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 65,
+                'image' => 'pikipek.gif',
                 'generation_id' => 7,
             ),
             360 => 
@@ -10349,6 +11209,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 50,
                 'speed' => 75,
+                'image' => 'trumbeak.gif',
                 'generation_id' => 7,
             ),
             361 => 
@@ -10361,6 +11222,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 75,
                 'speed' => 60,
+                'image' => 'toucannon.gif',
                 'generation_id' => 7,
             ),
             362 => 
@@ -10373,6 +11235,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 30,
                 'speed' => 45,
+                'image' => 'yungoos.gif',
                 'generation_id' => 7,
             ),
             363 => 
@@ -10385,6 +11248,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 60,
                 'speed' => 45,
+                'image' => 'gumshoos.gif',
                 'generation_id' => 7,
             ),
             364 => 
@@ -10397,6 +11261,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 45,
                 'speed' => 46,
+                'image' => 'grubbin.gif',
                 'generation_id' => 7,
             ),
             365 => 
@@ -10409,6 +11274,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 75,
                 'speed' => 36,
+                'image' => 'charjabug.gif',
                 'generation_id' => 7,
             ),
             366 => 
@@ -10421,6 +11287,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 145,
                 'special_defense' => 75,
                 'speed' => 43,
+                'image' => 'vikavolt.gif',
                 'generation_id' => 7,
             ),
             367 => 
@@ -10433,6 +11300,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 42,
                 'special_defense' => 47,
                 'speed' => 63,
+                'image' => 'crabrawler.gif',
                 'generation_id' => 7,
             ),
             368 => 
@@ -10445,6 +11313,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 62,
                 'special_defense' => 67,
                 'speed' => 43,
+                'image' => 'crabominable.gif',
                 'generation_id' => 7,
             ),
             369 => 
@@ -10457,6 +11326,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 98,
                 'special_defense' => 70,
                 'speed' => 93,
+                'image' => 'oricorio.gif',
                 'generation_id' => 7,
             ),
             370 => 
@@ -10469,6 +11339,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 98,
                 'special_defense' => 70,
                 'speed' => 93,
+                'image' => 'oricorio-pompom.gif',
                 'generation_id' => 7,
             ),
             371 => 
@@ -10481,6 +11352,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 98,
                 'special_defense' => 70,
                 'speed' => 93,
+                'image' => 'oricorio-pau.gif',
                 'generation_id' => 7,
             ),
             372 => 
@@ -10493,6 +11365,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 98,
                 'special_defense' => 70,
                 'speed' => 93,
+                'image' => 'oricorio-sensu.gif',
                 'generation_id' => 7,
             ),
             373 => 
@@ -10505,6 +11378,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 40,
                 'speed' => 84,
+                'image' => 'cutiefly.gif',
                 'generation_id' => 7,
             ),
             374 => 
@@ -10517,6 +11391,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 70,
                 'speed' => 124,
+                'image' => 'ribombee.gif',
                 'generation_id' => 7,
             ),
             375 => 
@@ -10529,6 +11404,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 40,
                 'speed' => 60,
+                'image' => 'rockruff.gif',
                 'generation_id' => 7,
             ),
             376 => 
@@ -10541,6 +11417,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 65,
                 'speed' => 112,
+                'image' => 'lycanroc.gif',
                 'generation_id' => 7,
             ),
             377 => 
@@ -10553,6 +11430,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 75,
                 'speed' => 82,
+                'image' => 'lycanroc-midnight.gif',
                 'generation_id' => 7,
             ),
             378 => 
@@ -10565,6 +11443,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 65,
                 'speed' => 110,
+                'image' => 'lycanroc-dusk.gif',
                 'generation_id' => 7,
             ),
             379 => 
@@ -10577,6 +11456,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 25,
                 'speed' => 40,
+                'image' => 'wishiwashi.gif',
                 'generation_id' => 7,
             ),
             380 => 
@@ -10589,6 +11469,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 140,
                 'special_defense' => 135,
                 'speed' => 30,
+                'image' => 'wishiwashi-school.gif',
                 'generation_id' => 7,
             ),
             381 => 
@@ -10601,6 +11482,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 43,
                 'special_defense' => 52,
                 'speed' => 45,
+                'image' => 'mareanie.gif',
                 'generation_id' => 7,
             ),
             382 => 
@@ -10613,6 +11495,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 53,
                 'special_defense' => 142,
                 'speed' => 35,
+                'image' => 'toxapex.gif',
                 'generation_id' => 7,
             ),
             383 => 
@@ -10625,6 +11508,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 55,
                 'speed' => 45,
+                'image' => 'mudbray.gif',
                 'generation_id' => 7,
             ),
             384 => 
@@ -10637,6 +11521,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 85,
                 'speed' => 35,
+                'image' => 'mudsdale.gif',
                 'generation_id' => 7,
             ),
             385 => 
@@ -10649,6 +11534,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 72,
                 'speed' => 27,
+                'image' => 'dewpider.gif',
                 'generation_id' => 7,
             ),
             386 => 
@@ -10661,6 +11547,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 132,
                 'speed' => 42,
+                'image' => 'araquanid.gif',
                 'generation_id' => 7,
             ),
             387 => 
@@ -10673,6 +11560,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 35,
                 'speed' => 35,
+                'image' => 'fomantis.gif',
                 'generation_id' => 7,
             ),
             388 => 
@@ -10685,6 +11573,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 90,
                 'speed' => 45,
+                'image' => 'lurantis.gif',
                 'generation_id' => 7,
             ),
             389 => 
@@ -10697,6 +11586,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 75,
                 'speed' => 15,
+                'image' => 'morelull.gif',
                 'generation_id' => 7,
             ),
             390 => 
@@ -10709,6 +11599,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 100,
                 'speed' => 30,
+                'image' => 'shiinotic.gif',
                 'generation_id' => 7,
             ),
             391 => 
@@ -10721,6 +11612,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 71,
                 'special_defense' => 40,
                 'speed' => 77,
+                'image' => 'salandit.gif',
                 'generation_id' => 7,
             ),
             392 => 
@@ -10733,6 +11625,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 111,
                 'special_defense' => 60,
                 'speed' => 117,
+                'image' => 'salazzle.gif',
                 'generation_id' => 7,
             ),
             393 => 
@@ -10745,6 +11638,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 50,
                 'speed' => 50,
+                'image' => 'stufful.gif',
                 'generation_id' => 7,
             ),
             394 => 
@@ -10757,6 +11651,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 60,
                 'speed' => 60,
+                'image' => 'bewear.gif',
                 'generation_id' => 7,
             ),
             395 => 
@@ -10769,6 +11664,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 38,
                 'speed' => 32,
+                'image' => 'bounsweet.gif',
                 'generation_id' => 7,
             ),
             396 => 
@@ -10781,6 +11677,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 48,
                 'speed' => 62,
+                'image' => 'steenee.gif',
                 'generation_id' => 7,
             ),
             397 => 
@@ -10793,6 +11690,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 98,
                 'speed' => 72,
+                'image' => 'tsareena.gif',
                 'generation_id' => 7,
             ),
             398 => 
@@ -10805,6 +11703,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 82,
                 'special_defense' => 110,
                 'speed' => 100,
+                'image' => 'comfey.gif',
                 'generation_id' => 7,
             ),
             399 => 
@@ -10817,6 +11716,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 110,
                 'speed' => 60,
+                'image' => 'oranguru.gif',
                 'generation_id' => 7,
             ),
             400 => 
@@ -10829,6 +11729,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 60,
                 'speed' => 80,
+                'image' => 'passimian.gif',
                 'generation_id' => 7,
             ),
             401 => 
@@ -10841,6 +11742,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 20,
                 'special_defense' => 30,
                 'speed' => 80,
+                'image' => 'wimpod.gif',
                 'generation_id' => 7,
             ),
             402 => 
@@ -10853,6 +11755,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 90,
                 'speed' => 40,
+                'image' => 'golisopod.gif',
                 'generation_id' => 7,
             ),
             403 => 
@@ -10865,6 +11768,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 45,
                 'speed' => 15,
+                'image' => 'sandygast.gif',
                 'generation_id' => 7,
             ),
             404 => 
@@ -10877,6 +11781,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 75,
                 'speed' => 35,
+                'image' => 'palossand.gif',
                 'generation_id' => 7,
             ),
             405 => 
@@ -10889,6 +11794,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 30,
                 'special_defense' => 130,
                 'speed' => 5,
+                'image' => 'pyukumuku.gif',
                 'generation_id' => 7,
             ),
             406 => 
@@ -10901,6 +11807,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 95,
                 'speed' => 59,
+                'image' => 'typenull.gif',
                 'generation_id' => 7,
             ),
             407 => 
@@ -10913,6 +11820,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 95,
                 'speed' => 95,
+                'image' => 'silvally.gif',
                 'generation_id' => 7,
             ),
             408 => 
@@ -10925,6 +11833,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 100,
                 'speed' => 60,
+                'image' => 'minior.gif',
                 'generation_id' => 7,
             ),
             409 => 
@@ -10937,6 +11846,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 60,
                 'speed' => 120,
+                'image' => 'minior-red.gif',
                 'generation_id' => 7,
             ),
             410 => 
@@ -10949,6 +11859,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 95,
                 'speed' => 65,
+                'image' => 'komala.gif',
                 'generation_id' => 7,
             ),
             411 => 
@@ -10961,6 +11872,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 91,
                 'special_defense' => 85,
                 'speed' => 36,
+                'image' => 'turtonator.gif',
                 'generation_id' => 7,
             ),
             412 => 
@@ -10973,6 +11885,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 73,
                 'speed' => 96,
+                'image' => 'togedemaru.gif',
                 'generation_id' => 7,
             ),
             413 => 
@@ -10985,6 +11898,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 105,
                 'speed' => 96,
+                'image' => 'mimikyu.gif',
                 'generation_id' => 7,
             ),
             414 => 
@@ -10997,6 +11911,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 70,
                 'speed' => 92,
+                'image' => 'bruxish.gif',
                 'generation_id' => 7,
             ),
             415 => 
@@ -11009,6 +11924,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 135,
                 'special_defense' => 91,
                 'speed' => 36,
+                'image' => 'drampa.gif',
                 'generation_id' => 7,
             ),
             416 => 
@@ -11021,6 +11937,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 86,
                 'special_defense' => 90,
                 'speed' => 40,
+                'image' => 'dhelmise.gif',
                 'generation_id' => 7,
             ),
             417 => 
@@ -11033,6 +11950,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 45,
                 'speed' => 45,
+                'image' => 'jangmo-o.gif',
                 'generation_id' => 7,
             ),
             418 => 
@@ -11045,6 +11963,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 70,
                 'speed' => 65,
+                'image' => 'hakamo-o.gif',
                 'generation_id' => 7,
             ),
             419 => 
@@ -11057,6 +11976,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 105,
                 'speed' => 85,
+                'image' => 'kommo-o.gif',
                 'generation_id' => 7,
             ),
             420 => 
@@ -11069,6 +11989,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 75,
                 'speed' => 130,
+                'image' => 'tapukoko.gif',
                 'generation_id' => 7,
             ),
             421 => 
@@ -11081,6 +12002,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 115,
                 'speed' => 95,
+                'image' => 'tapulele.gif',
                 'generation_id' => 7,
             ),
             422 => 
@@ -11093,6 +12015,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 95,
                 'speed' => 75,
+                'image' => 'tapubulu.gif',
                 'generation_id' => 7,
             ),
             423 => 
@@ -11105,6 +12028,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 130,
                 'speed' => 85,
+                'image' => 'tapufini.gif',
                 'generation_id' => 7,
             ),
             424 => 
@@ -11117,6 +12041,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 29,
                 'special_defense' => 31,
                 'speed' => 37,
+                'image' => 'cosmog.gif',
                 'generation_id' => 7,
             ),
             425 => 
@@ -11129,6 +12054,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 29,
                 'special_defense' => 131,
                 'speed' => 37,
+                'image' => 'cosmoem.gif',
                 'generation_id' => 7,
             ),
             426 => 
@@ -11141,6 +12067,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 113,
                 'special_defense' => 89,
                 'speed' => 97,
+                'image' => 'solgaleo.gif',
                 'generation_id' => 7,
             ),
             427 => 
@@ -11153,6 +12080,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 137,
                 'special_defense' => 107,
                 'speed' => 97,
+                'image' => 'lunala.gif',
                 'generation_id' => 7,
             ),
             428 => 
@@ -11165,6 +12093,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 127,
                 'special_defense' => 131,
                 'speed' => 103,
+                'image' => 'nihilego.gif',
                 'generation_id' => 7,
             ),
             429 => 
@@ -11177,6 +12106,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 53,
                 'special_defense' => 53,
                 'speed' => 79,
+                'image' => 'buzzwole.gif',
                 'generation_id' => 7,
             ),
             430 => 
@@ -11189,6 +12119,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 137,
                 'special_defense' => 37,
                 'speed' => 151,
+                'image' => 'pheromosa.gif',
                 'generation_id' => 7,
             ),
             431 => 
@@ -11201,6 +12132,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 173,
                 'special_defense' => 71,
                 'speed' => 83,
+                'image' => 'xurkitree.gif',
                 'generation_id' => 7,
             ),
             432 => 
@@ -11213,6 +12145,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 107,
                 'special_defense' => 101,
                 'speed' => 61,
+                'image' => 'celesteela.gif',
                 'generation_id' => 7,
             ),
             433 => 
@@ -11225,6 +12158,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 59,
                 'special_defense' => 31,
                 'speed' => 109,
+                'image' => 'kartana.gif',
                 'generation_id' => 7,
             ),
             434 => 
@@ -11237,6 +12171,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 97,
                 'special_defense' => 53,
                 'speed' => 43,
+                'image' => 'guzzlord.gif',
                 'generation_id' => 7,
             ),
             435 => 
@@ -11249,6 +12184,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 127,
                 'special_defense' => 89,
                 'speed' => 79,
+                'image' => 'necrozma.gif',
                 'generation_id' => 7,
             ),
             436 => 
@@ -11261,6 +12197,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 113,
                 'special_defense' => 109,
                 'speed' => 77,
+                'image' => 'necrozma-dusk-mane.gif',
                 'generation_id' => 7,
             ),
             437 => 
@@ -11273,6 +12210,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 157,
                 'special_defense' => 127,
                 'speed' => 77,
+                'image' => 'necrozma-dawn-wings.gif',
                 'generation_id' => 7,
             ),
             438 => 
@@ -11285,6 +12223,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 167,
                 'special_defense' => 97,
                 'speed' => 129,
+                'image' => 'necrozma-ultra.gif',
                 'generation_id' => 7,
             ),
             439 => 
@@ -11297,6 +12236,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 130,
                 'special_defense' => 115,
                 'speed' => 65,
+                'image' => 'magearna.gif',
                 'generation_id' => 7,
             ),
             440 => 
@@ -11309,6 +12249,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 90,
                 'speed' => 125,
+                'image' => 'marshadow.gif',
                 'generation_id' => 7,
             ),
             441 => 
@@ -11321,6 +12262,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 73,
                 'special_defense' => 67,
                 'speed' => 73,
+                'image' => 'poipole.gif',
                 'generation_id' => 7,
             ),
             442 => 
@@ -11333,6 +12275,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 127,
                 'special_defense' => 73,
                 'speed' => 121,
+                'image' => 'naganadel.gif',
                 'generation_id' => 7,
             ),
             443 => 
@@ -11345,6 +12288,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 53,
                 'special_defense' => 101,
                 'speed' => 13,
+                'image' => 'stakataka.gif',
                 'generation_id' => 7,
             ),
             444 => 
@@ -11357,6 +12301,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 151,
                 'special_defense' => 79,
                 'speed' => 107,
+                'image' => 'blacephalon.gif',
                 'generation_id' => 7,
             ),
             445 => 
@@ -11369,6 +12314,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 102,
                 'special_defense' => 80,
                 'speed' => 143,
+                'image' => 'zeraora.gif',
                 'generation_id' => 7,
             ),
             446 => 
@@ -11381,6 +12327,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 35,
                 'speed' => 34,
+                'image' => 'meltan.gif',
                 'generation_id' => 7,
             ),
             447 => 
@@ -11393,6 +12340,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 65,
                 'speed' => 34,
+                'image' => 'melmetal.gif',
                 'generation_id' => 7,
             ),
             448 => 
@@ -11405,6 +12353,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 65,
                 'speed' => 34,
+                'image' => 'melmetal-gigantamax.gif',
                 'generation_id' => 8,
             ),
             449 => 
@@ -11417,6 +12366,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 65,
+                'image' => 'grookey.gif',
                 'generation_id' => 8,
             ),
             450 => 
@@ -11429,6 +12379,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 60,
                 'speed' => 80,
+                'image' => 'thwackey.gif',
                 'generation_id' => 8,
             ),
             451 => 
@@ -11441,6 +12392,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 70,
                 'speed' => 85,
+                'image' => 'rillaboom.gif',
                 'generation_id' => 8,
             ),
             452 => 
@@ -11453,6 +12405,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 69,
+                'image' => 'scorbunny.gif',
                 'generation_id' => 8,
             ),
             453 => 
@@ -11465,6 +12418,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 60,
                 'speed' => 94,
+                'image' => 'raboot.gif',
                 'generation_id' => 8,
             ),
             454 => 
@@ -11477,6 +12431,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 75,
                 'speed' => 119,
+                'image' => 'cinderace.gif',
                 'generation_id' => 8,
             ),
             455 => 
@@ -11489,6 +12444,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 40,
                 'speed' => 70,
+                'image' => 'sobble.gif',
                 'generation_id' => 8,
             ),
             456 => 
@@ -11501,6 +12457,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 55,
                 'speed' => 90,
+                'image' => 'drizzile.gif',
                 'generation_id' => 8,
             ),
             457 => 
@@ -11513,6 +12470,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 65,
                 'speed' => 120,
+                'image' => 'inteleon.gif',
                 'generation_id' => 8,
             ),
             458 => 
@@ -11525,6 +12483,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 35,
                 'speed' => 25,
+                'image' => 'skwovet.gif',
                 'generation_id' => 8,
             ),
             459 => 
@@ -11537,6 +12496,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 75,
                 'speed' => 20,
+                'image' => 'greedent.gif',
                 'generation_id' => 8,
             ),
             460 => 
@@ -11549,6 +12509,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 33,
                 'special_defense' => 35,
                 'speed' => 57,
+                'image' => 'rookidee.gif',
                 'generation_id' => 8,
             ),
             461 => 
@@ -11561,6 +12522,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 43,
                 'special_defense' => 55,
                 'speed' => 77,
+                'image' => 'corvisquire.gif',
                 'generation_id' => 8,
             ),
             462 => 
@@ -11573,6 +12535,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 53,
                 'special_defense' => 85,
                 'speed' => 65,
+                'image' => 'corviknight.gif',
                 'generation_id' => 8,
             ),
             463 => 
@@ -11585,6 +12548,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 53,
                 'special_defense' => 85,
                 'speed' => 65,
+                'image' => 'corviknight-gigantamax.gif',
                 'generation_id' => 8,
             ),
             464 => 
@@ -11597,6 +12561,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 25,
                 'special_defense' => 45,
                 'speed' => 45,
+                'image' => 'blipbug.gif',
                 'generation_id' => 8,
             ),
             465 => 
@@ -11609,6 +12574,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 90,
                 'speed' => 30,
+                'image' => 'dottler.gif',
                 'generation_id' => 8,
             ),
             466 => 
@@ -11621,6 +12587,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 120,
                 'speed' => 90,
+                'image' => 'orbeetle.gif',
                 'generation_id' => 8,
             ),
             467 => 
@@ -11633,6 +12600,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 120,
                 'speed' => 90,
+                'image' => 'orbeetle-gigantamax.gif',
                 'generation_id' => 8,
             ),
             468 => 
@@ -11645,6 +12613,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 47,
                 'special_defense' => 52,
                 'speed' => 50,
+                'image' => 'nickit.gif',
                 'generation_id' => 8,
             ),
             469 => 
@@ -11657,6 +12626,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 87,
                 'special_defense' => 92,
                 'speed' => 90,
+                'image' => 'thievul.gif',
                 'generation_id' => 8,
             ),
             470 => 
@@ -11669,6 +12639,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 60,
                 'speed' => 10,
+                'image' => 'gossifleur.gif',
                 'generation_id' => 8,
             ),
             471 => 
@@ -11681,6 +12652,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 120,
                 'speed' => 60,
+                'image' => 'eldegoss.gif',
                 'generation_id' => 8,
             ),
             472 => 
@@ -11693,6 +12665,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 45,
                 'speed' => 48,
+                'image' => 'wooloo.gif',
                 'generation_id' => 8,
             ),
             473 => 
@@ -11705,6 +12678,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 90,
                 'speed' => 88,
+                'image' => 'dubwool.gif',
                 'generation_id' => 8,
             ),
             474 => 
@@ -11717,6 +12691,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 38,
                 'special_defense' => 38,
                 'speed' => 44,
+                'image' => 'chewtle.gif',
                 'generation_id' => 8,
             ),
             475 => 
@@ -11729,6 +12704,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 48,
                 'special_defense' => 68,
                 'speed' => 74,
+                'image' => 'drednaw.gif',
                 'generation_id' => 8,
             ),
             476 => 
@@ -11741,6 +12717,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 48,
                 'special_defense' => 68,
                 'speed' => 74,
+                'image' => 'drednaw-gigantamax.gif',
                 'generation_id' => 8,
             ),
             477 => 
@@ -11753,6 +12730,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 50,
                 'speed' => 26,
+                'image' => 'yamper.gif',
                 'generation_id' => 8,
             ),
             478 => 
@@ -11765,6 +12743,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 60,
                 'speed' => 121,
+                'image' => 'boltund.gif',
                 'generation_id' => 8,
             ),
             479 => 
@@ -11777,18 +12756,20 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 50,
                 'speed' => 30,
+                'image' => 'rolycoly.gif',
                 'generation_id' => 8,
             ),
             480 => 
             array (
                 'id' => 981,
-                'name' => 'Carkoal',
+                'name' => 'Carkol',
                 'hit_points' => 80,
                 'attack' => 60,
                 'defense' => 90,
                 'special_attack' => 60,
                 'special_defense' => 70,
                 'speed' => 50,
+                'image' => 'carkol.gif',
                 'generation_id' => 8,
             ),
             481 => 
@@ -11801,6 +12782,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 90,
                 'speed' => 30,
+                'image' => 'coalossal.gif',
                 'generation_id' => 8,
             ),
             482 => 
@@ -11813,6 +12795,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 90,
                 'speed' => 30,
+                'image' => 'coalossal-gigantamax.gif',
                 'generation_id' => 8,
             ),
             483 => 
@@ -11825,6 +12808,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 40,
                 'speed' => 20,
+                'image' => 'applin.gif',
                 'generation_id' => 8,
             ),
             484 => 
@@ -11837,6 +12821,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 60,
                 'speed' => 70,
+                'image' => 'flapple.gif',
                 'generation_id' => 8,
             ),
             485 => 
@@ -11849,6 +12834,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 60,
                 'speed' => 70,
+                'image' => 'flapple-gigantamax.gif',
                 'generation_id' => 8,
             ),
             486 => 
@@ -11861,6 +12847,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 80,
                 'speed' => 30,
+                'image' => 'appletun.gif',
                 'generation_id' => 8,
             ),
             487 => 
@@ -11873,6 +12860,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 80,
                 'speed' => 30,
+                'image' => 'appletun-gigantamax.gif',
                 'generation_id' => 8,
             ),
             488 => 
@@ -11885,6 +12873,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 35,
                 'special_defense' => 50,
                 'speed' => 46,
+                'image' => 'silicobra.gif',
                 'generation_id' => 8,
             ),
             489 => 
@@ -11897,6 +12886,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 70,
                 'speed' => 71,
+                'image' => 'sandaconda.gif',
                 'generation_id' => 8,
             ),
             490 => 
@@ -11909,6 +12899,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 70,
                 'speed' => 71,
+                'image' => 'sandaconda-gigantamax.gif',
                 'generation_id' => 8,
             ),
             491 => 
@@ -11921,6 +12912,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 85,
                 'special_defense' => 95,
                 'speed' => 85,
+                'image' => 'cramorant.gif',
                 'generation_id' => 8,
             ),
             492 => 
@@ -11933,6 +12925,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 30,
                 'speed' => 66,
+                'image' => 'arrokuda.gif',
                 'generation_id' => 8,
             ),
             493 => 
@@ -11945,6 +12938,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 50,
                 'speed' => 136,
+                'image' => 'barraskewda.gif',
                 'generation_id' => 8,
             ),
             494 => 
@@ -11957,6 +12951,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 54,
                 'special_defense' => 35,
                 'speed' => 40,
+                'image' => 'toxel.gif',
                 'generation_id' => 8,
             ),
             495 => 
@@ -11969,6 +12964,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 114,
                 'special_defense' => 70,
                 'speed' => 75,
+                'image' => 'toxtricity.gif',
                 'generation_id' => 8,
             ),
             496 => 
@@ -11981,6 +12977,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 114,
                 'special_defense' => 70,
                 'speed' => 75,
+                'image' => 'toxtricity-low-key.gif',
                 'generation_id' => 8,
             ),
             497 => 
@@ -11993,6 +12990,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 114,
                 'special_defense' => 70,
                 'speed' => 75,
+                'image' => 'toxtricity-gigantamax.gif',
                 'generation_id' => 8,
             ),
             498 => 
@@ -12005,6 +13003,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 45,
+                'image' => 'sizzlipede.gif',
                 'generation_id' => 8,
             ),
             499 => 
@@ -12017,6 +13016,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 90,
                 'speed' => 65,
+                'image' => 'centiskorch.gif',
                 'generation_id' => 8,
             ),
         ));
@@ -12031,6 +13031,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 90,
                 'speed' => 65,
+                'image' => 'centiskorch-gigantamax.gif',
                 'generation_id' => 8,
             ),
             1 => 
@@ -12043,6 +13044,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 50,
                 'speed' => 32,
+                'image' => 'clobbopus.gif',
                 'generation_id' => 8,
             ),
             2 => 
@@ -12055,6 +13057,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 80,
                 'speed' => 42,
+                'image' => 'grapploct.gif',
                 'generation_id' => 8,
             ),
             3 => 
@@ -12067,6 +13070,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 54,
                 'speed' => 50,
+                'image' => 'sinistea.gif',
                 'generation_id' => 8,
             ),
             4 => 
@@ -12079,6 +13083,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 134,
                 'special_defense' => 114,
                 'speed' => 70,
+                'image' => 'polteageist.gif',
                 'generation_id' => 8,
             ),
             5 => 
@@ -12091,6 +13096,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 56,
                 'special_defense' => 53,
                 'speed' => 39,
+                'image' => 'hatenna.gif',
                 'generation_id' => 8,
             ),
             6 => 
@@ -12103,6 +13109,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 86,
                 'special_defense' => 73,
                 'speed' => 49,
+                'image' => 'hattrem.gif',
                 'generation_id' => 8,
             ),
             7 => 
@@ -12115,6 +13122,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 136,
                 'special_defense' => 103,
                 'speed' => 29,
+                'image' => 'hatterene.gif',
                 'generation_id' => 8,
             ),
             8 => 
@@ -12127,6 +13135,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 136,
                 'special_defense' => 103,
                 'speed' => 29,
+                'image' => 'hatterene-gigantamax.gif',
                 'generation_id' => 8,
             ),
             9 => 
@@ -12139,6 +13148,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 55,
                 'special_defense' => 40,
                 'speed' => 50,
+                'image' => 'impidimp.gif',
                 'generation_id' => 8,
             ),
             10 => 
@@ -12151,6 +13161,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 75,
                 'special_defense' => 55,
                 'speed' => 70,
+                'image' => 'morgrem.gif',
                 'generation_id' => 8,
             ),
             11 => 
@@ -12163,6 +13174,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 75,
                 'speed' => 60,
+                'image' => 'grimmsnarl.gif',
                 'generation_id' => 8,
             ),
             12 => 
@@ -12175,6 +13187,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 75,
                 'speed' => 60,
+                'image' => 'grimmsnarl-gigantamax.gif',
                 'generation_id' => 8,
             ),
             13 => 
@@ -12187,6 +13200,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 81,
                 'speed' => 95,
+                'image' => 'obstagoon.gif',
                 'generation_id' => 8,
             ),
             14 => 
@@ -12199,6 +13213,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 60,
                 'speed' => 50,
+                'image' => 'perrserker.gif',
                 'generation_id' => 8,
             ),
             15 => 
@@ -12211,18 +13226,20 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 145,
                 'special_defense' => 130,
                 'speed' => 30,
+                'image' => 'cursola.gif',
                 'generation_id' => 8,
             ),
             16 => 
             array (
                 'id' => 1017,
-                'name' => 'Sirfetchd',
+                'name' => 'Sirfetch\'d',
                 'hit_points' => 62,
                 'attack' => 135,
                 'defense' => 95,
                 'special_attack' => 68,
                 'special_defense' => 82,
                 'speed' => 65,
+                'image' => 'sirfetch’d.gif',
                 'generation_id' => 8,
             ),
             17 => 
@@ -12235,6 +13252,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 100,
                 'speed' => 70,
+                'image' => 'mr.rime.gif',
                 'generation_id' => 8,
             ),
             18 => 
@@ -12247,6 +13265,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 105,
                 'speed' => 30,
+                'image' => 'runerigus.gif',
                 'generation_id' => 8,
             ),
             19 => 
@@ -12259,6 +13278,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 50,
                 'special_defense' => 61,
                 'speed' => 34,
+                'image' => 'milcery.gif',
                 'generation_id' => 8,
             ),
             20 => 
@@ -12271,6 +13291,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 121,
                 'speed' => 64,
+                'image' => 'alcremie.gif',
                 'generation_id' => 8,
             ),
             21 => 
@@ -12283,6 +13304,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 110,
                 'special_defense' => 121,
                 'speed' => 64,
+                'image' => 'alcremie-gigantamax.gif',
                 'generation_id' => 8,
             ),
             22 => 
@@ -12295,18 +13317,20 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 60,
                 'speed' => 75,
+                'image' => 'falinks.gif',
                 'generation_id' => 8,
             ),
             23 => 
             array (
                 'id' => 1024,
-                'name' => 'Pinchurchin',
+                'name' => 'Pincurchin',
                 'hit_points' => 48,
                 'attack' => 101,
                 'defense' => 95,
                 'special_attack' => 91,
                 'special_defense' => 85,
                 'speed' => 15,
+                'image' => 'pincurchin.gif',
                 'generation_id' => 8,
             ),
             24 => 
@@ -12319,6 +13343,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 45,
                 'special_defense' => 30,
                 'speed' => 20,
+                'image' => 'snom.gif',
                 'generation_id' => 8,
             ),
             25 => 
@@ -12331,6 +13356,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 125,
                 'special_defense' => 90,
                 'speed' => 65,
+                'image' => 'frosmoth.gif',
                 'generation_id' => 8,
             ),
             26 => 
@@ -12343,6 +13369,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 20,
                 'special_defense' => 20,
                 'speed' => 70,
+                'image' => 'stonjourner.gif',
                 'generation_id' => 8,
             ),
             27 => 
@@ -12355,6 +13382,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 90,
                 'speed' => 50,
+                'image' => 'eiscue.gif',
                 'generation_id' => 8,
             ),
             28 => 
@@ -12367,6 +13395,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 65,
                 'special_defense' => 50,
                 'speed' => 130,
+                'image' => 'eiscue-noice-face.gif',
                 'generation_id' => 8,
             ),
             29 => 
@@ -12379,6 +13408,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 105,
                 'special_defense' => 95,
                 'speed' => 95,
+                'image' => 'indeedee.gif',
                 'generation_id' => 8,
             ),
             30 => 
@@ -12391,6 +13421,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 95,
                 'special_defense' => 105,
                 'speed' => 85,
+                'image' => 'indeedee-f.gif',
                 'generation_id' => 8,
             ),
             31 => 
@@ -12403,6 +13434,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 58,
                 'speed' => 97,
+                'image' => 'morpeko.gif',
                 'generation_id' => 8,
             ),
             32 => 
@@ -12415,6 +13447,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 49,
                 'speed' => 40,
+                'image' => 'cufant.gif',
                 'generation_id' => 8,
             ),
             33 => 
@@ -12427,6 +13460,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 69,
                 'speed' => 30,
+                'image' => 'copperajah.gif',
                 'generation_id' => 8,
             ),
             34 => 
@@ -12439,6 +13473,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 69,
                 'speed' => 30,
+                'image' => 'copperajah-gigantamax.gif',
                 'generation_id' => 8,
             ),
             35 => 
@@ -12451,6 +13486,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 70,
                 'speed' => 75,
+                'image' => 'dracozolt.gif',
                 'generation_id' => 8,
             ),
             36 => 
@@ -12463,6 +13499,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 90,
                 'special_defense' => 80,
                 'speed' => 55,
+                'image' => 'arctozolt.gif',
                 'generation_id' => 8,
             ),
             37 => 
@@ -12475,6 +13512,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 70,
                 'special_defense' => 80,
                 'speed' => 75,
+                'image' => 'dracovish.gif',
                 'generation_id' => 8,
             ),
             38 => 
@@ -12487,6 +13525,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 90,
                 'speed' => 55,
+                'image' => 'arctovish.gif',
                 'generation_id' => 8,
             ),
             39 => 
@@ -12499,6 +13538,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 50,
                 'speed' => 85,
+                'image' => 'duraludon.gif',
                 'generation_id' => 8,
             ),
             40 => 
@@ -12511,6 +13551,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 120,
                 'special_defense' => 50,
                 'speed' => 85,
+                'image' => 'duraludon-gigantamax.gif',
                 'generation_id' => 8,
             ),
             41 => 
@@ -12523,6 +13564,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 40,
                 'special_defense' => 30,
                 'speed' => 82,
+                'image' => 'dreepy.gif',
                 'generation_id' => 8,
             ),
             42 => 
@@ -12535,6 +13577,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 60,
                 'special_defense' => 50,
                 'speed' => 102,
+                'image' => 'drakloak.gif',
                 'generation_id' => 8,
             ),
             43 => 
@@ -12547,6 +13590,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 100,
                 'special_defense' => 75,
                 'speed' => 142,
+                'image' => 'dragapult.gif',
                 'generation_id' => 8,
             ),
             44 => 
@@ -12559,6 +13603,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 115,
                 'speed' => 138,
+                'image' => 'zacian.gif',
                 'generation_id' => 8,
             ),
             45 => 
@@ -12571,6 +13616,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 115,
                 'speed' => 148,
+                'image' => 'zacian-crowned-sword.gif',
                 'generation_id' => 8,
             ),
             46 => 
@@ -12583,6 +13629,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 115,
                 'speed' => 138,
+                'image' => 'zamazenta.gif',
                 'generation_id' => 8,
             ),
             47 => 
@@ -12595,6 +13642,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 80,
                 'special_defense' => 145,
                 'speed' => 128,
+                'image' => 'zamazenta-crowned-shield.gif',
                 'generation_id' => 8,
             ),
             48 => 
@@ -12607,6 +13655,7 @@ class PokemonTableSeeder extends Seeder
                 'special_attack' => 145,
                 'special_defense' => 95,
                 'speed' => 130,
+                'image' => 'eternatus.gif',
                 'generation_id' => 8,
             ),
         ));
