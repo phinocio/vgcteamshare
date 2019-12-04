@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Support\Facades\Schema;
 
 class CreateMoveStatsTable extends Migration
 {
@@ -14,15 +15,15 @@ class CreateMoveStatsTable extends Migration
 	{
 		Schema::create('move_stats', function (Blueprint $table) {
 			$table->increments('id');
-			$table->integer('move_id')->unsigned();
-			$table->integer('type_id')->unsigned();
-			$table->integer('category_id')->unsigned();
+			$table->unsignedBigInteger('move_id');
+			$table->unsignedBigInteger('type_id');
+			$table->unsignedBigInteger('category_id');
 			$table->string('power');
 			$table->string('accuracy');
 			$table->string('pp');
 			$table->text('effect');
 			$table->string('effect_chance');
-			$table->integer('generation_id')->unsigned();
+			$table->unsignedBigInteger('generation_id');
 
 
 			$table->foreign('move_id')->references('id')->on('moves');

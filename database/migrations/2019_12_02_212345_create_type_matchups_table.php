@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Support\Facades\Schema;
 
 class CreateTypeMatchupsTable extends Migration
 {
@@ -13,10 +14,10 @@ class CreateTypeMatchupsTable extends Migration
 	public function up()
 	{
 		Schema::create('type_matchups', function (Blueprint $table) {
-			$table->increments('id');
-			$table->integer('attacking_type')->unsigned();
-			$table->integer('defending_type')->unsigned();
-			$table->float('damage_multiplier')->unsigned();
+			$table->bigIncrements('id');
+			$table->unsignedBigInteger('attacking_type');
+			$table->unsignedBigInteger('defending_type');
+			$table->unsignedDecimal('damage_multiplier');
 
 			$table->foreign('attacking_type')->references('id')->on('types');
 			$table->foreign('defending_type')->references('id')->on('types');

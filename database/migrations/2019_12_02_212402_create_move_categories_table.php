@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Support\Facades\Schema;
 
 class CreateMoveCategoriesTable extends Migration
 {
@@ -13,7 +14,7 @@ class CreateMoveCategoriesTable extends Migration
 	public function up()
 	{
 		Schema::create('move_categories', function (Blueprint $table) {
-			$table->increments('id');
+			$table->bigIncrements('id');
 			$table->string('name');
 		});
 	}

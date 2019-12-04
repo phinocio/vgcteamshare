@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Support\Facades\Schema;
 
 class CreateTypesTable extends Migration
 {
@@ -13,9 +14,9 @@ class CreateTypesTable extends Migration
 	public function up()
 	{
 		Schema::create('types', function (Blueprint $table) {
-			$table->increments('id');
+			$table->bigIncrements('id');
 			$table->string('name');
-			$table->integer('generation_id')->unsigned();
+			$table->unsignedBigInteger('generation_id');
 
 			$table->foreign('generation_id')->references('id')->on('generations');
 		});

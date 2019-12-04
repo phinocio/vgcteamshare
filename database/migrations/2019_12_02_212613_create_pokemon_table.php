@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Support\Facades\Schema;
 
 class CreatePokemonTable extends Migration
 {
@@ -13,7 +14,7 @@ class CreatePokemonTable extends Migration
 	public function up()
 	{
 		Schema::create('pokemon', function (Blueprint $table) {
-			$table->increments('id');
+			$table->bigIncrements('id');
 			$table->string('name');
 			$table->integer('hit_points');
 			$table->integer('attack');
@@ -22,7 +23,8 @@ class CreatePokemonTable extends Migration
 			$table->integer('special_defense');
 			$table->integer('speed');
 			$table->string('image')->default('no-image.jpg');
-			$table->integer('generation_id')->unsigned();
+			$table->unsignedBigInteger('generation_id');
+			$table->timestamps();
 
 			$table->foreign('generation_id')->references('id')->on('generations');
 		});
