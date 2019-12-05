@@ -8,4 +8,34 @@ class Pokemon extends Model
 {
 	//
 	public $timestamps = false;
+
+	public function teams()
+	{
+		return $this->belongsToMany('App\Team', 'team_data', 'pokemon_id', 'team_id')
+			->using('App\TeamData');
+	}
+
+	public function move1()
+	{
+		return $this->belongsToMany('App\Move', 'team_data', 'pokemon_id', 'move1_id')
+			->using('App\TeamData');
+	}
+
+	public function move2()
+	{
+		return $this->belongsToMany('App\Move', 'team_data', 'pokemon_id', 'move2_id')
+			->using('App\TeamData');
+	}
+
+	public function move3()
+	{
+		return $this->belongsToMany('App\Move', 'team_data', 'pokemon_id', 'move3_id')
+			->using('App\TeamData');
+	}
+
+	public function move4()
+	{
+		return $this->belongsToMany('App\Move', 'team_data', 'pokemon_id', 'move4_id')
+			->using('App\TeamData');
+	}
 }
