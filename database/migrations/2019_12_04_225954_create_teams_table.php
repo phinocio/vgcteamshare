@@ -18,9 +18,12 @@ class CreateTeamsTable extends Migration
             $table->unsignedBigInteger('author_id')->nullable();
             $table->string('name');
             $table->text('description');
+            $table->unsignedBigInteger('format');
+            $table->boolean('private')->default(FALSE);
             $table->timestamps();
 
             $table->foreign('author_id')->references('id')->on('users');
+            $table->foreign('format')->references('id')->on('formats');
         });
     }
 
