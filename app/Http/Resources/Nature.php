@@ -4,9 +4,7 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-use App\Http\Resources\Pokemon;
-
-class Team extends JsonResource
+class Nature extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -18,10 +16,8 @@ class Team extends JsonResource
     {
         return [
             'name' => $this->name,
-            'description' => $this->description,
-            'author' => $this->author->name,
-            'format' => $this->format->name,
-            'pokemon' => Pokemon::collection($this->pokemon) 
+            'increases' => $this->increases,
+            'decreaases' => $this->decreases
         ];
     }
 }

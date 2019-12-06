@@ -1,13 +1,14 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class TypesTableSeeder extends Seeder
 {
 	/**
 	 * Run the database seeds.
 	 *
-	 * @return vo1d
+	 * @return void
 	 */
 	public function run()
 	{

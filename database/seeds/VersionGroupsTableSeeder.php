@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class VersionGroupsTableSeeder extends Seeder
 {
@@ -14,9 +15,9 @@ class VersionGroupsTableSeeder extends Seeder
     {
         
 
-        \DB::table('version_groups')->delete();
+        DB::table('version_groups')->delete();
         
-        \DB::table('version_groups')->insert(array (
+        DB::table('version_groups')->insert(array (
             0 => 
             array (
                 'id' => 1,

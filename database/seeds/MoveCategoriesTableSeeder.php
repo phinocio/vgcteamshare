@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class MoveCategoriesTableSeeder extends Seeder
 {
@@ -14,9 +15,9 @@ class MoveCategoriesTableSeeder extends Seeder
     {
         
 
-        \DB::table('move_categories')->delete();
+        DB::table('move_categories')->delete();
         
-        \DB::table('move_categories')->insert(array (
+        DB::table('move_categories')->insert(array (
             0 => 
             array (
                 'id' => 1,

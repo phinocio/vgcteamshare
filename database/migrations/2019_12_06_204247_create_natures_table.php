@@ -18,7 +18,6 @@ class CreateNaturesTable extends Migration
 			$table->string('name');
 			$table->string('increases');
 			$table->string('decreases');
-            $table->timestamps();
         });
     }
 

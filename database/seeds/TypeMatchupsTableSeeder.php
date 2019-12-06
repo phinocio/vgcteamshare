@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class TypeMatchupsTableSeeder extends Seeder
 {
@@ -14,9 +15,9 @@ class TypeMatchupsTableSeeder extends Seeder
 	{
 
 
-		\DB::table('type_matchups')->delete();
+		DB::table('type_matchups')->delete();
 
-		\DB::table('type_matchups')->insert(array(
+		DB::table('type_matchups')->insert(array(
 			0 =>
 			array(
 				'id' => '1',

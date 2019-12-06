@@ -11,9 +11,13 @@ class Team extends Model
     public function author() 
     {
         return $this->belongsTo('App\User');
+    }  
+
+    public function format() {
+        return $this->belongsTo('App\Format');
     }
 
-    public function pokemon() 
+    public function pokemon()
     {
         return $this->belongsToMany('App\Pokemon', 'team_data', 'team_id', 'pokemon_id')
             ->using('App\TeamData')->withPivot('evs', 'ivs');

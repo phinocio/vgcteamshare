@@ -4,6 +4,8 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use App\Http\Resources\MoveStat;
+use App\Http\Resources\Nature;
+use App\Http\Resources\Item;
 
 class Pokemon extends JsonResource
 {
@@ -18,6 +20,8 @@ class Pokemon extends JsonResource
         return [
             'name' => $this->name,
             'image' => $this->image,
+            'nature' => new Nature($this->nature[0]),
+            'item' => new Item($this->item[0]),
             'hp' => $this->hit_points,
             'atk' => $this->attack,
             'def' => $this->defense,

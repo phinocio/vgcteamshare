@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class PokemonTableSeeder extends Seeder
 {
@@ -14,9 +15,9 @@ class PokemonTableSeeder extends Seeder
     {
         
 
-        \DB::table('pokemon')->delete();
+        DB::table('pokemon')->delete();
         
-        \DB::table('pokemon')->insert(array (
+        DB::table('pokemon')->insert(array (
             0 => 
             array (
                 'id' => 1,
@@ -6518,7 +6519,7 @@ class PokemonTableSeeder extends Seeder
                 'generation_id' => 4,
             ),
         ));
-        \DB::table('pokemon')->insert(array (
+        DB::table('pokemon')->insert(array (
             0 => 
             array (
                 'id' => 501,
@@ -13020,7 +13021,7 @@ class PokemonTableSeeder extends Seeder
                 'generation_id' => 8,
             ),
         ));
-        \DB::table('pokemon')->insert(array (
+        DB::table('pokemon')->insert(array (
             0 => 
             array (
                 'id' => 1001,

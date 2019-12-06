@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class MovesTableSeeder extends Seeder
 {
@@ -14,9 +15,9 @@ class MovesTableSeeder extends Seeder
     {
         
 
-        \DB::table('moves')->delete();
+        DB::table('moves')->delete();
         
-        \DB::table('moves')->insert(array (
+        DB::table('moves')->insert(array (
             0 => 
             array (
                 'id' => 1,
@@ -3018,7 +3019,7 @@ class MovesTableSeeder extends Seeder
                 'generation_id' => 6,
             ),
         ));
-        \DB::table('moves')->insert(array (
+        DB::table('moves')->insert(array (
             0 => 
             array (
                 'id' => 501,

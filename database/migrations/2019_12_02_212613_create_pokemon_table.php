@@ -24,7 +24,6 @@ class CreatePokemonTable extends Migration
 			$table->integer('speed');
 			$table->string('image')->default('no-image.jpg');
 			$table->unsignedBigInteger('generation_id');
-			$table->timestamps();
 
 			$table->foreign('generation_id')->references('id')->on('generations');
 		});
