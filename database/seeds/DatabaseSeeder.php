@@ -24,5 +24,6 @@ class DatabaseSeeder extends Seeder
 		$this->call(MovesTableSeeder::class);
 		$this->call(MoveStatsTableSeeder::class);
 		$this->call(VersionGroupsTableSeeder::class);
-	}
+	    $this->call(ItemsTableSeeder::class);
+    }
 }
