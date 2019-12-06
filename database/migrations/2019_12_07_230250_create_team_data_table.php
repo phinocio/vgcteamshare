@@ -18,7 +18,7 @@ class CreateTeamDataTable extends Migration
             $table->unsignedBigInteger('pokemon_id');
             $table->string('evs');
             $table->string('ivs');
-            $table->integer('level')->nullable();
+            $table->unsignedBigInteger('ability_id');
 			$table->unsignedBigInteger('item_id');
 			$table->unsignedBigInteger('nature_id');
             $table->unsignedBigInteger('move1_id');
@@ -29,7 +29,8 @@ class CreateTeamDataTable extends Migration
             $table->timestamps();
 
             $table->foreign('team_id')->references('id')->on('teams');
-			$table->foreign('pokemon_id')->references('id')->on('pokemon');
+            $table->foreign('pokemon_id')->references('id')->on('pokemon');
+            $table->foreign('ability_id')->references('id')->on('abilities');
 			$table->foreign('item_id')->references('id')->on('items');
 			$table->foreign('nature_id')->references('id')->on('natures');
             $table->foreign('move1_id')->references('id')->on('moves');
