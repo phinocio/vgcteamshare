@@ -15,7 +15,9 @@ class CreateTeamDataTable extends Migration
     {
         Schema::create('team_data', function (Blueprint $table) {
             $table->unsignedBigInteger('team_id');
-            $table->unsignedBigInteger('pokemon_id');
+			$table->unsignedBigInteger('pokemon_id');
+			$table->integer('level')->default(100);
+			$table->boolean('shiny')->default(false);
             $table->string('evs');
             $table->string('ivs');
             $table->unsignedBigInteger('ability_id');
