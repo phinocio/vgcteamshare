@@ -18,18 +18,22 @@ class Pokemon extends JsonResource
     public function toArray($request)
     {
         return [
-            'name' => $this->name,
+			'name' => $this->name,
+			'level' => $this->pivot->level,
+			'shiny' => (bool)$this->pivot->shiny,
             'image' => $this->image,
             'nature' => new Nature($this->nature[0]),
-            'item' => new Item($this->item[0]),
-            'hp' => $this->hit_points,
-            'atk' => $this->attack,
-            'def' => $this->defense,
-            'spa' => $this->special_attack,
-            'spd' => $this->special_defense,
-            'spe' => $this->speed,
-            'evs' => $this->pivot->evs,
-            'ivs' => $this->pivot->ivs,
+			'item' => new Item($this->item[0]),
+			'base_stats' => [
+				'hp' => $this->hit_points,
+				'atk' => $this->attack,
+				'def' => $this->defense,
+				'spa' => $this->special_attack,
+				'spd' => $this->special_defense,
+				'spe' => $this->speed,
+			],
+			'evs' => $this->pivot->evs,
+			'ivs' => $this->pivot->ivs,
             'moves' => [
                 new MoveStat($this->move1[0]->stats),
                 new MoveStat($this->move2[0]->stats),
