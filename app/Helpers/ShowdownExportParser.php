@@ -10,6 +10,8 @@ use App\Move;
 use App\TeamData;
 use App\Team;
 
+use App\Helpers\PokemonDataConstants;
+
 class ShowdownExportParser {
 	static function parse($data) {
 		// Split the data first to get each pokemon into its own array...
@@ -22,9 +24,9 @@ class ShowdownExportParser {
         $i = 0;
         foreach($aData as $poke) {
 			$index = 2; // There's 3 guaranteed lines before optional lvl and shiny
-			$pokemon_id = Pokemon::whereName(trim(preg_replace('/\(\w\)/', '', explode('@', $poke[0])[0])))->first()->id;
-			$item_id = Item::whereName(trim(explode('@', $poke[0])[1]))->first()->id;
-			$ability_id = Ability::whereName(trim(explode(':', $poke[1])[1]))->first()->id;
+			$pokemon_id = PokemonDataConstants::POKEMON[trim(preg_replace('/\(\w\)/', '', explode('@', $poke[0])[0]))];
+			$item_id = PokemonDataConstants::ITEMS[trim(explode('@', $poke[0])[1])];
+			$ability_id = PokemonDataConstants::ABILITIES[trim(explode(':', $poke[1])[1])];
 			$level = 100; // default value
 			$shiny = false; // default value
 			$ivs = '';
@@ -39,19 +41,23 @@ class ShowdownExportParser {
 			}
 			$evs = trim(explode(':', $poke[$index])[1]);
 			$index++;
-			$nature_id = Nature::whereName(explode(' ', $poke[3])[1] == 'Nature' ? explode(' ', $poke[$index])[0] : 'Serious')->first()->id; 
+			$nature_id = PokemonDataConstants::NATURES[
+				trim(explode(' ', $poke[$index])[1]) == 'Nature' 
+				? trim(explode(' ', $poke[$index])[0]) 
+				: 'Serious'
+			]; 
 			$index++;
 			if (strpos($poke[$index], 'IVs') !== false) {
 				$ivs = trim(explode(':', $poke[$index])[1]);
 				$index++;
 			}
-			$move1_id = Move::whereName(trim(str_replace('- ', '',  $poke[$index])))->first()->id;
+			$move1_id = PokemonDataConstants::MOVES[trim(str_replace('- ', '',  $poke[$index]))];
 			$index++;
-			$move2_id = Move::whereName(trim(str_replace('- ', '',  $poke[$index])))->first()->id;
+			$move2_id = PokemonDataConstants::MOVES[trim(str_replace('- ', '',  $poke[$index]))];
 			$index++;
-			$move3_id = Move::whereName(trim(str_replace('- ', '',  $poke[$index])))->first()->id;
+			$move3_id = PokemonDataConstants::MOVES[trim(str_replace('- ', '',  $poke[$index]))];
 			$index++;
-			$move4_id = Move::whereName(trim(str_replace('- ', '',  $poke[$index])))->first()->id;
+			$move4_id = PokemonDataConstants::MOVES[trim(str_replace('- ', '',  $poke[$index]))];
 			$index++;
 
 
