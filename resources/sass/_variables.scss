@@ -2,6 +2,7 @@
 $body-bg: #202020;
 $body-color: #FFFFFF;
 
+
 // Typography
 $font-family-sans-serif: "Roboto", sans-serif;
 $font-size-base: 0.9rem;
@@ -18,6 +19,19 @@ $yellow: #ffed4a;
 $green: #38c172;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+$white: #FFFFFF;
 
-$primary: $indigo;
-$secondary: darken($red, 15);
+$primary: #1E3779;
+$secondary: darken($red, 25);
+$accent: #e84855;
+
+$link-color: $accent;
+
+$dropdown-bg: #202020;
+$dropdown-divider-bg: lighten($dropdown-bg, 10);
+$dropdown-link-color: $white;
+$dropdown-link-hover-color: darken($white, 20);
+$dropdown-link-hover-bg: lighten($dropdown-bg, 10);
+
+$navbar-dark-color: $white;
+$navbar-dark-hover-color: darken($white, 20);
