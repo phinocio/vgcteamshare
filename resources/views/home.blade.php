@@ -1,47 +1,48 @@
-<!doctype html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('layouts.app')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2>Newest Teams</h2>
+            <hr />
+            @include('components.teamPreview', ['teams' => $teams])
+        </div>
+        <div class="col-md-4">
+            <h2>New Team</h2>
+            <hr />
+            <form>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="teamName" aria-describedby="nameHelp" placeholder="Enter name">
+                </div>
 
-    <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+                <div class="form-group">
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>VGC 2020</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
 
-    <title>{{ config('app.name', 'VGCTeamshare') }}</title>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="rentalCode" aria-describedby="codeHelp" placeholder="Rental code...">
+                </div>
 
-    <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+                <div class="form-group">
+                    <textarea class="form-control" id="description" aria-describedby="descriptionHelp" placeholder="Say a bit about the team..."></textarea>
+                </div>
 
-    <!-- Fonts -->
-    <link rel="dns-prefetch" href="//fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+                <div class="form-group">
+                    <textarea class="form-control" id="importTeam" rows="5" placeholder="Enter showdown export here..."></textarea>
+                </div>
+                <div class="text-right">
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                </div>
+            </form>
 
-    <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-</head>
-
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="content">
-                <p class="brand">VGC Teamshare</p>
-            </div>
-            <div class="content">
-                <p>
-                    <img src="/images/pokemon/sprites/excadrill.gif" />
-                    <img src="/images/pokemon/sprites/whimsicott.gif" />
-                    <img src="/images/pokemon/sprites/lapras.gif" />
-                    <img src="/images/pokemon/sprites/arcanine.gif" />
-                    <img src="/images/pokemon/sprites/grimmsnarl.gif" />
-                    <img src="/images/pokemon/sprites/gyarados.gif" />
-                </p>
-            </div>
-            <div class="content">
-                <p>coming soon...</p>
-            </div>
         </div>
     </div>
-</body>
-
-</html>
+</div>
+@endsection
