@@ -20,7 +20,8 @@ class CreateTeamsTable extends Migration
             $table->text('description');
             $table->unsignedBigInteger('format_id');
 			$table->boolean('private')->default(FALSE);
-			$table->string('slug')->nullable();
+            $table->string('slug')->nullable();
+            $table->string('rental_code')->nullable();
             $table->timestamps();
 
             $table->foreign('author_id')->references('id')->on('users');
