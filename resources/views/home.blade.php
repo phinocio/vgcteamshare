@@ -28,7 +28,14 @@
                 <p class="brand">VGC Teamshare</p>
             </div>
             <div class="content">
-                <p>middle</p>
+                <p>
+                    <img src="/images/pokemon/sprites/excadrill.gif" />
+                    <img src="/images/pokemon/sprites/whimsicott.gif" />
+                    <img src="/images/pokemon/sprites/lapras.gif" />
+                    <img src="/images/pokemon/sprites/arcanine.gif" />
+                    <img src="/images/pokemon/sprites/grimmsnarl.gif" />
+                    <img src="/images/pokemon/sprites/gyarados.gif" />
+                </p>
             </div>
             <div class="content">
                 <p>coming soon...</p>
