@@ -73,11 +73,11 @@
                 <div class="form-group row">
                     <div class="col-md-6 offset-md-4">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                            <input class="form-check-input" type="checkbox" name="linkTeams" id="linkTeams" {{ old('linkTeams') ? 'checked' : '' }}>
 
-                            <label class="form-check-label" for="remember">
+                            <label class="form-check-label" for="linkTeams">
                                 {{ __('Connect local teams to this account?') }}
-                                <br /><small>This will connect already uploaded anonymous teams to you account that match those in Local Storage. By default they will be public, but you can then make them private.</small>
+                                <small id="linkTeamsHelp" class="form-text text-muted">This will connect already uploaded anonymous teams to you account that match those in Local Storage. By default they will be public, but you can then make them private.</small>
                             </label>
                         </div>
                     </div>
