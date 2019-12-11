@@ -21,7 +21,10 @@ class Team extends JsonResource
             'description' => $this->description,
             'author' => $this->author->name,
             'format' => $this->format->name,
-            'pokemon' => Pokemon::collection($this->pokemon) 
+            'pokemon' => Pokemon::collection($this->pokemon),
+            'slug' => $this->slug,
+            'rental_code' => $this->rental_code,
+            'created' => $this->created_at
         ];
     }
 }
