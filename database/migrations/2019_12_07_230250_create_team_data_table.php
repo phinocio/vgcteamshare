@@ -39,6 +39,8 @@ class CreateTeamDataTable extends Migration
             $table->foreign('move2_id')->references('id')->on('moves');
             $table->foreign('move3_id')->references('id')->on('moves');
             $table->foreign('move4_id')->references('id')->on('moves');
+
+            $table->unique(['team_id', 'pokemon_id']); // ensures only 1 pokemon of a type is on a team.
         });
     }
 
