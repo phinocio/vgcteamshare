@@ -8,3 +8,22 @@
 @import "~bootstrap/scss/bootstrap";
 
 
+.container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.row {
+	align-self: center;
+	flex-direction: column;
+}
+
+.content {
+	text-align: center;
+}
+
+.brand {
+	font-size: 3.0em;
+	font-weight: bold;
+}
