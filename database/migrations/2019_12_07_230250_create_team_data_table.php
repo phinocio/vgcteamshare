@@ -28,7 +28,6 @@ class CreateTeamDataTable extends Migration
             $table->unsignedBigInteger('move3_id');
             $table->unsignedBigInteger('move4_id');
             $table->text('notes')->nullable();
-            $table->timestamps();
 
             $table->foreign('team_id')->references('id')->on('teams');
             $table->foreign('pokemon_id')->references('id')->on('pokemon');
