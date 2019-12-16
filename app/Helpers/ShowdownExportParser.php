@@ -15,7 +15,7 @@ use App\Helpers\PokemonDataConstants;
 class ShowdownExportParser {
 	static function parse($data) {
 		// Split the data first to get each pokemon into its own array...
-        $aData = preg_split('/\n\n/', trim($data));
+        $aData = preg_split('/\r\n\r\n/', trim($data));
         // ... then split again to get a nested array for each line of data for each Pokemon.
         for($i = 0; $i < count($aData); $i++) {
             $aData[$i] = preg_split('/\n/', trim($aData[$i]));
