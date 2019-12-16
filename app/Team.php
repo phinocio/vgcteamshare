@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Team extends Model
 {
     protected $with = ['author', 'pokemon.move1.stats', 'pokemon.move2.stats', 'pokemon.move3.stats', 'pokemon.move4.stats'];
+    protected $guarded = [];
 
     public function author() 
     {
