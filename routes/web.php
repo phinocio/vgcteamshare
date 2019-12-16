@@ -12,6 +12,9 @@
 */
 
 Route::get('/', 'HomeController@index');
+Route::post('/', 'HomeController@store')->name('uploadTeam');
+
+Route::get('/teams/{slug}', 'TeamsController@index')->name('teams');
 
 Auth::routes();
 
