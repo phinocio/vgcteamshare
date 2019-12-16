@@ -6,6 +6,8 @@ use Illuminate\Contracts\Validation\Rule;
 
 class ValidShowdownExport implements Rule
 {
+
+    private $NUM_VALID_POKEMON = 6;
     /**
      * Create a new rule instance.
      *
@@ -25,19 +27,17 @@ class ValidShowdownExport implements Rule
      */
     public function passes($attribute, $value)
     {	
-		$pattern = '/([^@]+\s@\s[\w\s]+)(\s*\n|\n)(Ability:\s\w+\s*\w*)\2(Level:\s\d{1,3}\2){0,1}(EVs:\s[\w\s]+(\/[\w\s]+){1,5}\2)(\w+\sNature\2)(IVs:\s[\w\s]+(\/[\w\s]+){0,5}\2){0,1}(-\s[\w\-\s]+){4}/';
+		$pattern = '/(([\w\s()]+\s@\s[\w\s]+\n){1}(Ability:\s[\w\s]+\n){1}(Level:\s[\w\s]+\n){0,1}(Shiny:\s[\w\s]+\n){0,1}(Happiness:\s[\w\s]+\n){0,1}(EVs:[\w\s\/]+\n)([\w\sNature]+\n){1}(IVs:[\w\s\/]+\n){0,1}(-\s[\w\s\-]+))/';
 		$valid = 0;
-		$aData = preg_split('/\n\n/', trim($data));
-
+		$aData = preg_split('/\r\n\r\n/', trim($value));
+        
 		foreach($aData as $data) {
 			if(preg_match($pattern, $data)) {
-				$valid++;
-			} else {
-
-			}
-		}
-
-		return $valid === 6; // require 6 valid Pokemon.
+				$valid += 1;
+			} 
+        }
+        
+		return $valid === $this->NUM_VALID_POKEMON;
     }
 
     /**
@@ -47,6 +47,6 @@ class ValidShowdownExport implements Rule
      */
     public function message()
     {
-        return 'Something in the team is wrong. Please make sure to copy/paste the export exactly.';
+        return 'Something in the team is wrong. Please make sure to copy/paste the export exactly and include EVs. Nicknames are also not supported at the moment.';
     }
 }
