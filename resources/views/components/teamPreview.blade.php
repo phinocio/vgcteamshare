@@ -25,10 +25,9 @@
 	</div>
 </div>
 @endforeach
-@else
 
+@else
 <div class="team-preview">
 	No Teams to display at the moment.
 </div>
-
 @endif

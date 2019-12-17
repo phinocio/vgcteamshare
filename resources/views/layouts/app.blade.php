@@ -37,7 +37,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="/">My Teams</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/my-teams">My Teams</a></li>
                         <!-- <li><a class="nav-link disabled">Tools</a></li> -->
                     </ul>
 
