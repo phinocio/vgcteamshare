@@ -36,8 +36,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item"><a class="nav-link" href="/">My Teams</a></li>
-                        <li><a class="nav-link">New Team</a></li>
-                        <li><a class="nav-link disabled">Tools</a></li>
+                        <!-- <li><a class="nav-link disabled">Tools</a></li> -->
                     </ul>
 
                     <!-- Right Side Of Navbar -->
