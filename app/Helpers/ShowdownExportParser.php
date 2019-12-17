@@ -24,40 +24,46 @@ class ShowdownExportParser {
         $i = 0;
         foreach($aData as $poke) {
 			$index = 2; // There's 3 guaranteed lines before optional lvl and shiny
-			$pokemon_id = PokemonDataConstants::POKEMON[trim(preg_replace('/\(\w\)/', '', explode('@', $poke[0])[0]))];
-			$item_id = PokemonDataConstants::ITEMS[trim(explode('@', $poke[0])[1])];
-			$ability_id = PokemonDataConstants::ABILITIES[trim(explode(':', $poke[1])[1])];
+			$pokemon_id = PokemonDataConstants::POKEMON[strtolower(trim(preg_replace('/\(\w\)/', '', explode('@', $poke[0])[0])))];
+			$item_id = PokemonDataConstants::ITEMS[strtolower(trim(explode('@', $poke[0])[1]))];
+			$ability_id = PokemonDataConstants::ABILITIES[strtolower(trim(explode(':', $poke[1])[1]))];
 			$level = 100; // default value
 			$shiny = false; // default value
 			$ivs = '';
 
-			if (strpos($poke[2], 'Level') !== false) {
+			if (strpos($poke[$index], 'Level') !== false) {
 				$level = trim(explode(': ', $poke[2])[1]);
 				$index++;
 			}
-			if (strpos($poke[3], 'Shiny') !== false) {
+			if (strpos($poke[$index], 'Shiny') !== false) {
 				$shiny = true;
+				$index++;
+			}
+
+			if (strpos($poke[$index], 'Happiness') !== false) {
 				$index++;
 			}
 			$evs = trim(explode(':', $poke[$index])[1]);
 			$index++;
 			$nature_id = PokemonDataConstants::NATURES[
-				trim(explode(' ', $poke[$index])[1]) == 'Nature' 
-				? trim(explode(' ', $poke[$index])[0]) 
-				: 'Serious'
+				strtolower(
+					trim(explode(' ', $poke[$index])[1]) == 'Nature' 
+					? trim(explode(' ', $poke[$index])[0]) 
+					: 'serious'
+				)
 			]; 
 			$index++;
 			if (strpos($poke[$index], 'IVs') !== false) {
 				$ivs = trim(explode(':', $poke[$index])[1]);
 				$index++;
 			}
-			$move1_id = PokemonDataConstants::MOVES[trim(str_replace('- ', '',  $poke[$index]))];
+			$move1_id = PokemonDataConstants::MOVES[strtolower(trim(str_replace('- ', '',  $poke[$index])))];
 			$index++;
-			$move2_id = PokemonDataConstants::MOVES[trim(str_replace('- ', '',  $poke[$index]))];
+			$move2_id = PokemonDataConstants::MOVES[strtolower(trim(str_replace('- ', '',  $poke[$index])))];
 			$index++;
-			$move3_id = PokemonDataConstants::MOVES[trim(str_replace('- ', '',  $poke[$index]))];
+			$move3_id = PokemonDataConstants::MOVES[strtolower(trim(str_replace('- ', '',  $poke[$index])))];
 			$index++;
-			$move4_id = PokemonDataConstants::MOVES[trim(str_replace('- ', '',  $poke[$index]))];
+			$move4_id = PokemonDataConstants::MOVES[strtolower(trim(str_replace('- ', '',  $poke[$index])))];
 			$index++;
 
 
