@@ -15,7 +15,7 @@ class TeamsController extends Controller
     }
 
     public function myTeams(Request $request) {
-        $teams = Team::whereAuthorId($request->user()->id)->get();
+        $teams = Team::whereAuthorId($request->user()->id)->paginate(10);
         $formats = Format::all();
         $newestTeams = [];
         foreach ($teams as $team) {
@@ -23,6 +23,6 @@ class TeamsController extends Controller
             $data = new TeamResource($team);
             array_push($newestTeams, $data->toArray($team));
         }
-        return view('myTeams', ['teams' => $newestTeams, 'formats' => $formats]);
+        return view('myTeams', ['teams' => $newestTeams, 'formats' => $formats, 'paginate' => $teams]);
     }
 }
