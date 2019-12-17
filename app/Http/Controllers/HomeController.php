@@ -42,12 +42,13 @@ class HomeController extends Controller
 	}
 
 	public function store(StoreTeam $request) 
-	{
+	{	
+		
 		$valid = $request->validated();
 		$pokemon = ShowdownExportParser::parse($valid['importTeam']);
 		$slug = CreateSlug::new($valid['teamName']);
 		$team = Team::create([
-			'author_id' => 1, 
+			'author_id' => $request->user() ? $request->user()->id : null, 
 			'name' => $valid['teamName'], 
 			'description' => $valid['description'],
 			'format_id' => $valid['format'],
