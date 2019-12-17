@@ -6,7 +6,7 @@
         <div class="col-md-8">
             <h2>My Teams</h2>
             <hr />
-            @include('components.teamPreview', ['teams' => $teams])
+            @include('components.myTeamsPreview', ['teams' => $teams])
             {{ $paginate->links() }}
         </div>
         <div class="col-md-4">

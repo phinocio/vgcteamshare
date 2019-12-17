@@ -10,12 +10,14 @@ use Illuminate\Http\Request;
 
 class TeamsController extends Controller
 {
-    public function index() {
-        // dunno what do here. Search?
+    public function index($slug) {
+        $team = new TeamResource(Team::whereSlug($slug)->first());
+		$team = $team->toArray($team);
+        dd($team);
     }
 
     public function myTeams(Request $request) {
-        $teams = Team::whereAuthorId($request->user()->id)->paginate(10);
+        $teams = Team::latest()->whereAuthorId($request->user()->id)->paginate(10);
         $formats = Format::all();
         $newestTeams = [];
         foreach ($teams as $team) {
@@ -24,5 +26,12 @@ class TeamsController extends Controller
             array_push($newestTeams, $data->toArray($team));
         }
         return view('myTeams', ['teams' => $newestTeams, 'formats' => $formats, 'paginate' => $teams]);
+    }
+
+    // atm only update private.
+    public function update($team, Request $request) {
+        $team = Team::whereId($team)->update(['private' => (bool)$request->input('private')]);
+
+        return $team;
     }
 }

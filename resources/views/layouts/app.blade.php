@@ -83,8 +83,8 @@
             @yield('content')
         </main>
 
-        <footer>
-            @yield('footer')
+        <footer class="container">
+            @include('layouts.partials.footer')
         </footer>
     </div>
 </body>

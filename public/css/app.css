@@ -11418,6 +11418,14 @@ a.text-dark:focus {
   padding-left: 10px;
 }
 
+.team-preview .team-format {
+  padding-right: 10px;
+}
+
+footer {
+  font-size: 0.9em;
+}
+
 hr {
   background: #cccccc;
 }

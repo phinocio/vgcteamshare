@@ -30,7 +30,7 @@ class HomeController extends Controller
 	 */
 	public function index()
 	{
-		$teams = Team::latest()->paginate(10);
+		$teams = Team::latest()->wherePrivate(false)->paginate(10);
 		$formats = Format::all();
 		$newestTeams = [];
 		foreach($teams as $team) {

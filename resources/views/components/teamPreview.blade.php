@@ -8,6 +8,7 @@
 		</div>
 
 		<div class="meta-info">
+			<span><small>{{ $team['private'] == true ? 'Private team' : '' }}</small></span>
 			<span><small>{{ $team['rental_code'] ?? 'No Rental Code' }}</small></span>
 			<span><small><i>{{ $team['created']->diffForHumans() }}</i></small></span>
 			<span><small><a href="/">{{ $team['author'] }}</a></small></span>
