@@ -2,6 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Team;
+use App\Format;
+use App\Http\Resources\Team as TeamResource;
+
 use Illuminate\Http\Request;
 
 class TeamsController extends Controller
@@ -10,7 +14,15 @@ class TeamsController extends Controller
         // dunno what do here. Search?
     }
 
-    public function myTeams() {
-        
+    public function myTeams(Request $request) {
+        $teams = Team::whereAuthorId($request->user()->id)->get();
+        $formats = Format::all();
+        $newestTeams = [];
+        foreach ($teams as $team) {
+
+            $data = new TeamResource($team);
+            array_push($newestTeams, $data->toArray($team));
+        }
+        return view('myTeams', ['teams' => $newestTeams, 'formats' => $formats]);
     }
 }

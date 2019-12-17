@@ -5521,16 +5521,16 @@ input[type=button].btn-block {
   margin-left: -1px;
   line-height: 1.25;
   color: #e84855;
-  background-color: #FFFFFF;
-  border: 1px solid #dee2e6;
+  background-color: #202020;
+  border: 1px solid #1E3779;
 }
 
 .page-link:hover {
   z-index: 2;
-  color: #ca1928;
+  color: #e84855;
   text-decoration: none;
-  background-color: #e9ecef;
-  border-color: #dee2e6;
+  background-color: #3a3a3a;
+  border-color: #1E3779;
 }
 
 .page-link:focus {
@@ -5552,17 +5552,17 @@ input[type=button].btn-block {
 
 .page-item.active .page-link {
   z-index: 3;
-  color: #FFFFFF;
+  color: #e84855;
   background-color: #1E3779;
   border-color: #1E3779;
 }
 
 .page-item.disabled .page-link {
-  color: #6c757d;
+  color: #e84855;
   pointer-events: none;
   cursor: auto;
-  background-color: #FFFFFF;
-  border-color: #dee2e6;
+  background-color: #535353;
+  border-color: #1E3779;
 }
 
 .pagination-lg .page-link {

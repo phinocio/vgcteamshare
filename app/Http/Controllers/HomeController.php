@@ -30,7 +30,7 @@ class HomeController extends Controller
 	 */
 	public function index()
 	{
-		$teams = Team::latest()->take(5)->get();
+		$teams = Team::latest()->paginate(10);
 		$formats = Format::all();
 		$newestTeams = [];
 		foreach($teams as $team) {
@@ -38,7 +38,7 @@ class HomeController extends Controller
 			$data = new TeamResource($team);
 			array_push($newestTeams, $data->toArray($team));
 		}
-		return view('home', ['teams' => $newestTeams, 'formats' => $formats]);
+		return view('home', ['teams' => $newestTeams, 'formats' => $formats, 'paginate' => $teams]);
 	}
 
 	public function store(StoreTeam $request) 
