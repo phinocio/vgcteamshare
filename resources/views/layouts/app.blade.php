@@ -8,7 +8,7 @@
     <!-- FB Meta -->
     <meta property="og:url" content="{{ Request::url() }}" />
     <meta property="og:title" content="VGC Teamshare - @yield('title')" />
-    <meta property="og:description" content="How much does culture influence creative thinking?" />
+    <meta property="og:description" content="a teamsharing site for Pokemon VGC" />
     <meta property="og:image" content="{{ url('/images/banner.jpg') }}" />
 
     <!-- CSRF Token -->
