@@ -11,9 +11,16 @@
     <meta property="og:description" content="a teamsharing site for Pokemon VGC" />
     <meta property="og:image" content="{{ url('/images/banner.jpg') }}" />
     <meta property="og:type" content="website" />
-    <meta property="fb:app_id" content="" />
+
+    <!-- Twitter Meta -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:url" content="{{ Request::url() }}">
+    <meta name="twitter:title" content="VGC Teamshare - @yield('title')">
+    <meta name="twitter:description" content="a teamsharing site for Pokemon VGC">
+    <meta name="twitter:image" content="{{ url('/images/banner.jpg') }}">
+
     <!-- CSRF Token -->
-    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <meta name=" csrf-token" content="{{ csrf_token() }}">
 
     <title>VGC Teamshare - @yield('title')</title>
 
