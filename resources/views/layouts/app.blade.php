@@ -5,10 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- FB Meta -->
+    <meta property="og:url" content="{{ Request::url() }}" />
+    <meta property="og:title" content="VGC Teamshare - @yield('title')" />
+    <meta property="og:description" content="How much does culture influence creative thinking?" />
+    <meta property="og:image" content="{{ url('/images/banner.jpg') }}" />
+
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'VGCTeamshare') }}</title>
+    <title>VGC Teamshare - @yield('title')</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>

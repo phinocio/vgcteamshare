@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'My Teams')
+
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -9,7 +11,7 @@
             @include('components.myTeamsPreview', ['teams' => $teams])
 
             @if($paginate != null)
-                {{ $paginate->links() }}
+            {{ $paginate->links() }}
             @endif
         </div>
         <div class="col-md-4">
