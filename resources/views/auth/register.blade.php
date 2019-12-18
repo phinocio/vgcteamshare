@@ -70,18 +70,6 @@
                     </div>
                 </div>
 
-                <div class="form-group row">
-                    <div class="col-md-6 offset-md-4">
-                        <div class="custom-control custom-switch">
-                            <input type="checkbox" class="custom-control-input" id="linkTeams">
-                            <label class="custom-control-label" for="linkTeams">
-                                {{ __('Connect local teams to this account?') }}
-                                <small id="linkTeamsHelp" class="form-text text-muted">This will connect already uploaded anonymous teams to your account that match those in Local Storage. By default they will be public, but you can then make them private.</small>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-
                 <div class="form-group row mb-0">
                     <div class="col-md-6 offset-md-4">
                         <button type="submit" class="btn btn-primary">
