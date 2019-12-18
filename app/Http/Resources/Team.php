@@ -20,7 +20,7 @@ class Team extends JsonResource
             'id' => $this->id,
             'name' => $this->name,
             'description' => $this->description,
-            'author' => $this->author->name ?? 'Anonymous',
+            'author' => $this->author,
             'format' => $this->format->name,
             'pokemon' => Pokemon::collection($this->pokemon),
             'slug' => $this->slug,

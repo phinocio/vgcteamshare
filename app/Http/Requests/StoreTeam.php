@@ -28,6 +28,7 @@ class StoreTeam extends FormRequest
             'teamName' => 'required|string',
             'format' => 'required',
             'rentalCode' => 'nullable|alpha_dash',
+            'private' => 'nullable',
             'description' => 'nullable|string',
             'importTeam' => [
                     'required', new ValidShowdownExport

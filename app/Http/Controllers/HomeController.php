@@ -41,18 +41,19 @@ class HomeController extends Controller
 		return view('home', ['teams' => $newestTeams, 'formats' => $formats, 'paginate' => $teams]);
 	}
 
+	// TODO: Move to TeamsController.
 	public function store(StoreTeam $request) 
 	{	
-		
 		$valid = $request->validated();
-		$pokemon = ShowdownExportParser::parse($valid['importTeam']);
 		$slug = CreateSlug::new($valid['teamName']);
+		$pokemon = ShowdownExportParser::parse($valid['importTeam']);
 		$team = Team::create([
 			'author_id' => $request->user() ? $request->user()->id : null, 
 			'name' => $valid['teamName'], 
 			'description' => $valid['description'],
 			'format_id' => $valid['format'],
-			'slug' => $slug // make a slug function
+			'slug' => $slug,
+			'private' => isset($valid['private']) ? true : false
 		]);
 		$team->pokemon()->sync($pokemon);
 

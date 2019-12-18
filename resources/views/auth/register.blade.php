@@ -7,10 +7,10 @@
             <h2>Why Register?</h2>
             <p>While registering an account is completely optional, it provides these features that are unavailable for unregistered users. </p>
             <ul>
-                <li>Cross-browser access to <a href="/my-teams">My Teams</a>. All unregistered teams are fully uploaded to the site, but are tied to a specific browser under "My Teams" by being stored in Local Storage.</li>
-                <li>Deleting teams from the server. Unregistered accounts can delete teams from their Local Storage, but then the only access is via the direct URL or search.</li>
+                <li>Easier tracking of your teams via <a href="/my-teams">My Teams.</a></li>
+                <li>Deleting teams from the server.</li>
                 <li>Private teams. Don't want to share a team? Make it private!</li>
-                <li>Space for more teams (as Local Storage has a low storage limit).</li>
+                <li>More coming soon!</li>
             </ul>
         </div>
 

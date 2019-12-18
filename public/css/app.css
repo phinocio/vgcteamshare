@@ -11422,6 +11422,124 @@ a.text-dark:focus {
   padding-right: 10px;
 }
 
+.team-view {
+  padding: 10px 0;
+}
+
+.team-view .info {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-flex: 0;
+          flex: 0 0 auto;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+          align-items: flex-end;
+}
+
+.team-view .team-name {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.team-view .team {
+  width: inherit;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  align-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.team-view .pokemon {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  width: 100%;
+  margin: 0 0 20px 0;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.team-view .pokemon-name {
+  margin-top: 10px;
+}
+
+.team-view .meta-info span {
+  padding-left: 10px;
+}
+
+.team-view .team-format {
+  padding-right: 10px;
+}
+
+.team-view .image {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: start;
+          align-items: flex-start;
+}
+
+.team-view .name {
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+.team-view .item {
+  font-weight: bold;
+  color: #e84855;
+  font-size: 1.1em;
+}
+
+.team-view .stats {
+  text-align: right;
+  -webkit-box-flex: 2;
+          flex-grow: 2;
+}
+
+.team-view .evs {
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+.team-view .stat {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0;
+  display: inline;
+}
+
+.team-view .stat span {
+  color: #e84855;
+}
+
+.team-view .moves {
+  text-align: right;
+  flex-basis: 20%;
+}
+
+.export {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon-export {
+  width: 50%;
+}
+
 footer {
   font-size: 0.9em;
 }

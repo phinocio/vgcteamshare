@@ -12,8 +12,13 @@ class TeamsController extends Controller
 {
     public function index($slug) {
         $team = new TeamResource(Team::whereSlug($slug)->first());
-		$team = $team->toArray($team);
-        dd($team);
+        $team = $team->toArray($team);
+        
+        if ($team['private'] && !$team['author']->id == auth()->user()->id) {
+            abort(403, 'You can\'t view that team!');
+        }
+
+        return view('viewTeam', ['team' => $team]);
     }
 
     public function myTeams(Request $request) {

@@ -10,7 +10,7 @@
 		<div class="meta-info">
 			<span><small>{{ $team['rental_code'] ?? 'No Rental Code' }}</small></span>
 			<span><small><i>{{ $team['created']->diffForHumans() }}</i></small></span>
-			<span><small><a href="/">{{ $team['author'] }}</a></small></span>
+			<span><small><a href="/">{{ $team['author']->name ?? 'Anonymous' }}</a></small></span>
 			<span class="team-format"><b>{{ $team['format'] }}</b></span>
 			<div class="custom-control custom-switch custom-control-inline">
 				<input type="checkbox" class="custom-control-input" id="privateTeam-{{ $team['slug'] }}" {{ $team['private'] ? 'checked' : '' }} onClick="updatePrivate(this.parentNode.nextSibling.nextSibling.innerText, this.checked)"/>
@@ -35,7 +35,7 @@
 
 @else
 <div class="team-preview">
-	No Teams to display at the moment.
+	No Teams to display at the moment. You're either not logged in, or don't have an account.
 </div>
 @endif
 
