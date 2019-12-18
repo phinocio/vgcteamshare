@@ -35,7 +35,7 @@
 
 @else
 <div class="team-preview">
-	No Teams to display at the moment. You're either not logged in, or don't have an account.
+	No Teams to display at the moment. You're either not logged in, or don't have any teams.
 </div>
 @endif
 

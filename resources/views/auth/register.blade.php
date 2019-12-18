@@ -8,7 +8,7 @@
             <p>While registering an account is completely optional, it provides these features that are unavailable for unregistered users. </p>
             <ul>
                 <li>Easier tracking of your teams via <a href="/my-teams">My Teams.</a></li>
-                <li>Deleting teams from the server.</li>
+                <li>Deleting teams from the server. (not yet implemented)</li>
                 <li>Private teams. Don't want to share a team? Make it private!</li>
                 <li>More coming soon!</li>
             </ul>
