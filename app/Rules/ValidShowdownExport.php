@@ -47,6 +47,6 @@ class ValidShowdownExport implements Rule
      */
     public function message()
     {
-        return 'Something in the team is wrong. Please make sure to copy/paste the export exactly and include EVs. Nicknames are also not supported at the moment.';
+        return 'Something in the team is wrong. Please make sure to copy/paste the export exactly and include EVs. Nicknames are also not supported at the moment. If you believe this is an error, please make a Github Issue with your paste (link in footer).';
     }
 }
