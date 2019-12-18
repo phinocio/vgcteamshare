@@ -7,23 +7,21 @@
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
 
+@import "teamPreview";
+@import "teamViewFull";
 
-.container {
-	height: 100vh;
-	display: flex;
-	justify-content: center;
+footer {
+	font-size: 0.9em;
 }
 
-.row {
-	align-self: center;
-	flex-direction: column;
+hr {
+	background: darken($white, 20);
 }
 
-.content {
-	text-align: center;
+.beta {
+	color: $accent;
 }
 
-.brand {
-	font-size: 3.0em;
-	font-weight: bold;
+.author {
+	color: $accent;
 }

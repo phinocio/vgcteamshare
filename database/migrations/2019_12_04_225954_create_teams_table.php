@@ -17,10 +17,11 @@ class CreateTeamsTable extends Migration
             $table->bigIncrements('id');
 			$table->unsignedBigInteger('author_id')->nullable();
             $table->string('name');
-            $table->text('description');
+            $table->text('description')->nullable();
             $table->unsignedBigInteger('format_id');
 			$table->boolean('private')->default(FALSE);
-			$table->string('slug')->nullable();
+            $table->string('slug')->unique();
+            $table->string('rental_code')->nullable();
             $table->timestamps();
 
             $table->foreign('author_id')->references('id')->on('users');

@@ -15,6 +15,12 @@ class Pokemon extends Model
 			->using('App\TeamData');
 	}
 
+	public function ability() 
+	{
+		return $this->belongsToMany('App\Ability', 'team_data', 'pokemon_id', 'ability_id')
+			->using('App\TeamData');
+	}
+
 	public function nature() 
 	{
 		return $this->belongsToMany('App\Nature', 'team_data', 'pokemon_id', 'nature_id')

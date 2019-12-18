@@ -17,11 +17,16 @@ class Team extends JsonResource
     public function toArray($request)
     {
         return [
+            'id' => $this->id,
             'name' => $this->name,
             'description' => $this->description,
-            'author' => $this->author->name,
+            'author' => $this->author,
             'format' => $this->format->name,
-            'pokemon' => Pokemon::collection($this->pokemon) 
+            'pokemon' => Pokemon::collection($this->pokemon),
+            'slug' => $this->slug,
+            'rental_code' => $this->rental_code,
+            'private' => $this->private,
+            'created' => $this->created_at
         ];
     }
 }

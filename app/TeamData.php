@@ -9,4 +9,6 @@ class TeamData extends Pivot
     protected $table = 'team_data';
 
     protected $guarded = [];
+
+    public $timestamps = false;
 }
