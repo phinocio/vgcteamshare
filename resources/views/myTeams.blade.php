@@ -7,7 +7,10 @@
             <h2>My Teams</h2>
             <hr />
             @include('components.myTeamsPreview', ['teams' => $teams])
-            {{ $paginate->links() }}
+
+            @if($paginate != null)
+                {{ $paginate->links() }}
+            @endif
         </div>
         <div class="col-md-4">
             <h2>New Team</h2>

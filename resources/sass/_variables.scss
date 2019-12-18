@@ -25,7 +25,7 @@ $primary: #1E3779;
 $secondary: darken($red, 25);
 $accent: #e84855;
 
-$link-color: $accent;
+$link-color: lighten($primary, 20);
 
 $dropdown-bg: $body-bg;
 $dropdown-divider-bg: lighten($dropdown-bg, 10);

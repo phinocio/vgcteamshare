@@ -22,15 +22,21 @@ class TeamsController extends Controller
     }
 
     public function myTeams(Request $request) {
-        $teams = Team::latest()->whereAuthorId($request->user()->id)->paginate(10);
+        
         $formats = Format::all();
-        $newestTeams = [];
-        foreach ($teams as $team) {
-
-            $data = new TeamResource($team);
-            array_push($newestTeams, $data->toArray($team));
+        if ($request->user() !== null) {
+            $teams = Team::latest()->whereAuthorId($request->user()->id)->paginate(10);
+            $myTeams = [];
+            foreach ($teams as $team) {
+    
+                $data = new TeamResource($team);
+                array_push($myTeams, $data->toArray($team));
+            }
+        } else {
+            $myTeams = null;
+            $teams = null;
         }
-        return view('myTeams', ['teams' => $newestTeams, 'formats' => $formats, 'paginate' => $teams]);
+        return view('myTeams', ['teams' => $myTeams, 'formats' => $formats, 'paginate' => $teams]);
     }
 
     // atm only update private.

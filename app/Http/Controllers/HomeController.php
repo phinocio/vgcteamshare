@@ -50,7 +50,7 @@ class HomeController extends Controller
 		$team = Team::create([
 			'author_id' => $request->user() ? $request->user()->id : null, 
 			'name' => $valid['teamName'], 
-			'description' => $valid['description'],
+			'description' => $valid['description'] ?? null,
 			'format_id' => $valid['format'],
 			'slug' => $slug,
 			'private' => isset($valid['private']) ? true : false

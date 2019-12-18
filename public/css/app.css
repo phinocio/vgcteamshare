@@ -170,13 +170,13 @@ sup {
 }
 
 a {
-  color: #e84855;
+  color: #325ccb;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #ca1928;
+  color: #23408d;
   text-decoration: underline;
 }
 
@@ -3512,12 +3512,12 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #e84855;
+  color: #325ccb;
   text-decoration: none;
 }
 
 .btn-link:hover {
-  color: #ca1928;
+  color: #23408d;
   text-decoration: underline;
 }
 
@@ -11549,6 +11549,10 @@ hr {
 }
 
 .beta {
+  color: #e84855;
+}
+
+.author {
   color: #e84855;
 }
 

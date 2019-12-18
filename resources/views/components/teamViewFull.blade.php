@@ -9,7 +9,7 @@
 			<span><small>{{ $team['private'] == true ? 'Private team' : '' }}</small></span>
 			<span><small>{{ $team['rental_code'] ?? 'No Rental Code' }}</small></span>
 			<span><small><i>{{ $team['created']->diffForHumans() }}</i></small></span>
-			<span><small><a href="/">{{ $team['author']->name ?? 'Anonymous' }}</a></small></span>
+			<span class="author"><small>{{ $team['author']->name ?? 'Anonymous' }}</small></span>
 			
 		</div>
 	</div>
