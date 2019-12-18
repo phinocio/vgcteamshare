@@ -35,7 +35,7 @@
 	</div>
 
 	<div class="form-group">
-		<textarea class="form-control @error('importTeam') is-invalid @enderror" name="importTeam" id="importTeam" rows="10" placeholder="Enter showdown export here..." value="{{ old('importTeam') }}"></textarea>
+		<textarea class="form-control @error('importTeam') is-invalid @enderror" name="importTeam" id="importTeam" rows="10" placeholder="Enter showdown export here... (6 pokemon required)" value="{{ old('importTeam') }}"></textarea>
 		@error('importTeam')
 		<span class="invalid-feedback" role="alert">
 			<strong>{{ $message }}</strong>
