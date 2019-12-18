@@ -14,7 +14,7 @@ class TeamsController extends Controller
         $team = new TeamResource(Team::whereSlug($slug)->first());
         $team = $team->toArray($team);
         
-        if ($team['private'] && !$team['author']->id == auth()->user()->id) {
+        if ($team['private'] && $team['author']->id != (auth()->user()->id ?? null)) {
             abort(403, 'You can\'t view that team!');
         }
 
