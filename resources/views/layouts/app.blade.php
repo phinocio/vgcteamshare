@@ -11,7 +11,7 @@
     <meta property="og:description" content="a teamsharing site for Pokemon VGC" />
     <meta property="og:image" content="{{ url('/images/banner.jpg') }}" />
     <meta property="og:type" content="website" />
-    <meta property="og:app_id" content="" />
+    <meta property="fb:app_id" content="" />
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
