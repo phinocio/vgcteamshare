@@ -1,25 +1,30 @@
 {
-    "private": true,
-    "scripts": {
-        "dev": "npm run development",
-        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "watch": "npm run development -- --watch",
-        "watch-poll": "npm run watch -- --watch-poll",
-        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "prod": "npm run production",
-        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
-    },
-    "devDependencies": {
-        "axios": "^0.19.0",
-        "bootstrap": "^4.0.0",
-        "cross-env": "^5.1",
-        "jquery": "^3.2",
-        "laravel-mix": "^4.0.7",
-        "lodash": "^4.17.13",
-        "popper.js": "^1.12",
-        "resolve-url-loader": "^2.3.1",
-        "sass": "^1.20.1",
-        "sass-loader": "7.*",
-        "vue-template-compiler": "^2.6.11"
-    }
+	"name": "vgcteamshare",
+	"version": "0.1.0",
+	"description": "Team sharing site for Pokemon VGC",
+	"repository": "github.com/phinocio/vgcteamshare",
+	"author": "Phinocio <github@phinocio.com>",
+	"license": "MIT",
+	"scripts": {
+		"lint": "tsc --noEmit && eslint '*/**/*.{js,ts,tsx}' --quiet --fix",
+		"watch-ts": "tsc -w --noEmit",
+		"watch-dev": "ts-node-dev ./src/server.ts"
+	},
+	"devDependencies": {
+		"@typescript-eslint/eslint-plugin": "^2.13.0",
+		"@typescript-eslint/parser": "^2.13.0",
+		"eslint": "^6.8.0",
+		"eslint-config-prettier": "^6.9.0",
+		"eslint-plugin-prettier": "^3.1.2",
+		"nodemon": "^2.0.2",
+		"prettier": "^1.19.1",
+		"ts-node-dev": "^1.0.0-pre.44",
+		"typescript": "^3.7.4"
+	},
+	"dependencies": {
+		"@types/express": "^4.17.2",
+		"body-parser": "^1.19.0",
+		"express": "^4.17.1",
+		"mysql": "^2.17.1"
+	}
 }
